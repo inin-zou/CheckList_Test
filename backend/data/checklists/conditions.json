@@ -1,0 +1,13 @@
+[
+  {
+    "id": "e87240ec-48b7-4ea5-9de5-8b04bb04dc94",
+    "condition": "Contract includes termination clause",
+    "condition_type": "custom",
+    "context": "Check if there is a section discussing contract termination or early exit",
+    "parameters": null,
+    "required": true,
+    "order": 0,
+    "created_at": "2025-11-10 12:27:38.973877",
+    "updated_at": "2025-11-10 12:27:38.973883"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "a2fcfa04-73fc-49d4-bb32-5959cfbf9961",
+    "checklist_id": "8d728eb0-2da9-4313-847b-d492d425baeb",
+    "checklist_name": "Contract Review Checklist",
+    "document_filename": "Bewerbungsbedingungen.pdf",
+    "document_id": null,
+    "answers": [
+      {
+        "question_id": "bdbffdfd-6cb6-4560-9df8-435df4a1150a",
+        "question": "What is the contract start date?",
+        "answer": "Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CUz8n6qUXjMH69DFoEjKp'}",
+        "confidence": "low",
+        "evidence": "",
+        "explanation": "API call failed"
+      },
+      {
+        "question_id": "8e30f52c-3277-494c-8cf6-98aee4fbbc6f",
+        "question": "What is the total contract value?",
+        "answer": "Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CUz8n7d6hp2hsxtrP7LS2'}",
+        "confidence": "low",
+        "evidence": "",
+        "explanation": "API call failed"
+      }
+    ],
+    "evaluations": [
+      {
+        "condition_id": "e87240ec-48b7-4ea5-9de5-8b04bb04dc94",
+        "condition": "Contract includes termination clause",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "API call failed: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CUz8n8HHXC3ifFbqiBfYQ'}",
+        "recommendations": "Please review manually"
+      }
+    ],
+    "overall_compliance": false,
+    "compliance_percentage": 0.0,
+    "created_at": "2025-11-10 12:32:13.482840"
+  },
+  {
+    "id": "b59e01f9-9848-48ef-a8cc-11e4e4947747",
+    "checklist_id": "8d728eb0-2da9-4313-847b-d492d425baeb",
+    "checklist_name": "Contract Review Checklist",
+    "document_filename": "Bewerbungsbedingungen.pdf",
+    "document_id": null,
+    "answers": [
+      {
+        "question_id": "bdbffdfd-6cb6-4560-9df8-435df4a1150a",
+        "question": "What is the contract start date?",
+        "answer": "Information not found",
+        "confidence": "low",
+        "evidence": "Das DBS wird f\u00fcr einen Zeitraum ab dem Datum der Einreichung der EU Bekanntmachung bis zum 31.12.2023 betrieben (sog. G\u00fcltigkeitsdauer). Die G\u00fcltigkeitsdauer des DBS kann jederzeit seitens des Auftraggebers ge\u00e4ndert, d.h. fr\u00fcher beendet oder \u00fcber den 31.12.2023 hinaus verl\u00e4ngert werden.",
+        "explanation": "This document describes a Dynamic Procurement System (DBS) for training services, not a specific contract. The document states that the DBS will operate from the date of submission of the EU notice until 31.12.2023, but no specific start date is provided. The actual contract start dates will be determined individually for each 'mini-competition' (Miniwettbewerb) conducted within the DBS framework. The document states that individual contracts will specify the 'Leistungszeitraum/Leistungszeitpunkt' (service period/service date) when those contracts are awarded, but this framework document does not contain a specific contract start date."
+      },
+      {
+        "question_id": "8e30f52c-3277-494c-8cf6-98aee4fbbc6f",
+        "question": "What is the total contract value?",
+        "answer": "```json\n{\n    \"answer\": \"Information not found\",\n    \"confidence\": \"low\",\n    \"evidence\": \"Das gesch\u00e4tzte Volumen ist der zugeh\u00f6rigen EU-Bekanntmachung zu entnehmen. Es wird ausdr\u00fccklich darauf hingewiesen, dass keine Abnahmeverpflichtung seitens des Auftraggebers besteht.\",\n    \"explanation\": \"The document explicitly states that the estimated contract volume can be found in the associated EU notice ('EU-Bekanntmachung'), but this specific monetary value is not included in the provided documents. The document emphasizes that there is no obligation for the contracting authority to purchase services ('keine Abnahmeverpflichtung'). The document describes a Dynamic Procurement System (DBS) for training and educational services in Category 5 (complementary and methodological competencies) with a validity period until December 31, 2023, but does not specify the total contract value within the provided documentation. Historical data from 2018 and 2019 shows various training measures were conducted, but no total contract value is stated.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      }
+    ],
+    "evaluations": [
+      {
+        "condition_id": "e87240ec-48b7-4ea5-9de5-8b04bb04dc94",
+        "condition": "Contract includes termination clause",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      }
+    ],
+    "overall_compliance": false,
+    "compliance_percentage": 0.0,
+    "created_at": "2025-11-10 12:34:18.782895"
+  }
+]
