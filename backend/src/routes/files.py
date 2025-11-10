@@ -7,6 +7,8 @@ import logging
 
 from src.pipelines.ingest import get_ingestion_pipeline
 from src.services.vector_db import get_vector_db
+from src.services.checklist_generator import get_checklist_generator
+from src.services.storage import get_storage_service
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
@@ -38,15 +40,45 @@ async def upload_checklist(file: UploadFile = File(...)):
             if result["status"] == "error":
                 raise HTTPException(status_code=500, detail=result["error"])
             
+            # Auto-generate checklist template from the uploaded document
+            template_id = None
+            try:
+                # Get document content from vector DB
+                vector_db = get_vector_db()
+                document_content = await vector_db.get_document_content(
+                    collection_name="ChecklistTemplates",
+                    filename=file.filename
+                )
+                
+                if document_content:
+                    # Generate checklist template using LLM
+                    generator = get_checklist_generator()
+                    template = await generator.generate_checklist_from_content(
+                        document_content=document_content,
+                        filename=file.filename
+                    )
+                    
+                    # Save the generated template
+                    storage = get_storage_service()
+                    saved_template = storage.create_template(template)
+                    template_id = saved_template.id
+                    
+                    logger.info(f"Auto-generated checklist template {template_id} for {file.filename}")
+            except Exception as gen_error:
+                logger.error(f"Error auto-generating checklist template: {str(gen_error)}")
+                # Don't fail the upload if template generation fails
+            
             return {
                 "status": "success",
                 "filename": file.filename,
                 "message": "Checklist template uploaded successfully",
+                "template_id": template_id,
                 "details": {
                     "chunks_count": result.get("chunks_count"),
                     "page_count": result.get("page_count"),
                     "file_size": result.get("file_size"),
-                    "pdf_uuid": result.get("pdf_uuid")
+                    "pdf_uuid": result.get("pdf_uuid"),
+                    "auto_generated_template": template_id is not None
                 }
             }
         finally:

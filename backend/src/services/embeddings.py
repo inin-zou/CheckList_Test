@@ -2,7 +2,6 @@
 
 from typing import List
 import numpy as np
-from sentence_transformers import SentenceTransformer
 import logging
 
 logger = logging.getLogger(__name__)
@@ -17,9 +16,17 @@ class EmbeddingService:
         Args:
             model_name: Name of the embedding model to use
         """
-        logger.info(f"Initializing embedding service with model: {model_name}")
-        self.model = SentenceTransformer(model_name, trust_remote_code=True)
-        logger.info("Embedding service initialized successfully")
+        self.model_name = model_name
+        self.model = None
+        logger.info(f"Embedding service configured with model: {model_name}")
+    
+    def _load_model(self):
+        """Lazy load the model when first needed."""
+        if self.model is None:
+            logger.info(f"Loading embedding model: {self.model_name}")
+            from sentence_transformers import SentenceTransformer
+            self.model = SentenceTransformer(self.model_name, trust_remote_code=True)
+            logger.info("Embedding model loaded successfully")
     
     def encode(self, texts: List[str]) -> np.ndarray:
         """Generate embeddings for a list of texts.
@@ -34,6 +41,7 @@ class EmbeddingService:
             logger.warning("Empty text list provided for encoding")
             return np.array([])
         
+        self._load_model()
         logger.info(f"Encoding {len(texts)} text chunks")
         embeddings = self.model.encode(texts)
         logger.info(f"Generated embeddings with shape: {embeddings.shape}")

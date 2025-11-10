@@ -73,6 +73,16 @@ Drag-and-drop interface with real-time file preview and glass-styled upload zone
 
 ![Document Upload](images/documents.png)
 
+### Checklist Questions Management
+Create and manage custom questions for document analysis with support for different question types and contexts.
+
+![Checklist Questions](images/questions.png)
+
+### Checklist Templates
+Manage checklist templates that combine questions and conditions for comprehensive document evaluation.
+
+![Checklist Templates](images/checklist.png)
+
 ### Analysis Results
 View extracted information and compliance evaluation results with detailed insights. The results page displays:
 - Answers to the German test questions (e.g., submission format, bidder question deadlines)

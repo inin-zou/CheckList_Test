@@ -8,19 +8,23 @@ import { Textarea } from "@/components/ui/textarea"
 import { Plus, Edit, Trash2, Save, X } from "lucide-react"
 
 interface Question {
-  id: number
-  question_text: string
-  expected_answer_type?: string
+  id: string
+  question: string
+  question_type?: string
+  context?: string
+  required?: boolean
 }
 
 export default function QuestionsPage() {
   const [questions, setQuestions] = useState<Question[]>([])
   const [loading, setLoading] = useState(true)
-  const [editingId, setEditingId] = useState<number | null>(null)
+  const [editingId, setEditingId] = useState<string | null>(null)
   const [showNewForm, setShowNewForm] = useState(false)
   const [formData, setFormData] = useState({
-    question_text: "",
-    expected_answer_type: "text",
+    question: "",
+    question_type: "text",
+    context: "",
+    required: true,
   })
 
   useEffect(() => {
@@ -49,7 +53,7 @@ export default function QuestionsPage() {
         body: JSON.stringify(formData),
       })
       if (response.ok) {
-        setFormData({ question_text: "", expected_answer_type: "text" })
+        setFormData({ question: "", question_type: "text", context: "", required: true })
         setShowNewForm(false)
         fetchQuestions()
       }
@@ -58,7 +62,7 @@ export default function QuestionsPage() {
     }
   }
 
-  const handleUpdate = async (id: number) => {
+  const handleUpdate = async (id: string) => {
     try {
       const response = await fetch(`/api/checklist/questions/${id}`, {
         method: "PUT",
@@ -67,7 +71,7 @@ export default function QuestionsPage() {
       })
       if (response.ok) {
         setEditingId(null)
-        setFormData({ question_text: "", expected_answer_type: "text" })
+        setFormData({ question: "", question_type: "text", context: "", required: true })
         fetchQuestions()
       }
     } catch (error) {
@@ -75,7 +79,7 @@ export default function QuestionsPage() {
     }
   }
 
-  const handleDelete = async (id: number) => {
+  const handleDelete = async (id: string) => {
     if (!confirm("Are you sure you want to delete this question?")) return
 
     try {
@@ -93,8 +97,10 @@ export default function QuestionsPage() {
   const startEdit = (question: Question) => {
     setEditingId(question.id)
     setFormData({
-      question_text: question.question_text,
-      expected_answer_type: question.expected_answer_type || "text",
+      question: question.question,
+      question_type: question.question_type || "text",
+      context: question.context || "",
+      required: question.required ?? true,
     })
   }
 
@@ -121,17 +127,26 @@ export default function QuestionsPage() {
             <div>
               <label className="text-sm font-medium mb-2 block">Question Text</label>
               <Textarea
-                value={formData.question_text}
-                onChange={(e) => setFormData({ ...formData, question_text: e.target.value })}
+                value={formData.question}
+                onChange={(e) => setFormData({ ...formData, question: e.target.value })}
                 placeholder="Enter your question..."
                 rows={3}
               />
             </div>
             <div>
-              <label className="text-sm font-medium mb-2 block">Expected Answer Type</label>
+              <label className="text-sm font-medium mb-2 block">Context</label>
+              <Textarea
+                value={formData.context}
+                onChange={(e) => setFormData({ ...formData, context: e.target.value })}
+                placeholder="Provide context for answering this question..."
+                rows={2}
+              />
+            </div>
+            <div>
+              <label className="text-sm font-medium mb-2 block">Question Type</label>
               <Input
-                value={formData.expected_answer_type}
-                onChange={(e) => setFormData({ ...formData, expected_answer_type: e.target.value })}
+                value={formData.question_type}
+                onChange={(e) => setFormData({ ...formData, question_type: e.target.value })}
                 placeholder="text, date, number, etc."
               />
             </div>
@@ -144,7 +159,7 @@ export default function QuestionsPage() {
                 variant="outline"
                 onClick={() => {
                   setShowNewForm(false)
-                  setFormData({ question_text: "", expected_answer_type: "text" })
+                  setFormData({ question: "", question_type: "text", context: "", required: true })
                 }}
               >
                 <X className="mr-2 h-4 w-4" />
@@ -170,13 +185,18 @@ export default function QuestionsPage() {
               {editingId === question.id ? (
                 <div className="space-y-4">
                   <Textarea
-                    value={formData.question_text}
-                    onChange={(e) => setFormData({ ...formData, question_text: e.target.value })}
+                    value={formData.question}
+                    onChange={(e) => setFormData({ ...formData, question: e.target.value })}
                     rows={3}
                   />
+                  <Textarea
+                    value={formData.context}
+                    onChange={(e) => setFormData({ ...formData, context: e.target.value })}
+                    rows={2}
+                  />
                   <Input
-                    value={formData.expected_answer_type}
-                    onChange={(e) => setFormData({ ...formData, expected_answer_type: e.target.value })}
+                    value={formData.question_type}
+                    onChange={(e) => setFormData({ ...formData, question_type: e.target.value })}
                   />
                   <div className="flex gap-2">
                     <Button size="sm" onClick={() => handleUpdate(question.id)}>
@@ -188,7 +208,7 @@ export default function QuestionsPage() {
                       variant="outline"
                       onClick={() => {
                         setEditingId(null)
-                        setFormData({ question_text: "", expected_answer_type: "text" })
+                        setFormData({ question: "", question_type: "text", context: "", required: true })
                       }}
                     >
                       <X className="mr-2 h-4 w-4" />
@@ -199,8 +219,11 @@ export default function QuestionsPage() {
               ) : (
                 <div className="flex items-start justify-between">
                   <div className="flex-1">
-                    <p className="font-medium mb-2">{question.question_text}</p>
-                    <p className="text-sm text-muted-foreground">Type: {question.expected_answer_type || "text"}</p>
+                    <p className="font-medium mb-2">{question.question}</p>
+                    {question.context && (
+                      <p className="text-sm text-muted-foreground mb-1">Context: {question.context}</p>
+                    )}
+                    <p className="text-sm text-muted-foreground">Type: {question.question_type || "text"}</p>
                   </div>
                   <div className="flex gap-2">
                     <Button variant="ghost" size="icon" onClick={() => startEdit(question)}>

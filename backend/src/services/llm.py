@@ -1,20 +1,20 @@
-"""LLM Service for interacting with OpenAI GPT models"""
+"""LLM Service for interacting with Anthropic Claude models"""
 import logging
 from typing import List, Dict, Any, Optional
-import openai
+from anthropic import AsyncAnthropic
 from src.config import get_settings
 
 logger = logging.getLogger(__name__)
 
 
 class LLMService:
-    """Service for interacting with OpenAI GPT models"""
+    """Service for interacting with Anthropic Claude models"""
     
     def __init__(self):
         settings = get_settings()
-        self.api_key = settings.openai_api_key
-        self.model = settings.openai_model
-        openai.api_key = self.api_key
+        self.api_key = settings.anthropic_api_key
+        self.model = settings.anthropic_model
+        self.client = AsyncAnthropic(api_key=self.api_key)
     
     async def generate_response(
         self,
@@ -23,31 +23,32 @@ class LLMService:
         temperature: float = 0.7,
         max_tokens: int = 1000
     ) -> str:
-        """Generate a response using OpenAI GPT
+        """Generate a response using Anthropic Claude
         
         Args:
             prompt: The user prompt
             system_message: Optional system message to set context
-            temperature: Sampling temperature (0-2)
+            temperature: Sampling temperature (0-1)
             max_tokens: Maximum tokens in response
             
         Returns:
             Generated response text
         """
         try:
-            messages = []
+            # Anthropic uses system parameter separately
+            message_params = {
+                "model": self.model,
+                "max_tokens": max_tokens,
+                "temperature": temperature,
+                "messages": [{"role": "user", "content": prompt}]
+            }
+            
             if system_message:
-                messages.append({"role": "system", "content": system_message})
-            messages.append({"role": "user", "content": prompt})
+                message_params["system"] = system_message
             
-            response = await openai.ChatCompletion.acreate(
-                model=self.model,
-                messages=messages,
-                temperature=temperature,
-                max_tokens=max_tokens
-            )
+            response = await self.client.messages.create(**message_params)
             
-            return response.choices[0].message.content
+            return response.content[0].text
         except Exception as e:
             logger.error(f"Error generating LLM response: {e}")
             raise

@@ -8,31 +8,61 @@ import Link from "next/link"
 
 interface ChecklistResult {
   id: number
-  template_name: string
+  checklist_name: string
   created_at: string
-  status: string
   compliance_score?: number
 }
 
 export default function Dashboard() {
   const [recentResults, setRecentResults] = useState<ChecklistResult[]>([])
+  const [templatesCount, setTemplatesCount] = useState<number>(0)
+  const [documentsCount, setDocumentsCount] = useState<number>(0)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     fetchRecentResults()
+    fetchTemplatesCount()
+    fetchDocumentsCount()
   }, [])
 
   const fetchRecentResults = async () => {
     try {
       const response = await fetch("/api/checklist/results")
+      console.log("[DEBUG] Response status:", response.status)
       if (response.ok) {
         const data = await response.json()
+        console.log("[DEBUG] Fetched data:", data)
+        console.log("[DEBUG] Data length:", data.length)
         setRecentResults(data.slice(0, 5))
       }
     } catch (error) {
       console.error("[v0] Failed to fetch recent results:", error)
     } finally {
       setLoading(false)
+    }
+  }
+
+  const fetchTemplatesCount = async () => {
+    try {
+      const response = await fetch("/api/files/list/checklist")
+      if (response.ok) {
+        const data = await response.json()
+        setTemplatesCount(data.count || 0)
+      }
+    } catch (error) {
+      console.error("[v0] Failed to fetch templates count:", error)
+    }
+  }
+
+  const fetchDocumentsCount = async () => {
+    try {
+      const response = await fetch("/api/files/list/user")
+      if (response.ok) {
+        const data = await response.json()
+        setDocumentsCount(data.count || 0)
+      }
+    } catch (error) {
+      console.error("[v0] Failed to fetch documents count:", error)
     }
   }
 
@@ -63,7 +93,7 @@ export default function Dashboard() {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-muted-foreground mb-1">Templates</p>
-                <p className="text-3xl font-bold">-</p>
+                <p className="text-3xl font-bold">{templatesCount}</p>
               </div>
               <FileText className="h-10 w-10 text-cyan-500" />
             </div>
@@ -73,7 +103,7 @@ export default function Dashboard() {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-muted-foreground mb-1">Documents</p>
-                <p className="text-3xl font-bold">-</p>
+                <p className="text-3xl font-bold">{documentsCount}</p>
               </div>
               <FileText className="h-10 w-10 text-blue-400" />
             </div>
@@ -121,19 +151,10 @@ export default function Dashboard() {
                 <FrostedCard key={result.id} className="p-6">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className="font-semibold mb-1">{result.template_name}</h3>
+                      <h3 className="font-semibold mb-1">{result.checklist_name}</h3>
                       <p className="text-sm text-muted-foreground">{new Date(result.created_at).toLocaleString()}</p>
                     </div>
                     <div className="flex items-center gap-4">
-                      <span
-                        className={`px-3 py-1 rounded-full text-sm ${
-                          result.status === "completed"
-                            ? "bg-green-500/20 text-green-600"
-                            : "bg-yellow-500/20 text-yellow-600"
-                        }`}
-                      >
-                        {result.status}
-                      </span>
                       <Link href={`/results/${result.id}`}>
                         <Button variant="ghost" size="sm">
                           View

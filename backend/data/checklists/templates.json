@@ -42,5 +42,1248 @@
     ],
     "created_at": "2025-11-10 12:27:46.140207",
     "updated_at": "2025-11-10 12:27:46.140212"
+  },
+  {
+    "id": "21345bc5-bcd3-4d31-91ed-b023d5994170",
+    "name": "BWI Training and Educational Services Procurement Compliance Checklist (Category 5)",
+    "description": "Compliance checklist for bidders applying to the Dynamic Procurement System (DBS) for training and educational services in Category 5 (Complementary and methodological competencies - Non-IT areas) for BWI GmbH and Bundeswehr. Covers eligibility requirements, exclusion grounds per GWB \u00a7\u00a7123-126, and procedural requirements.",
+    "questions": [
+      {
+        "id": "42499409-78eb-487c-a9be-5d3534445c2c",
+        "question": "Has the bidder completed and signed Annex 7 'Declaration per \u00a7\u00a7123, 124, 125 and 126 GWB' confirming the absence of all mandatory exclusion grounds?",
+        "question_type": "text",
+        "context": "This declaration is required to confirm non-existence of exclusion grounds including insolvency, corruption, criminal activities, tax/social security payment violations, and other legal violations as specified in German procurement law.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633565",
+        "updated_at": "2025-11-10 15:19:08.633576"
+      },
+      {
+        "id": "cde42bff-10a9-4548-9a26-4333a8b3dc44",
+        "question": "Does the bidder have sufficient capacity to provide training services in complementary and methodological competencies (Non-IT areas) as defined in the service description?",
+        "question_type": "text",
+        "context": "The procurement covers training in personal and social competencies, methodological competencies, and complementary competencies in all non-IT technical areas. Bidders do not need to cover all subject areas but must demonstrate relevant capacity.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633593",
+        "updated_at": "2025-11-10 15:19:08.633594"
+      },
+      {
+        "id": "2fe33a3b-cee1-4586-a03b-6b6671b6dd70",
+        "question": "Can the bidder provide documentation of economic and financial capability to fulfill contracts under this Dynamic Procurement System?",
+        "question_type": "text",
+        "context": "Bidders must demonstrate financial stability and economic capacity to deliver training services over the duration of the DBS (until December 31, 2027). The estimated total value is EUR 2.0 million with approximately 5,000 potential participants.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633600",
+        "updated_at": "2025-11-10 15:19:08.633600"
+      },
+      {
+        "id": "beb028f4-dc5c-44c3-9f16-f39cc616e2e6",
+        "question": "Has the bidder confirmed they can provide services in the specified locations (Bonn, Rhein-Sieg-Kreis, Berlin, M\u00fcnchen Landkreis)?",
+        "question_type": "text",
+        "context": "The contract requires service delivery in multiple German locations. Bidders must confirm their ability to deliver training at these geographic locations.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633605",
+        "updated_at": "2025-11-10 15:19:08.633605"
+      },
+      {
+        "id": "cf58c0dd-ac51-455f-8fec-b95d19bf4245",
+        "question": "Does the bidder's portfolio include training formats such as classroom training, blended learning, e-learning, and examination/certification services?",
+        "question_type": "text",
+        "context": "Category 5 encompasses various training formats including traditional classroom training, blended learning approaches, e-learning modules, and examination/certification services from standard catalog offerings.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633609",
+        "updated_at": "2025-11-10 15:19:08.633609"
+      },
+      {
+        "id": "5a64e120-5b23-4c5a-8d2d-66751162f273",
+        "question": "Can the bidder provide current tax compliance certificates from their country of establishment?",
+        "question_type": "text",
+        "context": "The contracting authority reserves the right to request certificates from authorities in the bidder's country of establishment confirming proper payment of taxes. This may be requested after submission deadline per \u00a756 VgV.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633613",
+        "updated_at": "2025-11-10 15:19:08.633613"
+      },
+      {
+        "id": "083fe3ef-62c6-4083-84e0-4cd37e0d6dd5",
+        "question": "Has the bidder confirmed compliance with social security contribution payment obligations with supporting documentation available if requested?",
+        "question_type": "text",
+        "context": "Bidders must confirm compliance with social security payment obligations. The contracting authority may request certificates from relevant authorities in the bidder's country of establishment.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633618",
+        "updated_at": "2025-11-10 15:19:08.633618"
+      },
+      {
+        "id": "b6989733-3c5d-4abb-94fc-a4ee6c80be12",
+        "question": "Is the bidder capable of issuing electronic invoices as required by the contract conditions?",
+        "question_type": "text",
+        "context": "Electronic invoicing is mandatory for this procurement. Bidders must have systems and processes in place to comply with electronic invoicing requirements.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633622",
+        "updated_at": "2025-11-10 15:19:08.633622"
+      },
+      {
+        "id": "3d4be318-09a5-49ec-b9af-1946f21c7bcd",
+        "question": "Has the bidder reviewed and understood the non-open procedure requirements and the deadline for participation applications (December 31, 2027)?",
+        "question_type": "text",
+        "context": "This is a non-open procedure (Nichtoffenes Verfahren) under a Dynamic Procurement System. The participation deadline has been extended to December 31, 2027. There is no obligation for the contracting authority to purchase services.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633625",
+        "updated_at": "2025-11-10 15:19:08.633626"
+      },
+      {
+        "id": "7867e9c8-2352-4ec3-a30b-cc8bd4934f84",
+        "question": "Can the bidder confirm absence of conflicts of interest or prior involvement in preparation of this procurement procedure?",
+        "question_type": "text",
+        "context": "Exclusion grounds include conflicts of interest arising from participation in the procedure and direct or indirect involvement in preparing the procurement procedure, as specified in GWB \u00a7\u00a7123-126.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633629",
+        "updated_at": "2025-11-10 15:19:08.633629"
+      }
+    ],
+    "conditions": [
+      {
+        "id": "f827c681-3ae5-4340-8363-5e5175b50c7c",
+        "condition": "Complete submission of Annex 7 'Declaration per \u00a7\u00a7123, 124, 125 and 126 GWB' with all sections properly filled and signed",
+        "condition_type": "custom",
+        "context": "This declaration covers all mandatory exclusion grounds including insolvency, bankruptcy, corruption, criminal activities, tax violations, social security payment violations, money laundering, terrorism financing, fraud, child labor, environmental/labor/social law violations, and conflicts of interest",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633635",
+        "updated_at": "2025-11-10 15:19:08.633635"
+      },
+      {
+        "id": "ab8978c5-0588-4959-a88c-193d0a83a869",
+        "condition": "Demonstrated technical and professional capability to deliver training services in methodological and complementary competencies (Non-IT areas)",
+        "condition_type": "custom",
+        "context": "Bidders must prove capacity in their service portfolio for training in personal, social, methodological, and complementary competencies. Services may include foundational and advanced courses. Bidders are not required to cover all subject areas mentioned in the service description",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633641",
+        "updated_at": "2025-11-10 15:19:08.633642"
+      },
+      {
+        "id": "ea6494c3-72af-4179-a692-44bcd564d72a",
+        "condition": "Submission of participation application by December 31, 2027, 23:59 CET",
+        "condition_type": "custom",
+        "context": "This is the extended deadline for entry into the Dynamic Procurement System. Late applications will not be considered. Submissions must be made through the BWI procurement platform",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633645",
+        "updated_at": "2025-11-10 15:19:08.633646"
+      },
+      {
+        "id": "d6f068d2-3747-40b4-8bb5-23c514ddb189",
+        "condition": "Capability to provide electronic invoicing in compliance with German public sector requirements",
+        "condition_type": "custom",
+        "context": "Electronic invoicing is mandatory for this contract. Bidders must have technical systems and processes ready to issue compliant electronic invoices",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633649",
+        "updated_at": "2025-11-10 15:19:08.633650"
+      },
+      {
+        "id": "e9358fd6-9062-4275-b9b0-70f9f0c4768e",
+        "condition": "No outstanding tax or social security payment obligations in the bidder's country of establishment",
+        "condition_type": "custom",
+        "context": "The contracting authority reserves the right to request official certificates confirming proper payment of taxes and social security contributions. Non-compliance constitutes an exclusion ground per \u00a7\u00a7123-126 GWB",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633653",
+        "updated_at": "2025-11-10 15:19:08.633653"
+      },
+      {
+        "id": "79e49ec1-d570-43a0-aaa6-0e044d1bc69c",
+        "condition": "Submission of all required eligibility documents including questionnaire for eligibility assessment and supporting documentation",
+        "condition_type": "custom",
+        "context": "Incomplete or missing documents may be requested by the contracting authority per \u00a756 VgV/\u00a722 Abs. 6 VSVgV at their discretion, but bidders have no entitlement to such requests. Complete initial submission is strongly recommended",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633657",
+        "updated_at": "2025-11-10 15:19:08.633657"
+      },
+      {
+        "id": "74cb1e88-62eb-4320-ac8e-e4856bd0b7e0",
+        "condition": "Compliance with EU Directive 2014/24/EU and German procurement regulations (VgV, VOL/VOF)",
+        "condition_type": "custom",
+        "context": "This procurement falls under the Agreement on Government Procurement and is subject to EU-wide tendering rules. All submissions must comply with applicable EU and German procurement law",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633660",
+        "updated_at": "2025-11-10 15:19:08.633660"
+      },
+      {
+        "id": "e0852427-2ca1-4ac4-9815-b365c36b4f68",
+        "condition": "All documents and communications must be submitted in German language",
+        "condition_type": "custom",
+        "context": "German is the only officially accepted language for submission of tender documents and all related communications, as specified in the procurement documents",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:19:08.633664",
+        "updated_at": "2025-11-10 15:19:08.633664"
+      }
+    ],
+    "created_at": "2025-11-10 15:19:08.633802",
+    "updated_at": "2025-11-10 15:19:08.633805"
+  },
+  {
+    "id": "cae10fce-3d8e-412b-a0af-c86f8802eed8",
+    "name": "DBS Schulungs- und Trainingsleistungen Teilnahmewettbewerb Compliance Checklist",
+    "description": "Compliance-Checkliste f\u00fcr die Teilnahme am Dynamischen Beschaffungssystem (DBS) f\u00fcr Schulungs- und Trainingsleistungen der BWI GmbH, Kategorie 5: Komplement\u00e4re und methodische Kompetenzen",
+    "questions": [
+      {
+        "id": "bfe655f2-9c2c-4095-a556-a2bf5d926536",
+        "question": "Wurde der Teilnahmeantrag ausschlie\u00dflich elektronisch \u00fcber die BWI Vergabeplattform mittels AI Bietercockpit eingereicht?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Ziffer 1.5.1 ist die Abgabe des Teilnahmeantrages ausschlie\u00dflich elektronisch \u00fcber die BWI Vergabeplattform nach vorheriger Registrierung m\u00f6glich. Teilnahmeantr\u00e4ge in Papierform werden nicht ber\u00fccksichtigt.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289533",
+        "updated_at": "2025-11-10 15:20:01.289539"
+      },
+      {
+        "id": "5363a7ad-44fa-44c5-b881-fe413e919683",
+        "question": "Wurden alle erforderlichen Vordrucke und Erkl\u00e4rungen mit mindestens fortgeschrittener elektronischer Signatur oder in Textform unterzeichnet?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Ziffer 1.5.1 bedarf die form- und fristgebundene \u00dcbermittlung mindestens einer fortgeschrittenen elektronischen Signatur (mittels Softzertifikat) oder qualifizierten elektronischen Signatur (mittels Signaturkarte). Die einfache elektronische Signatur ist nicht zul\u00e4ssig.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289550",
+        "updated_at": "2025-11-10 15:20:01.289550"
+      },
+      {
+        "id": "2ba86ade-42b0-4b5d-83e6-83e1035e5b25",
+        "question": "Wurde die Vertraulichkeitserkl\u00e4rung (Anlage 4) vom Bewerber sowie allen Mitgliedern der Bewerbergemeinschaft und allen Unterauftragnehmern eingereicht?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Ziffer 1.6.1 hat der Bewerber \u00fcber die im Rahmen des Vergabeverfahrens bekannt gewordenen Angelegenheiten Verschwiegenheit zu bewahren. Die Vertraulichkeitserkl\u00e4rung ist auch von UAN und Mitgliedern der BG einzureichen.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289555",
+        "updated_at": "2025-11-10 15:20:01.289556"
+      },
+      {
+        "id": "f8d572d2-ae44-430b-a14d-14f93f0e004d",
+        "question": "Verf\u00fcgt der Bewerber \u00fcber ein Qualit\u00e4tsmanagementsystem nach DIN ISO 9001 oder vergleichbar?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Fragebogen zur Eignungspr\u00fcfung ist der Nachweis eines QM-Systems DIN ISO 9001 oder vergleichbar als Anlage 13 einzureichen. Dies ist Voraussetzung f\u00fcr die Eignung.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289560",
+        "updated_at": "2025-11-10 15:20:01.289560"
+      },
+      {
+        "id": "715b4ca6-9973-46e3-8d98-2b79536244f1",
+        "question": "Wurden die Erkl\u00e4rungen gem\u00e4\u00df \u00a7\u00a7 123, 124 und 125 GWB (Anlage 7) vom Bewerber sowie allen Mitgliedern der Bewerbergemeinschaft und Unterauftragnehmern abgegeben?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Ziffer 2.2 m\u00fcssen die Bewerber nachweisen, dass keine Ausschlussgr\u00fcnde nach \u00a7\u00a7 123 und 124 GWB vorliegen. Die entsprechende Erkl\u00e4rung (Anlage 7) ist von jedem Beteiligten gesondert abzugeben.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289564",
+        "updated_at": "2025-11-10 15:20:01.289564"
+      },
+      {
+        "id": "d1c5fa3e-42b9-4b7e-8fca-73a2a9af82c7",
+        "question": "Wurde die Verpflichtungserkl\u00e4rung zur Einhaltung des Mindestlohngesetzes (MiLoG) gem\u00e4\u00df Anlage 8 von allen relevanten Parteien eingereicht?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Bewerbungsschreiben ist die Verpflichtungserkl\u00e4rung zum MiLoG (Anlage 8) vom Bewerber sowie falls zutreffend von UAN und Mitgliedern der BG auszuf\u00fcllen und zu signieren.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289568",
+        "updated_at": "2025-11-10 15:20:01.289568"
+      },
+      {
+        "id": "98eca765-af3f-4f5d-a6a0-6dfc1fb55298",
+        "question": "Wurden alle Betriebs- oder Gesch\u00e4ftsgeheimnisse im Teilnahmeantrag durch eine separate Auflistung mit genauer Angabe von Unterlage, Seitenzahl und Ziffer deutlich gekennzeichnet?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Ziffer 1.10 sind Betriebs- oder Gesch\u00e4ftsgeheimnisse deutlich zu kennzeichnen durch Beilegung einer Auflistung. Ein pauschaler Hinweis gen\u00fcgt nicht und wird nicht ber\u00fccksichtigt.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289572",
+        "updated_at": "2025-11-10 15:20:01.289572"
+      },
+      {
+        "id": "ec23794f-bb46-4957-ae17-e5eda263458c",
+        "question": "Stellt der Bewerber sicher, dass das eingesetzte Lehrpersonal deutschsprachig ist?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Anlage 1 zur Leistungsbeschreibung erfolgen Schulungsma\u00dfnahmen grunds\u00e4tzlich in deutscher Sprache. Die Best\u00e4tigung f\u00fcr deutschsprachiges Lehrpersonal ist im Fragebogen anzugeben.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289575",
+        "updated_at": "2025-11-10 15:20:01.289576"
+      },
+      {
+        "id": "213933f1-d48f-4195-9bdd-da27bf34bae8",
+        "question": "Verf\u00fcgen die einzusetzenden Trainer \u00fcber mindestens 3 Jahre (Kategorie 2: 5 Jahre) Praxiserfahrung in den betroffenen Fachgebieten?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Ziffer 3 der Anlage 1 zur Leistungsbeschreibung m\u00fcssen eingesetzte Trainer mindestens 3 Jahre, in Kategorie 2 mindestens 5 Jahre, Praxiserfahrung in den betroffenen Fachgebieten haben.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289579",
+        "updated_at": "2025-11-10 15:20:01.289579"
+      },
+      {
+        "id": "ad83c831-2ac1-4e04-821e-0267f6c0960b",
+        "question": "Wurde bei Bewerbergemeinschaften die Erkl\u00e4rung (Anlage 5) von allen Mitgliedern signiert und ein gesch\u00e4ftsf\u00fchrendes Mitglied benannt?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Ziffer 1.9.1 haben Bewerbergemeinschaften einen einheitlichen Teilnahmeantrag einzureichen und ein Mitglied als Bevollm\u00e4chtigten zu benennen. Die Erkl\u00e4rung (Anlage 5) ist von allen Mitgliedern zu signieren.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289582",
+        "updated_at": "2025-11-10 15:20:01.289583"
+      }
+    ],
+    "conditions": [
+      {
+        "id": "eb9ac87b-3f07-4444-ae5c-fd0d1531d568",
+        "condition": "Der Teilnahmeantrag muss innerhalb der in der EU-Bekanntmachung aufgezeigten Teilnahmefrist elektronisch \u00fcber die BWI Vergabeplattform eingereicht werden.",
+        "condition_type": "custom",
+        "context": "Gem\u00e4\u00df Ziffer 1.4.1 kann bei versp\u00e4teter Einreichung nicht sichergestellt werden, dass der Bewerber f\u00fcr den ersten Miniwettbewerb ber\u00fccksichtigt werden kann. Teilnahmeantr\u00e4ge in Papierform werden ausgeschlossen.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289586",
+        "updated_at": "2025-11-10 15:20:01.289587"
+      },
+      {
+        "id": "6549791d-4c71-4791-b5c2-f62bce69480f",
+        "condition": "Es d\u00fcrfen keine \u00c4nderungen an den Vergabeunterlagen vorgenommen werden, einschlie\u00dflich des Beif\u00fcgens von Bewerber-AGBs oder standardisierten Formulierungen zur Wahrung von Schutzrechten.",
+        "condition_type": "custom",
+        "context": "Gem\u00e4\u00df Ziffer 1.1 der Bewerbungsbedingungen d\u00fcrfen seitens des Bewerbers keine \u00c4nderungen an den Vergabeunterlagen vorgenommen werden (\u00a7 53 Abs. 7 Satz 1 VgV). \u00c4nderungen f\u00fchren zum Ausschluss des Teilnahmeantrages.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289593",
+        "updated_at": "2025-11-10 15:20:01.289593"
+      },
+      {
+        "id": "5edeabdd-96fa-40e6-aa41-0e33d15972ec",
+        "condition": "Der Bewerber muss nachweisen, dass keine zwingenden Ausschlussgr\u00fcnde nach \u00a7\u00a7 123 und 124 GWB vorliegen und alle A-Kriterien (Ausschlusskriterien) erf\u00fcllt sind.",
+        "condition_type": "custom",
+        "context": "Gem\u00e4\u00df Ziffer 2.2 der Bewerbungsbedingungen ist der Bewerber geeignet, wenn er alle A-Kriterien erf\u00fcllt. Die Pr\u00fcfung der Eignung findet anhand von A-Kriterien statt, die uneingeschr\u00e4nkt erf\u00fcllt werden m\u00fcssen.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289597",
+        "updated_at": "2025-11-10 15:20:01.289597"
+      },
+      {
+        "id": "c115c920-946d-49cc-a1fc-3f1428cf046d",
+        "condition": "Bei Unterauftragsvergabe m\u00fcssen alle Unterauftragnehmer mit Namen, Anschrift und Firmensitz benannt werden und entsprechende Erkl\u00e4rungen (Anlagen 7, 8, 9) sowie Nachweise zur Eignung beif\u00fcgen.",
+        "condition_type": "custom",
+        "context": "Gem\u00e4\u00df Ziffer 1.9.2 hat der Bewerber bei beabsichtigter Unterauftragsvergabe die vorgesehenen Unterauftragnehmer zu benennen, das Nichtvorliegen von Ausschlussgr\u00fcnden nachzuweisen und die Eignung f\u00fcr entsprechende Teile des Auftrags zu belegen.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289600",
+        "updated_at": "2025-11-10 15:20:01.289601"
+      },
+      {
+        "id": "1b458ad9-966e-4361-93c9-c0604f2f58d3",
+        "condition": "Der Bewerber muss \u00fcber eine Betriebshaftpflicht-/Berufshaftpflichtversicherung verf\u00fcgen und einen entsprechenden Nachweis (Anlage 11) vorlegen.",
+        "condition_type": "custom",
+        "context": "Gem\u00e4\u00df Fragebogen zur Eignungspr\u00fcfung ist der Nachweis einer Betriebshaftpflichtversicherung/Berufshaftpflichtversicherung als Anlage 11 einzureichen. Dies ist Teil der Eignungspr\u00fcfung.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289604",
+        "updated_at": "2025-11-10 15:20:01.289604"
+      },
+      {
+        "id": "eaec156c-fd05-421b-906b-e51a59c1d2f7",
+        "condition": "Alle Teilnahmeantragsunterlagen und der sonstige Schriftverkehr m\u00fcssen in deutscher Sprache abgefasst sein (technische Fachbegriffe k\u00f6nnen in Englisch formuliert sein).",
+        "condition_type": "custom",
+        "context": "Gem\u00e4\u00df Ziffer 1.1 der Bewerbungsbedingungen sind Teilnahmeantr\u00e4ge und sonstiger Schriftverkehr in deutscher Sprache abzufassen. Teilnahmeantragsunterlagen in einer anderen Sprache bleiben unber\u00fccksichtigt.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289607",
+        "updated_at": "2025-11-10 15:20:01.289608"
+      },
+      {
+        "id": "33410609-56cd-4efe-be9c-400edf0118e1",
+        "condition": "Bei Bewerbergemeinschaften m\u00fcssen alle Mitglieder f\u00fcr die Vertragserf\u00fcllung als Gesamtschuldner haften und dies in der Bewerbergemeinschaftserkl\u00e4rung (Anlage 5) best\u00e4tigen.",
+        "condition_type": "custom",
+        "context": "Gem\u00e4\u00df Ziffer 1.9.1 haften alle Mitglieder der Bewerbergemeinschaft f\u00fcr die Vertragserf\u00fcllung als Gesamtschuldner. Die Bewerbergemeinschaftserkl\u00e4rung ist von allen Mitgliedern zu signieren.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289611",
+        "updated_at": "2025-11-10 15:20:01.289611"
+      },
+      {
+        "id": "33b4552a-0e9d-4c55-8d64-bb2e1a0771e6",
+        "condition": "Der Bewerber muss die Bereitschaft erkl\u00e4ren, kategoriebezogene, leistungsspezifische Zertifikate vorzulegen (Anlage 15 - Eigenerkl\u00e4rung).",
+        "condition_type": "custom",
+        "context": "Gem\u00e4\u00df Fragebogen zur Eignungspr\u00fcfung ist die Eigenerkl\u00e4rung zur Bereitschaft kategoriebezogene, leistungsspezifische Zertifikate vorzulegen (Anlage 15) einzureichen. Dies betrifft die zuk\u00fcnftige Leistungserbringung.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:01.289615",
+        "updated_at": "2025-11-10 15:20:01.289615"
+      }
+    ],
+    "created_at": "2025-11-10 15:20:01.289732",
+    "updated_at": "2025-11-10 15:20:01.289733"
+  },
+  {
+    "id": "026cf855-acb0-4616-97cc-1fddc52fc117",
+    "name": "Compliance Checklist for Training Services Provider Eligibility - Category 5",
+    "description": "Comprehensive compliance checklist for verifying eligibility requirements for training and educational service providers in a Dynamic Procurement System (DBS). Covers mandatory exclusion criteria including registrations, insurance, quality management systems, references, and certifications.",
+    "questions": [
+      {
+        "id": "b71e8fa0-13de-4731-b75c-d75e1a8a2f87",
+        "question": "Has the bidder submitted a valid trade or professional register extract not older than 6 months?",
+        "question_type": "text",
+        "context": "Required document: Anlage 10_Berufs- oder Handelsregisterauszug. For consortiums, each member and significant subcontractor must provide separate documentation (10a, 10b, etc.)",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726110",
+        "updated_at": "2025-11-10 15:20:41.726114"
+      },
+      {
+        "id": "77e66a3f-a788-4ad5-a8cd-a0edc2bb006b",
+        "question": "Does the bidder have professional liability insurance with minimum coverage of \u20ac500,000 per incident for both property/personal damage AND financial losses?",
+        "question_type": "text",
+        "context": "Proof required via insurance certificate (Anlage 11_Haftpflichtversicherung). Both coverage types must meet the \u20ac500,000 threshold independently.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726125",
+        "updated_at": "2025-11-10 15:20:41.726125"
+      },
+      {
+        "id": "f9ffc43b-50a8-43be-a00f-fcafeffe5b69",
+        "question": "Has the bidder provided a creditworthiness report from a credit agency showing at least 'satisfactory or good creditworthiness' that is not older than 6 months?",
+        "question_type": "text",
+        "context": "For example, Creditreform risk classes I, II, or III would meet requirements. Document: Anlage 12_Bonit\u00e4t. Bidder must specify the creditworthiness index value.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726130",
+        "updated_at": "2025-11-10 15:20:41.726131"
+      },
+      {
+        "id": "0328f84d-0f92-4849-8893-d113ba40b90e",
+        "question": "Does the bidder possess a valid ISO 9001 quality management certification, or has it provided an equivalent certification or acceptable self-declaration?",
+        "question_type": "text",
+        "context": "Acceptable proof: ISO 9001 certification (valid at application deadline), equivalent comparable certification, or self-declaration addressing 7 specific QM aspects (customer orientation, leadership responsibility, process approach, continuous improvement, fact-based decisions, supplier relationships, personnel involvement). Document: Anlage 13_QM 9001.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726135",
+        "updated_at": "2025-11-10 15:20:41.726135"
+      },
+      {
+        "id": "21b8847c-641b-4a4d-98d6-b23065991f48",
+        "question": "Has the bidder submitted at least three valid references for exclusive/customer-specific training in the relevant category from the last three completed calendar years (2016-2018)?",
+        "question_type": "text",
+        "context": "Each reference must include: training content/theme, timeframe, number of participants/training days, project volume in EUR, client information with contact person. References must cover different projects, with at least two from different clients. Document: Anlage 2_Referenzen using provided template.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726139",
+        "updated_at": "2025-11-10 15:20:41.726139"
+      },
+      {
+        "id": "18998377-af49-4a7a-beca-07014a59d542",
+        "question": "Has the bidder confirmed that all teaching staff will use fluent German language (written and spoken) for service delivery and documentation?",
+        "question_type": "text",
+        "context": "This includes all newly created documentation (not pre-existing materials). Applies to all instructional personnel deployed for the contract.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726143",
+        "updated_at": "2025-11-10 15:20:41.726143"
+      },
+      {
+        "id": "dd70d5a2-9823-4a6b-b444-a80a8f008254",
+        "question": "Has the bidder provided a complete company presentation including location lists, organizational structure, total trainers, and service portfolio description?",
+        "question_type": "text",
+        "context": "Required content: list of company and training locations (regional distribution), organizational structure with total personnel and trainers for the category, complete service portfolio with emphasis on the category theme. Document: Anlage 14_Unternehmensdarstellung.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726147",
+        "updated_at": "2025-11-10 15:20:41.726147"
+      },
+      {
+        "id": "6c2d3ec4-116f-4f25-bf4f-28adbc69125c",
+        "question": "Does the bidder possess ISO 29990 certification for quality management in learning services, or has it provided equivalent certification or acceptable self-declaration?",
+        "question_type": "text",
+        "context": "Acceptable proof: ISO 29990 certification (valid at deadline), equivalent certification with comparability explanation, or self-declaration addressing 11 specific aspects including learning needs determination, service design/delivery/monitoring, evaluation, management requirements, strategy, corrective measures, financial/risk/personnel management, resource provision, internal audits, and stakeholder feedback. Document: Anlage 16_QM 29990.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726151",
+        "updated_at": "2025-11-10 15:20:41.726152"
+      },
+      {
+        "id": "3a71f971-e814-4bd5-b649-a1cf94861bf8",
+        "question": "Has the bidder submitted a declaration of willingness to provide service-specific certifications during mini-competitions and acknowledged these will be part of offer evaluation?",
+        "question_type": "text",
+        "context": "Bidder must confirm readiness to provide additional certifications if required in specific mini-competitions. Document: Anlage 15_leistungsspezifische Zertifikate.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726155",
+        "updated_at": "2025-11-10 15:20:41.726155"
+      }
+    ],
+    "conditions": [
+      {
+        "id": "66324e52-3573-46f6-a405-3e8e0edd1e2a",
+        "condition": "All submitted documents (trade register, creditworthiness report) must not be older than 6 months at time of submission",
+        "condition_type": "custom",
+        "context": "Applies to Anlage 10 (trade register extract) and Anlage 12 (creditworthiness report). Timing is calculated from document issuance date to application deadline.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726159",
+        "updated_at": "2025-11-10 15:20:41.726160"
+      },
+      {
+        "id": "5d18f150-356b-4d4c-ae18-7ebc4265f2c5",
+        "condition": "Professional liability insurance must provide minimum coverage of \u20ac500,000 per incident for BOTH property/personal damage AND financial losses separately",
+        "condition_type": "custom",
+        "context": "Two distinct coverage amounts required - not combined. Insurance must be active and valid at time of application.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726165",
+        "updated_at": "2025-11-10 15:20:41.726166"
+      },
+      {
+        "id": "1119620f-9f64-4222-8c45-780262232f19",
+        "condition": "Minimum three references from different projects required, with at least two references from different clients, all from calendar years 2016-2018",
+        "condition_type": "custom",
+        "context": "Projects may have started before or completed after the specified period, but must have activity within 2016-2018. Same reference project may be used across multiple categories if it covers all required service content.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726170",
+        "updated_at": "2025-11-10 15:20:41.726170"
+      },
+      {
+        "id": "febcdf6d-7fdb-459f-8756-7e6f3cd0a8f8",
+        "condition": "ISO 9001 and ISO 29990 certifications (if provided) must be valid at the application deadline",
+        "condition_type": "custom",
+        "context": "Expired certifications are not acceptable. Alternative self-declarations must comprehensively address all specified quality management aspects (7 for ISO 9001, 11 for ISO 29990).",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726173",
+        "updated_at": "2025-11-10 15:20:41.726174"
+      },
+      {
+        "id": "03164a2a-a508-4140-90e5-2ecae8feb3b1",
+        "condition": "For consortiums/bidding groups, each member and each significant subcontractor must provide separate documentation for all exclusion criteria",
+        "condition_type": "custom",
+        "context": "Documents must be numbered sequentially (e.g., Anlage 10a, 10b, 10c). Each entity must independently meet all mandatory requirements.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726177",
+        "updated_at": "2025-11-10 15:20:41.726177"
+      },
+      {
+        "id": "19cfd257-97d4-4952-8a23-c16e9c12be77",
+        "condition": "All mandatory annexes must be correctly labeled and numbered according to the specified naming convention",
+        "condition_type": "custom",
+        "context": "Specific naming required: Anlage 10 (register), Anlage 11 (insurance), Anlage 12 (creditworthiness), Anlage 13 (QM 9001), Anlage 2 (references), Anlage 14 (company presentation), Anlage 15 (certifications declaration), Anlage 16 (QM 29990).",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726181",
+        "updated_at": "2025-11-10 15:20:41.726181"
+      },
+      {
+        "id": "4a9470be-94b3-4806-a8a9-8a8fd1c04005",
+        "condition": "References must include all mandatory information: content/theme, timeframe, number of participants/training days, project volume in EUR, and client contact details",
+        "condition_type": "custom",
+        "context": "Anonymous references permitted only if client confidentiality prevents naming, with explanation and maximum description provided. Must use official reference template (Anlage 2 Referenztemplate).",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726184",
+        "updated_at": "2025-11-10 15:20:41.726185"
+      },
+      {
+        "id": "21fc7941-8563-46cb-83d4-60ef8546171d",
+        "condition": "Application must be signed, dated, and stamped by authorized bidder representative, confirming accuracy of all provided information",
+        "condition_type": "custom",
+        "context": "Final page signature serves as legal confirmation of all declarations and submitted documents. Missing signature renders application invalid.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:20:41.726188",
+        "updated_at": "2025-11-10 15:20:41.726188"
+      }
+    ],
+    "created_at": "2025-11-10 15:20:41.726342",
+    "updated_at": "2025-11-10 15:20:41.726343"
+  },
+  {
+    "id": "a745b64a-3368-48c7-b545-1fac8af1a7a9",
+    "name": "BWI GmbH Training and Education Services Procurement Compliance Checklist - Category 5",
+    "description": "Comprehensive compliance checklist for participation in the Dynamic Procurement System (DBS) for training and education services in non-IT complementary and methodological competencies, covering exclusion grounds, eligibility criteria, and submission requirements according to German procurement law (GWB, VgV).",
+    "questions": [
+      {
+        "id": "971d0b09-970c-4295-a91a-c4afc769c8ba",
+        "question": "Has the bidder completed and signed Annex 7 'Declaration pursuant to \u00a7\u00a7 123, 124, 125 and 126 GWB' confirming the absence of all mandatory and optional exclusion grounds?",
+        "question_type": "text",
+        "context": "This declaration is required to confirm non-existence of exclusion grounds including insolvency, criminal convictions, corruption, violations of environmental, social, and labor law obligations, tax and social security payment obligations, and other grounds specified in German procurement law.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395244",
+        "updated_at": "2025-11-10 15:21:31.395257"
+      },
+      {
+        "id": "fcbdb2a9-2b15-40d7-899c-aa182a83dc17",
+        "question": "Can the bidder provide certification from the relevant authority of their country of establishment confirming proper fulfillment of tax payment obligations?",
+        "question_type": "text",
+        "context": "The contracting authority reserves the right to request this certificate after the submission deadline. Failure to provide may result in exclusion from the procurement procedure.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395284",
+        "updated_at": "2025-11-10 15:21:31.395285"
+      },
+      {
+        "id": "24099577-d6b4-4131-8ab1-87ae98d303d4",
+        "question": "Can the bidder provide certification from the relevant authority confirming proper fulfillment of statutory social security contribution obligations?",
+        "question_type": "text",
+        "context": "This certification may be requested by the contracting authority pursuant to \u00a7 56 VgV / \u00a7 22 Abs. 6 VSVgV to verify compliance with social security obligations.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395292",
+        "updated_at": "2025-11-10 15:21:31.395292"
+      },
+      {
+        "id": "9f68ed85-fea1-4962-9a84-38d285ef00bc",
+        "question": "Does the bidder's service portfolio cover at least one of the subject areas specified in the service description for Category 5 (complementary and methodological competencies in non-IT areas)?",
+        "question_type": "text",
+        "context": "Bidders are not required to cover all subject areas mentioned in the service description with their service portfolio. Partial coverage is acceptable for participation in the DBS.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395298",
+        "updated_at": "2025-11-10 15:21:31.395298"
+      },
+      {
+        "id": "b77b62ce-04db-4020-b628-9bbd11fc48cc",
+        "question": "Is the bidder capable of delivering training services in one or more of the specified locations (Bonn, Rhein-Sieg-Kreis, Berlin, Munich district)?",
+        "question_type": "text",
+        "context": "The procurement specifies multiple locations of performance in Germany. Bidders should confirm their ability to deliver services at required locations.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395303",
+        "updated_at": "2025-11-10 15:21:31.395304"
+      },
+      {
+        "id": "2dbb74ce-37d7-4c53-a368-f7c60d699224",
+        "question": "Has the bidder submitted the completed eligibility questionnaire with all required annexes by the deadline of December 31, 2027, 23:59:00 CET?",
+        "question_type": "text",
+        "context": "The extended deadline for participation applications is December 31, 2027. Late submissions will not be considered for admission to the Dynamic Procurement System.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395308",
+        "updated_at": "2025-11-10 15:21:31.395309"
+      },
+      {
+        "id": "748c63df-7f33-460f-a362-6a6c9130539e",
+        "question": "Can the bidder demonstrate capability to provide training services in various formats including classroom training, blended learning, e-learning, and examinations/certifications?",
+        "question_type": "text",
+        "context": "The Category 5 scope includes market-standard training measures from educational service providers' catalog offerings in different formats for approximately 5,000 potentially trainable employees.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395314",
+        "updated_at": "2025-11-10 15:21:31.395314"
+      },
+      {
+        "id": "f43c15a1-22e3-4f2d-a355-6f06c180f0c2",
+        "question": "Is the bidder registered and capable of using the BWI electronic procurement platform (vergabeplattform.bwi.de) for document access and submission?",
+        "question_type": "text",
+        "context": "All procurement documents are available exclusively through the electronic procurement platform. Bidders must have the technical capability to access and use this platform.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395318",
+        "updated_at": "2025-11-10 15:21:31.395318"
+      },
+      {
+        "id": "72adde23-9292-447a-ad71-5a3680828bf9",
+        "question": "Has the bidder confirmed understanding that there is no purchase obligation from BWI GmbH or the Federal Armed Forces, despite admission to the DBS?",
+        "question_type": "text",
+        "context": "The estimated total value is EUR 2.0 million over the entire term for approximately 5,000 potential trainees, but there is explicitly no obligation to purchase services.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395321",
+        "updated_at": "2025-11-10 15:21:31.395322"
+      },
+      {
+        "id": "583a21a9-0943-47f8-bd5d-6a179165cc97",
+        "question": "Is the bidder prepared to issue electronic invoices as required by the contracting authority?",
+        "question_type": "text",
+        "context": "Electronic invoicing is mandatory for this procurement according to the tender conditions.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395325",
+        "updated_at": "2025-11-10 15:21:31.395325"
+      }
+    ],
+    "conditions": [
+      {
+        "id": "060b6a19-a6e8-4f96-b1ae-d6389ab58072",
+        "condition": "Bidder must not fall under any of the mandatory or optional exclusion grounds specified in \u00a7\u00a7 123, 124, 125, and 126 GWB, including insolvency, criminal offenses, corruption, labor law violations, tax or social security payment defaults",
+        "condition_type": "custom",
+        "context": "This is verified through the mandatory declaration in Annex 7. Any violation of these provisions constitutes grounds for exclusion from the procurement procedure.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395330",
+        "updated_at": "2025-11-10 15:21:31.395330"
+      },
+      {
+        "id": "d5461d0a-f3d0-426e-ad31-f8244c8a6e0b",
+        "condition": "Bidder must meet all eligibility criteria for professional practice, economic and financial capacity, and technical and professional capability as specified in the eligibility questionnaire",
+        "condition_type": "custom",
+        "context": "The eligibility criteria document is available at the provided URL on the procurement platform. All criteria must be fulfilled and documented for admission to the DBS.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395339",
+        "updated_at": "2025-11-10 15:21:31.395339"
+      },
+      {
+        "id": "d6be426d-f13a-4845-86e0-dba771a62e6c",
+        "condition": "Participation applications must be submitted electronically through the BWI procurement platform (vergabeplattform.bwi.de) by December 31, 2027, 23:59:00 CET",
+        "condition_type": "custom",
+        "context": "The deadline has been extended as per the modification notice. Electronic submission through the specified platform is mandatory; other submission methods are not permitted.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395343",
+        "updated_at": "2025-11-10 15:21:31.395343"
+      },
+      {
+        "id": "bebaba43-1d69-4c80-924d-7c09324bbb06",
+        "condition": "All submissions must be in German language",
+        "condition_type": "custom",
+        "context": "The procurement specifies German (DEU) as the only official language for tender documents and submissions.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395347",
+        "updated_at": "2025-11-10 15:21:31.395347"
+      },
+      {
+        "id": "f7324a84-9f96-494e-8d1b-64e82e82ef4a",
+        "condition": "Bidder must provide training services that contribute to methodological and complementary (non-IT) competencies for employee development",
+        "condition_type": "custom",
+        "context": "The scope is limited to Category 5 services: complementary and methodological competencies in non-IT technical areas, covering personal, social, and methodological competency development.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395350",
+        "updated_at": "2025-11-10 15:21:31.395350"
+      },
+      {
+        "id": "c1bb3cd4-d3f6-41cf-b6c8-33ee20145e83",
+        "condition": "Bidder must be capable of delivering services in at least one of the specified performance locations in Germany (Bonn, Rhein-Sieg-Kreis, Berlin, or Munich district)",
+        "condition_type": "custom",
+        "context": "Multiple locations are specified for service delivery. Geographic capability must be demonstrated as part of technical competence.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395354",
+        "updated_at": "2025-11-10 15:21:31.395354"
+      },
+      {
+        "id": "f9118e0a-6ca1-4261-9369-b447c216a725",
+        "condition": "Upon request by the contracting authority, bidder must provide official certifications regarding tax and social security payment compliance from competent authorities",
+        "condition_type": "custom",
+        "context": "The contracting authority reserves the right to request supplementary documentation pursuant to \u00a7 56 VgV / \u00a7 22 Abs. 6 VSVgV after the submission deadline, but there is no entitlement to such requests.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395357",
+        "updated_at": "2025-11-10 15:21:31.395358"
+      },
+      {
+        "id": "13ffa53d-46f9-40e2-9088-74784483c42f",
+        "condition": "Bidder must comply with the procurement procedures under Directive 2014/24/EU, VgV, and the Agreement on Government Procurement (GPA)",
+        "condition_type": "custom",
+        "context": "This procurement falls under EU procurement law and the GPA. The procedure type is restricted (non-open) using a Dynamic Procurement System according to \u00a7 23 Abs. 1 VgV.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:21:31.395361",
+        "updated_at": "2025-11-10 15:21:31.395361"
+      }
+    ],
+    "created_at": "2025-11-10 15:21:31.395590",
+    "updated_at": "2025-11-10 15:21:31.395594"
+  },
+  {
+    "id": "9428b143-08e5-46bf-a612-4b0fee116b8c",
+    "name": "DBS Schulungs- und Trainingsleistungen Compliance Checklist - Kategorie 5",
+    "description": "Compliance-Checkliste f\u00fcr die Teilnahme am Dynamischen Beschaffungssystem (DBS) f\u00fcr Schulungs- und Trainingsleistungen der BWI GmbH, Kategorie 5 (Komplement\u00e4re und methodische Kompetenzen). Umfasst Anforderungen an Bewerbung, Eignung, Qualit\u00e4tssicherung und Leistungserbringung.",
+    "questions": [
+      {
+        "id": "9cfa6af5-47a5-4b60-8298-4cd8f3444a88",
+        "question": "Verf\u00fcgt der Bewerber \u00fcber ein zertifiziertes Qualit\u00e4tsmanagementsystem nach DIN ISO 9001 oder vergleichbar?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Fragebogen zur Eignungspr\u00fcfung ist ein Nachweis \u00fcber ein QM-System DIN ISO 9001 oder vergleichbar erforderlich (Anlage 13). Dies ist ein wesentlicher Eignungsnachweis f\u00fcr die Zulassung zum DBS.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986640",
+        "updated_at": "2025-11-10 15:22:23.986648"
+      },
+      {
+        "id": "3767103e-7367-442f-97ed-ea3d89a057d4",
+        "question": "Verf\u00fcgt der Bewerber \u00fcber ein zertifiziertes Qualit\u00e4tsmanagementsystem nach DIN ISO 29990 oder vergleichbar f\u00fcr Lerndienstleistungen?",
+        "question_type": "text",
+        "context": "F\u00fcr die spezifische Qualit\u00e4tssicherung von Schulungsdienstleistungen wird gem\u00e4\u00df Anlage 16 eine Eigenerkl\u00e4rung zur Bereitschaft gefordert, kategoriebezogene, leistungsspezifische Zertifikate (DIN ISO 29990) vorzulegen.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986662",
+        "updated_at": "2025-11-10 15:22:23.986663"
+      },
+      {
+        "id": "b2cb24ca-642e-4d03-b586-cc18609f81f2",
+        "question": "Kann der Bewerber best\u00e4tigen, dass alle eingesetzten Trainer mindestens 3 Jahre (bzw. 5 Jahre f\u00fcr Kategorie 2) Praxiserfahrung in den betroffenen Fachgebieten haben?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Anlage 1 zur Leistungsbeschreibung m\u00fcssen Trainer grunds\u00e4tzlich mindestens 3 Jahre, in Kategorie 2 mindestens 5 Jahre Praxiserfahrung aufweisen. Dies ist eine Mindestanforderung f\u00fcr die Qualifikation des Lehrpersonals.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986668",
+        "updated_at": "2025-11-10 15:22:23.986668"
+      },
+      {
+        "id": "3b34a502-a6e4-454c-92e3-686d9119242c",
+        "question": "Werden Schulungsma\u00dfnahmen grunds\u00e4tzlich in deutscher Sprache durchgef\u00fchrt und sind alle Trainer deutschsprachig?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Anlage 1, Ziffer 4 erfolgen Schulungsma\u00dfnahmen grunds\u00e4tzlich in deutscher Sprache. Im Fragebogen zur Eignungspr\u00fcfung wird die Best\u00e4tigung f\u00fcr deutschsprachiges Lehrpersonal gefordert.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986672",
+        "updated_at": "2025-11-10 15:22:23.986673"
+      },
+      {
+        "id": "5d9c6770-7150-4b62-af28-64ea86bb2d23",
+        "question": "Verf\u00fcgt der Bewerber \u00fcber eine g\u00fcltige Betriebshaftpflicht- bzw. Berufshaftpflichtversicherung mit ausreichender Deckungssumme?",
+        "question_type": "text",
+        "context": "Ein Nachweis einer Betriebshaftpflicht-/Berufshaftpflichtversicherung (Anlage 11) ist im Rahmen der Eignungspr\u00fcfung einzureichen. Dies dient der Absicherung bei Schadensf\u00e4llen.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986677",
+        "updated_at": "2025-11-10 15:22:23.986677"
+      },
+      {
+        "id": "278a9be7-0fcf-4f4f-bbad-f933d8ed64ad",
+        "question": "Liegt f\u00fcr den Bewerber und alle Mitglieder einer Bewerbergemeinschaft sowie Unterauftragnehmer eine unterzeichnete Vertraulichkeitserkl\u00e4rung vor?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Anlage 4 der Bewerbungsbedingungen muss jeder Bewerber, jedes Mitglied einer Bewerbergemeinschaft und jeder Unterauftragnehmer eine Vertraulichkeitserkl\u00e4rung abgeben und signieren.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986681",
+        "updated_at": "2025-11-10 15:22:23.986681"
+      },
+      {
+        "id": "a20174a2-f357-45c6-a9f4-23a3892c8c6a",
+        "question": "Hat der Bewerber die Verpflichtungserkl\u00e4rung zur Einhaltung des Mindestlohngesetzes (MiLoG) abgegeben?",
+        "question_type": "text",
+        "context": "Anlage 8 der Bewerbungsbedingungen fordert eine Verpflichtungserkl\u00e4rung zur Einhaltung des MiLoG. Diese ist von jedem Bewerber, Mitglied der Bewerbergemeinschaft und Unterauftragnehmer abzugeben.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986684",
+        "updated_at": "2025-11-10 15:22:23.986685"
+      },
+      {
+        "id": "2eea6b02-58e2-4ae5-bd21-6c23d9e30af9",
+        "question": "Liegen f\u00fcr den Bewerber keine zwingenden Ausschlussgr\u00fcnde gem\u00e4\u00df \u00a7\u00a7 123 und 124 GWB vor?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Anlage 7 muss der Bewerber erkl\u00e4ren, dass keine Ausschlussgr\u00fcnde nach \u00a7\u00a7 123, 124 und 125 GWB vorliegen. Dies umfasst u.a. keine rechtskr\u00e4ftigen Verurteilungen wegen Straftaten, ordnungsgem\u00e4\u00dfe Zahlung von Steuern und Sozialabgaben.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986688",
+        "updated_at": "2025-11-10 15:22:23.986688"
+      },
+      {
+        "id": "47020d45-3d44-4022-8ec8-31c34ca18765",
+        "question": "Werden Schulungsunterlagen bei Individuellen Einzelma\u00dfnahmen sp\u00e4testens 14 Tage vor Schulungsbeginn an die Teilnehmer versendet?",
+        "question_type": "text",
+        "context": "Laut Leistungsbeschreibung Kategorie 5, Ziffer 2.2.1 erfolgt bei Individuellen Einzelma\u00dfnahmen der Versand der Teilnehmerunterlagen sp\u00e4testens 14 Tage vor Schulungsbeginn durch den AN.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986692",
+        "updated_at": "2025-11-10 15:22:23.986692"
+      },
+      {
+        "id": "cdc0e225-f6fe-4260-bfe6-7d8b820e57b6",
+        "question": "Wird die Dokumentation (Anwesenheitsnachweis, Anwesenheitsliste, Feedbackb\u00f6gen) innerhalb von 5 Arbeitstagen nach Schulungsende an die BWI Academy \u00fcbermittelt?",
+        "question_type": "text",
+        "context": "Gem\u00e4\u00df Anlage 1 zur Leistungsbeschreibung, Ziffer 2 muss die Dokumentation dem verantwortlichen Ansprechpartner des AG innerhalb von f\u00fcnf Arbeitstagen nach Schulungsende vorliegen.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986695",
+        "updated_at": "2025-11-10 15:22:23.986696"
+      }
+    ],
+    "conditions": [
+      {
+        "id": "b2602af1-79dc-4fa8-9149-bcb1945f9d55",
+        "condition": "Alle Teilnahmeantragsunterlagen m\u00fcssen elektronisch \u00fcber die BWI Vergabeplattform mittels AI Bietercockpit eingereicht werden",
+        "condition_type": "custom",
+        "context": "Gem\u00e4\u00df Bewerbungsbedingungen Ziffer 1.5.1 ist die Abgabe ausschlie\u00dflich elektronisch \u00fcber die BWI Vergabeplattform m\u00f6glich. Teilnahmeantr\u00e4ge in Papierform werden nicht ber\u00fccksichtigt.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986702",
+        "updated_at": "2025-11-10 15:22:23.986702"
+      },
+      {
+        "id": "f63aff9a-eebb-4fcf-9425-c19d76819c70",
+        "condition": "Der Teilnahmeantrag muss mindestens mit einer fortgeschrittenen elektronischen Signatur (Softzertifikat) oder qualifizierten elektronischen Signatur (Signaturkarte) versehen sein",
+        "condition_type": "custom",
+        "context": "Nach Ziffer 1.5.1 der Bewerbungsbedingungen bedarf die form- und fristgebundene \u00dcbermittlung mindestens einer fortgeschrittenen elektronischen Signatur. Einfache elektronische Signaturen (eingescannt) sind nicht zul\u00e4ssig.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986711",
+        "updated_at": "2025-11-10 15:22:23.986711"
+      },
+      {
+        "id": "d4ef34c9-0654-421d-adf4-e7081719e592",
+        "condition": "Bei Bewerbergemeinschaften muss die Bewerbergemeinschaftserkl\u00e4rung (Anlage 5) von allen Mitgliedern signiert bzw. in Textform unterzeichnet sein",
+        "condition_type": "custom",
+        "context": "Gem\u00e4\u00df Ziffer 1.9.1 der Bewerbungsbedingungen ist die Benennung des Bevollm\u00e4chtigten von jedem Mitglied der Bewerbergemeinschaft zu signieren. Die Erkl\u00e4rung gilt f\u00fcr das gesamte Vergabeverfahren fort.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986715",
+        "updated_at": "2025-11-10 15:22:23.986715"
+      },
+      {
+        "id": "005b030e-9033-45ec-ab82-051b42faf5f1",
+        "condition": "Der Bewerber darf keine \u00c4nderungen an den Vergabeunterlagen vornehmen, einschlie\u00dflich des Beif\u00fcgens eigener AGBs oder Vertraulichkeitserkl\u00e4rungen",
+        "condition_type": "custom",
+        "context": "Nach \u00a7 53 Abs. 7 Satz 1 VgV und Ziffer 1.1 der Bewerbungsbedingungen f\u00fchren \u00c4nderungen an Vergabeunterlagen zum Ausschluss. Dies umfasst auch standardisierte Formulierungen wie Copyright-Erkl\u00e4rungen.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986719",
+        "updated_at": "2025-11-10 15:22:23.986719"
+      },
+      {
+        "id": "02f26673-1361-489f-8796-6851986ead0c",
+        "condition": "Bei Einsatz von Unterauftragnehmern m\u00fcssen f\u00fcr diese die Erkl\u00e4rung gem. \u00a7\u00a7 123, 124 GWB (Anlage 7), Verpflichtungserkl\u00e4rung MiLoG (Anlage 8), Vertraulichkeitserkl\u00e4rung (Anlage 4) und Verpflichtungserkl\u00e4rung des UAN (Anlage 9) vorliegen",
+        "condition_type": "custom",
+        "context": "Gem\u00e4\u00df Ziffer 1.9.2 der Bewerbungsbedingungen sind bei Unterauftragnehmern umfassende Erkl\u00e4rungen und Nachweise einzureichen, insbesondere zum Nachweis des Nichtvorliegens von Ausschlussgr\u00fcnden.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986723",
+        "updated_at": "2025-11-10 15:22:23.986723"
+      },
+      {
+        "id": "38106e7c-76dd-47d4-b8ca-213b270208a2",
+        "condition": "Die Pr\u00fcfung des Teilnahmeantrags erfolgt innerhalb von 10 Arbeitstagen, im initialen Teilnahmewettbewerb innerhalb von 15 Arbeitstagen nach Eingang",
+        "condition_type": "custom",
+        "context": "Nach Ziffer 1.4.3 der Bewerbungsbedingungen und \u00a7 24 Abs. 3 VgV wird die Pr\u00fcffrist im initialen Teilnahmewettbewerb auf 15 Arbeitstage verl\u00e4ngert. In begr\u00fcndeten Einzelf\u00e4llen kann die Frist verl\u00e4ngert werden.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986727",
+        "updated_at": "2025-11-10 15:22:23.986727"
+      },
+      {
+        "id": "22608693-53d6-4347-bc42-08592d6870aa",
+        "condition": "Bewerberfragen m\u00fcssen beim initialen Teilnahmewettbewerb sp\u00e4testens 10 Arbeitstage vor Ende der Teilnahmefrist \u00fcber das Template (Anlage 1) eingereicht werden",
+        "condition_type": "custom",
+        "context": "Gem\u00e4\u00df Ziffer 1.4.4 der Bewerbungsbedingungen k\u00f6nnen Bewerberfragen bis sp\u00e4testens 10 Arbeitstage vor Ende der Teilnahmefrist eingereicht werden. Sp\u00e4ter eingehende Fragen k\u00f6nnen m\u00f6glicherweise nicht rechtzeitig beantwortet werden.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986731",
+        "updated_at": "2025-11-10 15:22:23.986731"
+      },
+      {
+        "id": "bc536608-f3ce-4231-b283-4c0e9323712f",
+        "condition": "Bei BWI-spezifischen Ma\u00dfnahmen und Exklusiv-Ma\u00dfnahmen mit Schulungsreihen ist Kontinuit\u00e4t durch Einsatz desselben Trainers bzw. eines fest zugeordneten Trainerpools zu gew\u00e4hrleisten",
+        "condition_type": "custom",
+        "context": "Laut Anlage 1 zur Leistungsbeschreibung, Ziffer 3 ist bei Schulungsreihen ein und derselbe Trainer bzw. ein fest zugeordneter Trainerpool einzusetzen, um konzeptionelle, didaktische und methodische Kontinuit\u00e4t zu wahren.",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:22:23.986734",
+        "updated_at": "2025-11-10 15:22:23.986734"
+      }
+    ],
+    "created_at": "2025-11-10 15:22:23.986957",
+    "updated_at": "2025-11-10 15:22:23.986958"
+  },
+  {
+    "id": "f4bb0f8b-924c-4d42-aa03-0fef4f95ba59",
+    "name": "Eignungspr\u00fcfung f\u00fcr Schulungs- und Trainingsleistungen Kategorie 5 - DBS Compliance Checklist",
+    "description": "Compliance checklist for eligibility verification of training and education service providers applying to a Dynamic Procurement System (DBS) for Category 5 training services. This covers mandatory exclusion criteria including legal, financial, quality management, and operational requirements.",
+    "questions": [
+      {
+        "id": "a6b312fe-9aea-4009-bde3-1063c652d59f",
+        "question": "Ist ein aktueller Handelsregisterauszug (nicht \u00e4lter als 6 Monate) f\u00fcr das Unternehmen bzw. jedes Mitglied einer Bietergemeinschaft vorhanden und als Anlage 10 beigef\u00fcgt?",
+        "question_type": "text",
+        "context": "Der Auszug muss zum Zeitpunkt der Vorlage maximal 6 Monate alt sein. Bei Bietergemeinschaften muss jedes Mitglied und jeder wesentliche UAN eine eigene Erkl\u00e4rung abgeben (nummeriert als Anlage 10a, 10b, etc.).",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156166",
+        "updated_at": "2025-11-10 15:23:07.156169"
+      },
+      {
+        "id": "056edc57-4ac9-48e5-b148-303534c389bc",
+        "question": "Besteht eine Betriebshaftpflicht-/Berufshaftpflichtversicherung mit Deckungssummen von mindestens 500.000 Euro f\u00fcr Sach- und Personensch\u00e4den sowie 500.000 Euro f\u00fcr Verm\u00f6genssch\u00e4den je Schadensereignis?",
+        "question_type": "text",
+        "context": "Der Nachweis muss durch Kopie/Auszug der Versicherungspolice als Anlage 11 erbracht werden. Bei Bietergemeinschaften muss jedes Mitglied eine eigene Versicherungsbest\u00e4tigung vorlegen.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156180",
+        "updated_at": "2025-11-10 15:23:07.156181"
+      },
+      {
+        "id": "5994fa74-b6bf-42ef-9de6-59f612990477",
+        "question": "Liegt eine Bonit\u00e4tsauskunft einer Wirtschaftsauskunftei vor, die eine mindestens 'befriedigende bzw. noch gute Bonit\u00e4t' bescheinigt und nicht \u00e4lter als 6 Monate ist?",
+        "question_type": "text",
+        "context": "Bei Creditreform w\u00fcrden die Risikoklassen I, II, III die Anforderungen erf\u00fcllen. Der Bonit\u00e4tsindex muss angegeben werden. Als Anlage 12 einzureichen, bei Bietergemeinschaften nummeriert als 12a, 12b, etc.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156186",
+        "updated_at": "2025-11-10 15:23:07.156186"
+      },
+      {
+        "id": "34652e4a-ee62-4fdc-a619-286636d1e991",
+        "question": "Ist ein Qualit\u00e4tsmanagementsystem nach DIN EN ISO 9001 zertifiziert oder liegt eine gleichwertige Zertifizierung bzw. eine Eigenerkl\u00e4rung vor, die alle sieben geforderten Aspekte des Qualit\u00e4tsmanagements abdeckt?",
+        "question_type": "text",
+        "context": "Geforderte Aspekte: 1) Kundenorientierung, 2) Verantwortlichkeit der F\u00fchrung, 3) Einbeziehung der beteiligten Personen, 4) Prozessorientierter und systemorientierter Ansatz, 5) Kontinuierliche Verbesserung, 6) Sachbezogene Entscheidungsfindung, 7) Lieferantenbeziehungen. Zertifikat muss zum Zeitpunkt der Abgabefrist g\u00fcltig sein. Als Anlage 13 einzureichen.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156190",
+        "updated_at": "2025-11-10 15:23:07.156190"
+      },
+      {
+        "id": "ff6854ef-5eb0-40b6-9a7f-1a98cc4a08c3",
+        "question": "K\u00f6nnen mindestens drei Referenzen f\u00fcr exklusive/kundenspezifische Schulungen aus den Jahren 2016-2018 nachgewiesen werden, die alle geforderten Angaben enthalten?",
+        "question_type": "text",
+        "context": "Jede Referenz muss enthalten: Inhalt/Themenschwerpunkt, Zeitraum/Ausf\u00fchrungstermin, Anzahl geschulter Teilnehmer/Schulungstage, Ma\u00dfnahmenvolumen in Euro, Angaben zum Auftraggeber inkl. Ansprechpartner. Mindestens zwei der drei Referenzen m\u00fcssen f\u00fcr unterschiedliche Referenzgeber erbracht worden sein. Referenztemplate (Anlage 2) verwenden.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156194",
+        "updated_at": "2025-11-10 15:23:07.156194"
+      },
+      {
+        "id": "8f983f1f-a8cc-4f42-b009-e9bd3c9b7615",
+        "question": "Wird best\u00e4tigt, dass alle zur Leistungserbringung eingesetzten Lehrpersonale die deutsche Sprache in Wort und Schrift flie\u00dfend beherrschen?",
+        "question_type": "text",
+        "context": "Dies umfasst auch alle etwaig zu erstellenden technischen Dokumentationen oder \u00e4hnliche Unterlagen, die nicht bereits vorhanden sind.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156198",
+        "updated_at": "2025-11-10 15:23:07.156198"
+      },
+      {
+        "id": "d4fd8e00-a7cd-4e08-955a-7d363ffbcff7",
+        "question": "Liegt eine vollst\u00e4ndige Unternehmensdarstellung vor, die alle geforderten Informationen enth\u00e4lt?",
+        "question_type": "text",
+        "context": "Erforderlich sind: Liste der Unternehmens- und Schulungsstandorte, Beschreibung der Organisation (Struktur, Personalumfang, Anzahl Trainer insgesamt/f\u00fcr den Themenbereich), Beschreibung des gesamten Leistungsportfolios mit Schwerpunkten f\u00fcr den geforderten Themenbereich. Als Anlage 14 einzureichen.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156202",
+        "updated_at": "2025-11-10 15:23:07.156202"
+      },
+      {
+        "id": "3c331463-8719-49ba-8ce0-2927eaa79bc2",
+        "question": "Ist ein Qualit\u00e4tsmanagementsystem f\u00fcr Lerndienstleister nach DIN ISO 29990 zertifiziert oder liegt eine entsprechende Eigenerkl\u00e4rung vor, die alle elf geforderten Aspekte abdeckt?",
+        "question_type": "text",
+        "context": "Geforderte Aspekte: 1) Bestimmen des Lernbedarfs, 2) Gestalten, Erbringen und Monitoring von Lerndienstleistungen, 3) Evaluation, 4) Allgemeine Managementanforderungen, 5) Strategie und Unternehmensmanagement, 6) Vorbeugende und Korrekturma\u00dfnahmen, 7) Finanz- und Risikomanagement, 8) Personal- und Kommunikationsmanagement, 9) Ressourcenbereitstellung, 10) Interne Audits, 11) Feedback von interessierten Parteien. Als Anlage 16 einzureichen.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156205",
+        "updated_at": "2025-11-10 15:23:07.156206"
+      },
+      {
+        "id": "ba259fed-a403-4f6f-ad4b-60cfde582189",
+        "question": "Wurde eine Eigenerkl\u00e4rung zur Bereitschaft abgegeben, leistungsspezifische Zertifizierungen im Rahmen von Miniwettbewerben zu erbringen?",
+        "question_type": "text",
+        "context": "Der Bieter muss best\u00e4tigen, dass die im Miniwettbewerb zus\u00e4tzlich erforderlichen, leistungsspezifischen Zertifizierungen Bestandteil der Angebotsbewertung sein werden. Als Anlage 15 einzureichen.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156209",
+        "updated_at": "2025-11-10 15:23:07.156209"
+      },
+      {
+        "id": "a6229bd5-3755-415e-acb0-00ac0ff9f9ca",
+        "question": "Sind alle Antworten korrekt in das Antwortenfeld des Fragebogens \u00fcbertragen und ist der Fragebogen mit Datum, Unterschrift und Firmenstempel versehen?",
+        "question_type": "text",
+        "context": "Mit Unterzeichnung best\u00e4tigt der Bieter die Richtigkeit der von ihm gemachten Angaben. Dies ist eine formale Voraussetzung f\u00fcr die G\u00fcltigkeit der Einreichung.",
+        "options": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156212",
+        "updated_at": "2025-11-10 15:23:07.156213"
+      }
+    ],
+    "conditions": [
+      {
+        "id": "c9616aa0-2daa-487a-80ba-7b452ce7c9d7",
+        "condition": "Handelsregisterauszug nicht \u00e4lter als 6 Monate zum Zeitpunkt der Vorlage",
+        "condition_type": "custom",
+        "context": "Ausschlusskriterium A 1.1.1.1 - Bei Bietergemeinschaften muss jedes Mitglied und jeder wesentliche UAN einen eigenen Auszug vorlegen",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156216",
+        "updated_at": "2025-11-10 15:23:07.156217"
+      },
+      {
+        "id": "e36528a9-2742-49e6-882f-b2c8539f8cff",
+        "condition": "Haftpflichtversicherung mit Mindestdeckungssummen von 500.000 Euro f\u00fcr Sach-/Personensch\u00e4den und 500.000 Euro f\u00fcr Verm\u00f6genssch\u00e4den je Schadensereignis",
+        "condition_type": "custom",
+        "context": "Ausschlusskriterium A 1.1.1.2 - Nachweis durch Versicherungsbescheinigung erforderlich",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156223",
+        "updated_at": "2025-11-10 15:23:07.156223"
+      },
+      {
+        "id": "f4c1cddc-e656-4ad0-ad52-8db32127fd95",
+        "condition": "Bonit\u00e4tsnachweis nicht \u00e4lter als 6 Monate mit mindestens 'befriedigender bzw. noch guter Bonit\u00e4t' (z.B. Creditreform Risikoklassen I, II, III)",
+        "condition_type": "custom",
+        "context": "Ausschlusskriterium A 1.1.1.3 - Auskunft einer Wirtschaftsauskunftei erforderlich",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156226",
+        "updated_at": "2025-11-10 15:23:07.156226"
+      },
+      {
+        "id": "a2982eca-159b-4d2b-b95b-f4fa1d22ec2c",
+        "condition": "G\u00fcltiges Qualit\u00e4tsmanagementsystem-Zertifikat nach DIN EN ISO 9001 oder gleichwertige Zertifizierung oder vollst\u00e4ndige Eigenerkl\u00e4rung zu allen sieben QM-Aspekten",
+        "condition_type": "custom",
+        "context": "Ausschlusskriterium A 1.1.1.4 - Zertifikat muss zum Zeitpunkt der Abgabefrist g\u00fcltig sein",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156230",
+        "updated_at": "2025-11-10 15:23:07.156230"
+      },
+      {
+        "id": "5c52a9f1-3106-42ce-8b70-c3e3fa3a94cd",
+        "condition": "Mindestens drei vollst\u00e4ndige Referenzen aus den Jahren 2016-2018 f\u00fcr exklusive/kundenspezifische Schulungen, wobei mindestens zwei Referenzen von unterschiedlichen Auftraggebern stammen m\u00fcssen",
+        "condition_type": "custom",
+        "context": "Ausschlusskriterium A 1.1.1.5 - Referenzen m\u00fcssen sich auf unterschiedliche Projekte beziehen und alle geforderten Angaben enthalten (Inhalt, Zeitraum, Teilnehmerzahl/Schulungstage, Volumen, Auftraggeber)",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156233",
+        "updated_at": "2025-11-10 15:23:07.156233"
+      },
+      {
+        "id": "5041c46f-da77-4e18-be5b-7ce8f359d646",
+        "condition": "G\u00fcltiges Qualit\u00e4tsmanagementsystem f\u00fcr Lerndienstleister nach DIN ISO 29990 oder gleichwertige Zertifizierung oder vollst\u00e4ndige Eigenerkl\u00e4rung zu allen elf QM-Aspekten",
+        "condition_type": "custom",
+        "context": "Ausschlusskriterium A 1.1.1.9 - Spezifisches QM-System f\u00fcr Aus- und Weiterbildung erforderlich",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156237",
+        "updated_at": "2025-11-10 15:23:07.156237"
+      },
+      {
+        "id": "3e79ca64-5469-4f78-bdbd-632ba85dc9f7",
+        "condition": "Alle zur Leistungserbringung eingesetzten Lehrpersonale beherrschen die deutsche Sprache flie\u00dfend in Wort und Schrift",
+        "condition_type": "custom",
+        "context": "Ausschlusskriterium A 1.1.1.6 - Gilt auch f\u00fcr alle zu erstellenden Unterlagen und technischen Dokumentationen",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156240",
+        "updated_at": "2025-11-10 15:23:07.156240"
+      },
+      {
+        "id": "054cd8d2-94d9-4099-998a-e69f4e1645ec",
+        "condition": "Vollst\u00e4ndige Unternehmensdarstellung mit allen drei geforderten Komponenten: Standorte, Organisationsstruktur und Leistungsportfolio",
+        "condition_type": "custom",
+        "context": "Ausschlusskriterium A 1.1.1.7 - Muss spezifische Angaben zu Schulungsstandorten, Personalumfang, Traineranzahl und Themenschwerpunkten enthalten",
+        "parameters": null,
+        "required": true,
+        "order": 0,
+        "created_at": "2025-11-10 15:23:07.156244",
+        "updated_at": "2025-11-10 15:23:07.156244"
+      }
+    ],
+    "created_at": "2025-11-10 15:23:07.156460",
+    "updated_at": "2025-11-10 15:23:07.156461"
   }
 ]

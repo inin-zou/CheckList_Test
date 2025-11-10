@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { FileUploader } from "@/components/file-uploader"
 import { FrostedCard } from "@/components/frosted-card"
+import GlassSurface from "@/components/GlassSurface"
 import { Button } from "@/components/ui/button"
 import { FileText, Download, Trash2 } from "lucide-react"
 
@@ -26,10 +27,11 @@ export default function UserDocumentsPage() {
       const response = await fetch("/api/files/list/user")
       if (response.ok) {
         const data = await response.json()
-        setFiles(data)
+        setFiles(Array.isArray(data.files) ? data.files : [])
       }
     } catch (error) {
       console.error("[v0] Failed to fetch files:", error)
+      setFiles([])
     } finally {
       setLoading(false)
     }
@@ -59,25 +61,45 @@ export default function UserDocumentsPage() {
       <h1 className="text-4xl font-bold mb-2">User Documents</h1>
       <p className="text-muted-foreground mb-8">Upload and manage user documents for verification</p>
 
-      <div className="mb-8">
-        <FileUploader collectionType="user" onUploadSuccess={fetchFiles} />
-      </div>
+      <GlassSurface
+        width={800}
+        height={200}
+        borderRadius={24}
+        displace={10}
+        distortionScale={-150}
+        brightness={65}
+        opacity={0.85}
+        className="mb-8"
+      >
+        <div className="p-6">
+          <FileUploader collectionType="user" onUploadSuccess={fetchFiles} />
+        </div>
+      </GlassSurface>
 
       <div>
         <h2 className="text-2xl font-semibold mb-4">Uploaded Files</h2>
         {loading ? (
-          <FrostedCard className="p-8 text-center">
+          <GlassSurface width={800} height={120} borderRadius={20} className="p-8 text-center">
             <p className="text-muted-foreground">Loading files...</p>
-          </FrostedCard>
+          </GlassSurface>
         ) : files.length === 0 ? (
-          <FrostedCard className="p-8 text-center">
+          <GlassSurface width={800} height={180} borderRadius={20} className="p-8 text-center">
             <FileText className="h-12 w-12 mx-auto mb-4 text-muted-foreground" />
             <p className="text-muted-foreground">No files uploaded yet</p>
-          </FrostedCard>
+          </GlassSurface>
         ) : (
           <div className="space-y-3">
             {files.map((file) => (
-              <FrostedCard key={file.pdf_uuid} className="p-4">
+              <GlassSurface
+                key={file.pdf_uuid}
+                width={800}
+                height={100}
+                borderRadius={16}
+                displace={8}
+                brightness={60}
+                opacity={0.9}
+                className="p-4"
+              >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
                     <FileText className="h-8 w-8 text-cyan-500" />
@@ -95,7 +117,7 @@ export default function UserDocumentsPage() {
                     </Button>
                   </div>
                 </div>
-              </FrostedCard>
+              </GlassSurface>
             ))}
           </div>
         )}

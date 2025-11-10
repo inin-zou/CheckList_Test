@@ -7,8 +7,9 @@ import { Input } from "@/components/ui/input"
 import { Plus, Trash2, Save, X } from "lucide-react"
 
 interface Template {
-  id: number
-  template_name: string
+  id: string
+  name: string
+  description?: string
   created_at: string
 }
 
@@ -41,7 +42,7 @@ export default function TemplatesPage() {
       const response = await fetch("/api/checklist/templates", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ template_name: templateName }),
+        body: JSON.stringify({ name: templateName }),
       })
       if (response.ok) {
         setTemplateName("")
@@ -53,7 +54,7 @@ export default function TemplatesPage() {
     }
   }
 
-  const handleDelete = async (id: number) => {
+  const handleDelete = async (id: string) => {
     if (!confirm("Are you sure you want to delete this template?")) return
 
     try {
@@ -130,7 +131,10 @@ export default function TemplatesPage() {
             <FrostedCard key={template.id} className="p-6">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
-                  <h3 className="font-semibold mb-2">{template.template_name}</h3>
+                  <h3 className="font-semibold mb-2">{template.name}</h3>
+                  {template.description && (
+                    <p className="text-sm text-muted-foreground mb-2">{template.description}</p>
+                  )}
                   <p className="text-sm text-muted-foreground">
                     Created: {new Date(template.created_at).toLocaleDateString()}
                   </p>

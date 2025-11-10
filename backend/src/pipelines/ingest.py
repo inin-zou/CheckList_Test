@@ -16,12 +16,36 @@ class IngestionPipeline:
     """Pipeline for ingesting and processing documents"""
     
     def __init__(self):
-        """Initialize the ingestion pipeline with required services."""
-        logger.info("Initializing ingestion pipeline")
-        self.parser = DocumentParser()
-        self.embedding_service = get_embedding_service()
-        self.vector_db = get_vector_db()
+        """Initialize the ingestion pipeline with lazy loading of services."""
+        logger.info("Initializing ingestion pipeline (lazy loading enabled)")
+        self._parser = None
+        self._embedding_service = None
+        self._vector_db = None
         logger.info("Ingestion pipeline initialized")
+    
+    @property
+    def parser(self):
+        """Lazy load document parser."""
+        if self._parser is None:
+            logger.info("Loading document parser")
+            self._parser = DocumentParser()
+        return self._parser
+    
+    @property
+    def embedding_service(self):
+        """Lazy load embedding service."""
+        if self._embedding_service is None:
+            logger.info("Loading embedding service")
+            self._embedding_service = get_embedding_service()
+        return self._embedding_service
+    
+    @property
+    def vector_db(self):
+        """Lazy load vector database."""
+        if self._vector_db is None:
+            logger.info("Loading vector database")
+            self._vector_db = get_vector_db()
+        return self._vector_db
     
     async def process_file(self, file_path: str, collection_type: str = "user") -> Dict[str, Any]:
         """Process a single PDF file through the ingestion pipeline.

@@ -7,9 +7,10 @@ from ..models.checklist import (
     CreateConditionRequest, UpdateConditionRequest,
     CreateChecklistRequest, RunChecklistRequest
 )
-from ..services.storage import get_storage_service, StorageService
+from ..services.storage import StorageService, get_storage_service
 from ..services.claude import get_claude_service, ClaudeService
 from ..services.vector_db import get_vector_db
+from ..services.checklist_generator import get_checklist_generator, ChecklistGeneratorService
 from pathlib import Path
 
 router = APIRouter()
@@ -323,3 +324,83 @@ async def get_result(
     if not result:
         raise HTTPException(status_code=404, detail="Result not found")
     return result
+
+
+@router.post("/batch-generate-templates")
+async def batch_generate_templates(
+    collection_type: str = "checklist",
+    generator: ChecklistGeneratorService = Depends(get_checklist_generator),
+    storage: StorageService = Depends(get_storage_service)
+):
+    """Batch generate checklist templates for all uploaded files that don't have templates yet.
+    
+    Args:
+        collection_type: 'checklist' or 'user' - which collection to process
+    
+    Returns:
+        Summary of generated templates
+    """
+    from ..services.vector_db import get_vector_db
+    
+    vector_db = get_vector_db()
+    
+    # Get all files from the specified collection
+    files = vector_db.list_files(collection_type=collection_type)
+    
+    if not files:
+        return {
+            "message": "No files found",
+            "total_files": 0,
+            "generated_count": 0,
+            "skipped_count": 0,
+            "templates": []
+        }
+    
+    # Generate templates for all files without checking existing templates
+    # Each file will get a new template generated
+    generated_templates = []
+    skipped_files = []
+    
+    for file_info in files:
+        filename = file_info["filename"]
+        
+        try:
+            # Get document content from vector database
+            document_content = vector_db.get_document_content(
+                filename=filename,
+                collection_type=collection_type
+            )
+            
+            if not document_content:
+                skipped_files.append(filename)
+                continue
+            
+            # Generate checklist template from content
+            template = await generator.generate_checklist_from_content(
+                document_content=document_content,
+                filename=filename
+            )
+            
+            # Save the generated template
+            saved_template = storage.create_template(template)
+            generated_templates.append({
+                "template_id": saved_template.id,
+                "filename": filename,
+                "questions_count": len(saved_template.questions),
+                "conditions_count": len(saved_template.conditions)
+            })
+            
+        except Exception as e:
+            # Log error but continue processing other files
+            import logging
+            logging.error(f"Error generating template for {filename}: {str(e)}")
+            skipped_files.append(filename)
+    
+    return {
+        "message": f"Batch processing complete",
+        "total_files": len(files),
+        "generated_count": len(generated_templates),
+        "skipped_count": len(skipped_files),
+        "templates": generated_templates,
+        "skipped_files": skipped_files
+    }

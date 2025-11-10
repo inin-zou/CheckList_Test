@@ -26,8 +26,8 @@ export default function ChecklistDocumentsPage() {
       const response = await fetch("/api/files/list/checklist")
       if (response.ok) {
         const data = await response.json()
-        // Ensure data is an array before setting it
-        setFiles(Array.isArray(data) ? data : [])
+        // Ensure data.files is an array before setting it
+        setFiles(Array.isArray(data.files) ? data.files : [])
       } else {
         setFiles([])
       }

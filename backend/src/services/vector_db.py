@@ -21,8 +21,17 @@ class WeaviateService:
     USER_DOCUMENT_COLLECTION = "UserDocuments"
     
     def __init__(self):
-        """Initialize Weaviate client and create schemas if needed."""
-        logger.info("Initializing Weaviate service with dual collections")
+        """Initialize Weaviate service with lazy connection."""
+        logger.info("Initializing Weaviate service (lazy mode)")
+        self.client = None
+        self._initialized = False
+    
+    def _connect(self):
+        """Establish connection to Weaviate (lazy initialization)."""
+        if self._initialized:
+            return
+            
+        logger.info("Connecting to Weaviate...")
         settings = get_settings()
         
         # Connect to Weaviate
@@ -41,9 +50,7 @@ class WeaviateService:
                 self.client = weaviate.connect_to_local(host=url_without_protocol)
         
         logger.info("Connected to Weaviate")
-        
-        # Create collections if they don't exist
-        self._ensure_collections()
+        self._initialized = True
     
     def _ensure_collections(self):
         """Create collection schemas if they don't exist."""
@@ -126,6 +133,8 @@ class WeaviateService:
         Returns:
             PDF file content as bytes, or None if not found
         """
+        self._connect()
+        self._ensure_collections()
         collection_name = self.CHECKLIST_COLLECTION if collection_type == "checklist" else self.USER_DOCUMENT_COLLECTION
         collection = self.client.collections.get(collection_name)
         
@@ -163,6 +172,8 @@ class WeaviateService:
         Returns:
             List of UUIDs for inserted objects
         """
+        self._connect()
+        self._ensure_collections()
         collection_name = self.CHECKLIST_COLLECTION if collection_type == "checklist" else self.USER_DOCUMENT_COLLECTION
         logger.info(f"Adding {len(chunks)} chunks to {collection_name}: {metadata.get('filename')}")
         
@@ -236,6 +247,8 @@ class WeaviateService:
         Returns:
             List of search results with content and metadata
         """
+        self._connect()
+        self._ensure_collections()
         collection_name = self.CHECKLIST_COLLECTION if collection_type == "checklist" else self.USER_DOCUMENT_COLLECTION
         collection = self.client.collections.get(collection_name)
         
@@ -284,6 +297,8 @@ class WeaviateService:
         Returns:
             Number of objects deleted
         """
+        self._connect()
+        self._ensure_collections()
         collection_name = self.CHECKLIST_COLLECTION if collection_type == "checklist" else self.USER_DOCUMENT_COLLECTION
         logger.info(f"Deleting chunks for file: {filename} from {collection_name}")
         
@@ -295,6 +310,38 @@ class WeaviateService:
         logger.info(f"Deleted {result.successful} chunks for {filename}")
         return result.successful
     
+    def get_document_content(self, filename: str, collection_type: str = "user") -> Optional[str]:
+        """Get the full content of a document by combining all its chunks.
+        
+        Args:
+            filename: Name of the file to retrieve
+            collection_type: 'checklist' or 'user'
+            
+        Returns:
+            Combined content of all chunks, or None if not found
+        """
+        self._connect()
+        self._ensure_collections()
+        collection_name = self.CHECKLIST_COLLECTION if collection_type == "checklist" else self.USER_DOCUMENT_COLLECTION
+        collection = self.client.collections.get(collection_name)
+        
+        # Query all chunks for this file, ordered by chunk_index
+        response = collection.query.fetch_objects(
+            filters=Filter.by_property("filename").equal(filename),
+            limit=10000
+        )
+        
+        if not response.objects:
+            logger.warning(f"No chunks found for file: {filename}")
+            return None
+        
+        # Sort chunks by chunk_index and combine content
+        chunks = sorted(response.objects, key=lambda x: x.properties.get("chunk_index", 0))
+        content = "\n\n".join([chunk.properties.get("content", "") for chunk in chunks])
+        
+        logger.info(f"Retrieved {len(chunks)} chunks for file: {filename}")
+        return content
+    
     def list_files(self, collection_type: str = "user") -> List[Dict[str, Any]]:
         """List all unique files in the database with their metadata.
         
@@ -304,6 +351,8 @@ class WeaviateService:
         Returns:
             List of file metadata
         """
+        self._connect()
+        self._ensure_collections()
         collection_name = self.CHECKLIST_COLLECTION if collection_type == "checklist" else self.USER_DOCUMENT_COLLECTION
         collection = self.client.collections.get(collection_name)
         
@@ -334,6 +383,8 @@ class WeaviateService:
         Args:
             collection_type: 'checklist' or 'user'
         """
+        self._connect()
+        self._ensure_collections()
         collection_name = self.CHECKLIST_COLLECTION if collection_type == "checklist" else self.USER_DOCUMENT_COLLECTION
         logger.warning(f"Clearing all data from {collection_name}")
         collection = self.client.collections.get(collection_name)
