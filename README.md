@@ -74,9 +74,56 @@ Drag-and-drop interface with real-time file preview and glass-styled upload zone
 ![Document Upload](images/documents.png)
 
 ### Analysis Results
-View extracted information and compliance evaluation results with detailed insights.
+View extracted information and compliance evaluation results with detailed insights. The results page displays:
+- Answers to the German test questions (e.g., submission format, bidder question deadlines)
+- Evaluation results for conditions (e.g., whether submission deadline is before 31.12.2025)
+- Detailed insights from document analysis
+
+**Note**: To validate the system, upload your test documents and verify that the results correctly show extracted answers for the pre-configured German questions and true/false evaluations for the date condition.
 
 ![Analysis Results](images/result.png)
+
+## 📋 Test Requirements
+
+This project is designed to process public procurement documents (tender documents) in German. To properly test the system:
+
+### Test Documents
+
+You should provide **three PDF tender documents** for testing. Place them in one of the following locations:
+- `backend/data/storage/` directory (recommended for backend testing)
+- Upload via the web interface at `http://localhost:3001/documents/user`
+
+### Pre-configured Test Questions
+
+The system includes the following German test questions in `backend/data/checklists/questions.json`:
+
+1. **"In welcher Form sind die Angebote/Teilnahmeanträge einzureichen?"**
+   - Translation: "In what form should bids/participation applications be submitted?"
+   - Extracts information about submission format requirements
+
+2. **"Wann ist die Frist für die Einreichung von Bieterfragen?"**
+   - Translation: "When is the deadline for submitting bidder questions?"
+   - Extracts deadline dates for bidder questions
+
+### Pre-configured Test Condition
+
+The system includes the following German test condition in `backend/data/checklists/conditions.json`:
+
+1. **"Ist die Abgabefrist vor dem 31.12.2025?"**
+   - Translation: "Is the submission deadline before 31.12.2025?"
+   - Evaluates whether the submission deadline is before December 31, 2025
+   - Returns true/false based on document analysis
+
+### Validation
+
+After uploading your test documents:
+1. Navigate to the Checklist page
+2. Select a checklist template or create a new one
+3. Run the analysis on your uploaded documents
+4. Verify that the system correctly:
+   - Extracts answers for the German questions
+   - Evaluates the date condition (true/false)
+   - Displays results in the dashboard
 
 ## 🚀 Getting Started
 

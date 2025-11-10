@@ -20,5 +20,27 @@
     "order": 0,
     "created_at": "2025-11-10 12:27:32.605823",
     "updated_at": "2025-11-10 12:27:32.605827"
+  },
+  {
+    "id": "f1a2b3c4-d5e6-7890-abcd-ef1234567890",
+    "question": "In welcher Form sind die Angebote/Teilnahmeanträge einzureichen?",
+    "question_type": "text",
+    "context": "Suchen Sie nach Informationen zur Einreichungsform in der Ausschreibung",
+    "options": null,
+    "required": true,
+    "order": 2,
+    "created_at": "2025-01-10 14:00:00.000000",
+    "updated_at": "2025-01-10 14:00:00.000000"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "question": "Wann ist die Frist für die Einreichung von Bieterfragen?",
+    "question_type": "text",
+    "context": "Suchen Sie nach dem Datum für die Frist der Bieterfragen in der Ausschreibung",
+    "options": null,
+    "required": true,
+    "order": 3,
+    "created_at": "2025-01-10 14:00:00.000000",
+    "updated_at": "2025-01-10 14:00:00.000000"
   }
 ]
