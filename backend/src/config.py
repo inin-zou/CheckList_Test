@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     
     # Anthropic Settings
     anthropic_api_key: str | None = None
-    anthropic_model: str = "claude-3-5-sonnet-20241022"
+    anthropic_model: str = "claude-3-7-sonnet-20250219"
     
     # Weaviate Settings
     weaviate_url: str = "http://localhost:8080"  # Default for local testing
@@ -34,11 +34,6 @@ class Settings(BaseSettings):
     s3_region: str | None = None
     aws_access_key_id: str | None = None
     aws_secret_access_key: str | None = None
-    
-    # Modal Settings
-    modal_environment: str = "main"
-    modal_token_id: str | None = None
-    modal_token_secret: str | None = None
     
     class Config:
         env_file = ".env"

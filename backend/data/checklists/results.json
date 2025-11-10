@@ -76,5 +76,747 @@
     "overall_compliance": false,
     "compliance_percentage": 0.0,
     "created_at": "2025-11-10 12:34:18.782895"
+  },
+  {
+    "id": "06e81677-4fc2-4624-93da-20de7004af63",
+    "checklist_id": "cae10fce-3d8e-412b-a0af-c86f8802eed8",
+    "checklist_name": "DBS Schulungs- und Trainingsleistungen Teilnahmewettbewerb Compliance Checklist",
+    "document_filename": "Bewerbungsbedingungen.pdf",
+    "document_id": null,
+    "answers": [
+      {
+        "question_id": "bfe655f2-9c2c-4095-a556-a2bf5d926536",
+        "question": "Wurde der Teilnahmeantrag ausschlie\u00dflich elektronisch \u00fcber die BWI Vergabeplattform mittels AI Bietercockpit eingereicht?",
+        "answer": "```json\n{\n    \"answer\": \"Information not found\",\n    \"confidence\": \"low\",\n    \"evidence\": \"Das Dokument enth\u00e4lt die formalen Anforderungen f\u00fcr die Einreichung von Teilnahmeantr\u00e4gen, aber keine Informationen dar\u00fcber, ob ein spezifischer Teilnahmeantrag tats\u00e4chlich elektronisch \u00fcber die BWI Vergabeplattform eingereicht wurde. Gem\u00e4\u00df Ziffer 1.5.1: 'Die Abgabe des Teilnahmeantrages ist ausschlie\u00dflich elektronisch \u00fcber die BWI Vergabeplattform nach vorheriger Registrierung m\u00f6glich. Teilnahmeantr\u00e4ge, die in Papierform eingehen, werden bei der Pr\u00fcfung nicht ber\u00fccksichtigt. Die elektronische Abgabe des Teilnahmeantrages erfolgt ausschlie\u00dflich \u00fcber die BWI Vergabeplattform mittels des AI Bietercockpits und keinesfalls auf anderen Wegen (Fax, E-Mail etc.).'\",\n    \"explanation\": \"Das Dokument beschreibt die Bewerbungsbedingungen und Verfahrensanforderungen f\u00fcr ein Dynamisches Beschaffungssystem. Es legt fest, dass Teilnahmeantr\u00e4ge ausschlie\u00dflich elektronisch \u00fcber die BWI Vergabeplattform mittels AI Bietercockpit eingereicht werden m\u00fcssen. Jedoch enth\u00e4lt das Dokument keine Informationen \u00fcber einen konkreten, bereits eingereichten Teilnahmeantrag oder dessen Einreichungsweg. Es handelt sich um ein Ausschreibungsdokument mit Vorgaben, nicht um eine Dokumentation tats\u00e4chlich eingegangener Bewerbungen.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "5363a7ad-44fa-44c5-b881-fe413e919683",
+        "question": "Wurden alle erforderlichen Vordrucke und Erkl\u00e4rungen mit mindestens fortgeschrittener elektronischer Signatur oder in Textform unterzeichnet?",
+        "answer": "```json\n{\n    \"answer\": \"Die Dokumente selbst k\u00f6nnen diese Frage nicht beantworten, da sie nur die Anforderungen beschreiben, aber nicht dokumentieren, ob tats\u00e4chlich eingereichte Bewerbungsunterlagen diese Anforderungen erf\u00fcllen. Das vorliegende Dokument ist eine Vergabeunterlage mit den Bewerbungsbedingungen und beschreibt die ANFORDERUNGEN an die Signatur, enth\u00e4lt jedoch keine tats\u00e4chlichen Bewerbungen oder deren Pr\u00fcfergebnisse.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Ziffer 1.5.1: 'Die form- und fristgebundene \u00dcbermittlung von Unterlagen, insbesondere die \u00dcbermittlung des Teilnahmeantrags, bedarf mindestens einer Unterzeichnung in Textform. Bei Verwendung einer elektronischen Signatur bedarf es einer fortgeschrittenen elektronischen Signatur (mittels Softzertifikat) oder einer qualifizierten elektronischen Signatur (mittels Signaturkarte).' sowie 'Die einfache elektronische Signatur (in eingescannter Form) ist hingegen nicht zul\u00e4ssig.' (Seite unter Anlage 6 der BB)\",\n    \"explanation\": \"Die vorliegende Dokumentation ist eine Ausschreibungsunterlage (Bewerbungsbedingungen f\u00fcr ein Dynamisches Beschaffungssystem), die die ANFORDERUNGEN f\u00fcr Bewerber definiert. Sie enth\u00e4lt keine tats\u00e4chlich eingereichten Bewerbungen oder Pr\u00fcfberichte dar\u00fcber, ob eingereichte Unterlagen diese Anforderungen erf\u00fcllen. Die Frage bezieht sich auf die Erf\u00fcllung der Anforderungen durch tats\u00e4chliche Einreichungen, was nur durch Pr\u00fcfung der konkreten Teilnahmeantr\u00e4ge beantwortet werden k\u00f6nnte.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "2ba86ade-42b0-4b5d-83e6-83e1035e5b25",
+        "question": "Wurde die Vertraulichkeitserkl\u00e4rung (Anlage 4) vom Bewerber sowie allen Mitgliedern der Bewerbergemeinschaft und allen Unterauftragnehmern eingereicht?",
+        "answer": "```json\n{\n    \"answer\": \"Das Dokument beschreibt die Anforderungen, dass die Vertraulichkeitserkl\u00e4rung (Anlage 4) vom Bewerber sowie von allen Mitgliedern der Bewerbergemeinschaft und allen Unterauftragnehmern eingereicht werden muss. Ob diese tats\u00e4chlich eingereicht wurde, kann aus dem vorliegenden Dokument nicht festgestellt werden, da es sich um die Bewerbungsbedingungen und nicht um die Pr\u00fcfung eines konkreten Teilnahmeantrags handelt.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Aus dem Bewerbungsschreiben (Seite 2 von 3): '\u2713 Anlage 4 der BB \u2013 Vertraulichkeitserkl\u00e4rung (falls zutreffend zus\u00e4tzlich auch von UAN und Mitgliedern der Bewerbergemeinschaft auszuf\u00fcllen und zu signieren bzw. in Textform zu zeichnen)'. Aus Ziffer 1.6.1: 'Alle zur Verf\u00fcgung gestellten Informationen unterliegen der Vertraulichkeit. Der Bewerber hat deshalb mit dem Teilnahmeantrag die Vertraulichkeitserkl\u00e4rung (Anlage 4) einzureichen.' Aus Ziffer 2.2.2 unter Unterauftragnehmern: 'e) die Vertraulichkeitserkl\u00e4rung (Anlage 4) der vorgesehenen Unterauftragnehmer'. Aus Anlage 4 selbst: 'Bewerbergemeinschaften / Unterauftragnehmer: Die Vertraulichkeitserkl\u00e4rung ist von jedem Mitglied der Bewerbergemeinschaft / jedem Unterauftragnehmer abzugeben.'\",\n    \"explanation\": \"Das vorliegende Dokument ist ein Vergabe- und Bewerbungsbedingungsdokument, das die Anforderungen f\u00fcr die Teilnahme am dynamischen Beschaffungssystem festlegt. Es beschreibt klar, dass die Vertraulichkeitserkl\u00e4rung (Anlage 4) vom Bewerber, allen Mitgliedern einer Bewerbergemeinschaft und allen Unterauftragnehmern eingereicht werden muss. Das Dokument enth\u00e4lt jedoch keine Informationen \u00fcber einen konkreten eingereichten Teilnahmeantrag oder dessen Pr\u00fcfungsergebnisse. Es handelt sich um Ausschreibungsunterlagen, nicht um eine Bewertung oder Pr\u00fcfung eines spezifischen Angebots.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "f8d572d2-ae44-430b-a14d-14f93f0e004d",
+        "question": "Verf\u00fcgt der Bewerber \u00fcber ein Qualit\u00e4tsmanagementsystem nach DIN ISO 9001 oder vergleichbar?",
+        "answer": "```json\n{\n    \"answer\": \"Die Dokumente fordern den Nachweis eines Qualit\u00e4tsmanagementsystems nach DIN ISO 9001 oder vergleichbar als Eignungsvoraussetzung. Laut Bewerbungsschreiben ist als Anlage 13 der 'Nachweis QM-System DIN ISO 9001 oder vergleichbar' einzureichen. Dies ist ein obligatorisches Eignungskriterium. Ob ein konkreter Bewerber \u00fcber ein solches Zertifikat verf\u00fcgt, l\u00e4sst sich aus den Vergabeunterlagen nicht entnehmen, da diese Information erst mit dem Teilnahmeantrag des Bewerbers eingereicht wird.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Aus dem Bewerbungsschreiben (Seite 2 von 3): 'Elektronisch ausgef\u00fcllter \u201eFragebogen zur Eignungspr\u00fcfung\" inkl. den etwaigen einzureichenden Nachweisen, wie: [...] o Anlage 13 Nachweis QM-System DIN ISO 9001 oder vergleichbar'. Aus der Leistungsbeschreibung, Anlage 1 zur Leistungsbeschreibung, Seite 2: 'Qualit\u00e4tsbezogene Rahmenbedingungen: Der AN f\u00fchrt die beauftragten Schulungsma\u00dfnahmen durch qualifiziertes Personal und mit gr\u00f6\u00dfter Sorgfalt durch.'\",\n    \"explanation\": \"Die Frage zielt darauf ab, ob der Bewerber \u00fcber ein QM-System nach DIN ISO 9001 verf\u00fcgt. Die Vergabeunterlagen machen deutlich, dass dies eine Eignungsanforderung ist und der Nachweis als Anlage 13 mit dem Teilnahmeantrag eingereicht werden muss. Die Unterlagen enthalten jedoch keine Information dar\u00fcber, ob ein konkreter Bewerber dieses Zertifikat besitzt - dies muss der Bewerber selbst nachweisen. Die Anforderung ist klar dokumentiert, aber der tats\u00e4chliche Besitz durch einen Bewerber ist aus den Vergabeunterlagen nicht ersichtlich.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "715b4ca6-9973-46e3-8d98-2b79536244f1",
+        "question": "Wurden die Erkl\u00e4rungen gem\u00e4\u00df \u00a7\u00a7 123, 124 und 125 GWB (Anlage 7) vom Bewerber sowie allen Mitgliedern der Bewerbergemeinschaft und Unterauftragnehmern abgegeben?",
+        "answer": "```json\n{\n    \"answer\": \"Information not found\",\n    \"confidence\": \"low\",\n    \"evidence\": \"Das Dokument enth\u00e4lt die Anforderung zur Abgabe der Erkl\u00e4rung gem\u00e4\u00df \u00a7\u00a7 123, 124 und 125 GWB, aber keine Informationen dar\u00fcber, ob diese tats\u00e4chlich eingereicht wurden. Aus dem Bewerbungsschreiben: '\u2713 Anlage 7 der BB \u2013 Erkl\u00e4rung gem. \u00a7\u00a7 123, 124 und 125 GWB (falls zutreffend zus\u00e4tzlich auch von UAN und Mitgliedern der Bewerbergemeinschaft auszuf\u00fcllen und zu signieren bzw. in Textform zu zeichnen)'. Aus Ziffer 2.2: 'Die Bewerber m\u00fcssen nachweisen, dass keine Ausschlussgr\u00fcnde nach den \u00a7\u00a7 123 und 124 GWB vorliegen [...] Hinsichtlich des Nichtvorliegens von Ausschlussgr\u00fcnden nach den \u00a7\u00a7 123 und 124 GWB m\u00fcssen die geforderten Unterlagen f\u00fcr jedes Mitglied der Bewerbergemeinschaft vorgelegt werden.'\",\n    \"explanation\": \"Das vorliegende Dokument ist die Ausschreibungsunterlage mit den Bewerbungsbedingungen und den erforderlichen Formularen. Es definiert, welche Unterlagen eingereicht werden M\u00dcSSEN (einschlie\u00dflich Anlage 7 - Erkl\u00e4rung gem. \u00a7\u00a7 123, 124, 125 GWB von allen Beteiligten), enth\u00e4lt aber keine Informationen dar\u00fcber, ob ein konkreter Bewerber diese Erkl\u00e4rungen tats\u00e4chlich abgegeben hat. Um diese Frage zu beantworten, m\u00fcsste der tats\u00e4chlich eingereichte Teilnahmeantrag eines spezifischen Bewerbers gepr\u00fcft werden.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "d1c5fa3e-42b9-4b7e-8fca-73a2a9af82c7",
+        "question": "Wurde die Verpflichtungserkl\u00e4rung zur Einhaltung des Mindestlohngesetzes (MiLoG) gem\u00e4\u00df Anlage 8 von allen relevanten Parteien eingereicht?",
+        "answer": "```json\n{\n    \"answer\": \"Information not found\",\n    \"confidence\": \"low\",\n    \"evidence\": \"Das Bewerbungsschreiben listet die erforderlichen Dokumente auf: '\u2713 Anlage 8 der BB \u2013 Verpflichtungserkl\u00e4rung zum MiLoG (falls zutreffend zus\u00e4tzlich auch von UAN und Mitgliedern der Bewerbergemeinschaft auszuf\u00fcllen und zu signieren bzw. in Textform zu zeichnen)'. Die Anlage 8 selbst enth\u00e4lt das Formular f\u00fcr die Verpflichtungserkl\u00e4rung gegen\u00fcber der BWI GmbH zur Einhaltung der Vorschriften des Mindestlohngesetzes (MiLoG) mit dem Hinweis: 'Bei Bewerbergemeinschaften und Einsatz von Unterauftragnehmern: Dieses Formular ist von jedem Mitglied der Bietergemeinschaft / jedem Unterauftragnehmer gesondert abzugeben.'\",\n    \"explanation\": \"Das Dokument beschreibt die Anforderungen zur Einreichung der Verpflichtungserkl\u00e4rung zum MiLoG im Rahmen der Bewerbungsbedingungen f\u00fcr ein Dynamisches Beschaffungssystem. Es handelt sich um Vergabeunterlagen, die die formalen Anforderungen definieren. Das Dokument enth\u00e4lt jedoch keine Informationen dar\u00fcber, ob tats\u00e4chlich Bewerbungen eingegangen sind oder ob die geforderten Verpflichtungserkl\u00e4rungen von konkreten Bewerbern, deren Unterauftragnehmern oder Bewerbergemeinschaftsmitgliedern eingereicht wurden. Die Frage nach der tats\u00e4chlichen Einreichung kann aus den vorliegenden Vergabeunterlagen nicht beantwortet werden.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "98eca765-af3f-4f5d-a6a0-6dfc1fb55298",
+        "question": "Wurden alle Betriebs- oder Gesch\u00e4ftsgeheimnisse im Teilnahmeantrag durch eine separate Auflistung mit genauer Angabe von Unterlage, Seitenzahl und Ziffer deutlich gekennzeichnet?",
+        "answer": "```json\n{\n    \"answer\": \"Diese Frage kann auf Basis des vorliegenden Dokuments nicht beantwortet werden. Das Dokument ist die Ausschreibungsunterlage (Bewerbungsbedingungen, Leistungsbeschreibung etc.) des Auftraggebers, nicht ein eingereichter Teilnahmeantrag eines Bewerbers. Die Frage bezieht sich auf die Kennzeichnung von Betriebs- oder Gesch\u00e4ftsgeheimnissen IN einem Teilnahmeantrag, aber das vorliegende Dokument enth\u00e4lt keine eingereichten Teilnahmeantr\u00e4ge. Es definiert lediglich die Anforderungen, wie Bewerber ihre Geheimnisse kennzeichnen sollen.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Ziffer 1.10 der Bewerbungsbedingungen (Seite 17-18): 'Betriebs- oder Gesch\u00e4ftsgeheimnisse sind in den Teilnahmeantr\u00e4gen daher deutlich zu kennzeichnen, um eine versehentliche Offenlegung durch die Vergabekammer im Falle eines Nachpr\u00fcfungsverfahrens zu vermeiden. Die Kennzeichnung hat durch Beilegung einer Auflistung zu erfolgen, in der die jeweilige Unterlage des Teilnahmeantrages, die Seitenzahl und die Ziffer oder der jeweils geheim zu haltende Inhalt aufgezeigt werden. Ein wie auch immer gearteter pauschaler Hinweis gen\u00fcgt nicht und wird seitens des Auftraggebers nicht ber\u00fccksichtigt.'\",\n    \"explanation\": \"Das vorliegende Dokument ist die Vergabeunterlage des Auftraggebers (BWI GmbH), die die Anforderungen an Bewerber festlegt. Es handelt sich nicht um einen eingereichten Teilnahmeantrag. Die Frage zielt darauf ab, zu pr\u00fcfen, ob in einem konkreten Teilnahmeantrag die Gesch\u00e4ftsgeheimnisse ordnungsgem\u00e4\u00df gekennzeichnet wurden. Da keine Teilnahmeantr\u00e4ge im Dokument enthalten sind, kann diese Frage nicht beantwortet werden. Das Dokument beschreibt nur, WIE die Kennzeichnung zu erfolgen hat, nicht OB sie in einem spezifischen Fall erfolgt ist.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "ec23794f-bb46-4957-ae17-e5eda263458c",
+        "question": "Stellt der Bewerber sicher, dass das eingesetzte Lehrpersonal deutschsprachig ist?",
+        "answer": "```json\n{\n    \"answer\": \"Ja, der Bewerber muss sicherstellen, dass das eingesetzte Lehrpersonal deutschsprachig ist. Gem\u00e4\u00df Anlage 1 zur Leistungsbeschreibung erfolgen Schulungsma\u00dfnahmen grunds\u00e4tzlich in deutscher Sprache, und die Best\u00e4tigung f\u00fcr deutschsprachiges Lehrpersonal ist als Angabe im Fragebogen zur Eignungspr\u00fcfung zu erbringen.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Aus der Leistungsbeschreibung Anlage 1: '4. Sprache: Schulungsma\u00dfnahmen erfolgen grunds\u00e4tzlich in deutscher Sprache. Deutsch ist auch die vorgegebene Sprache f\u00fcr Schulungsunterlagen und Dokumentationen jeder Art.' Aus dem Bewerbungsschreiben: 'Elektronisch ausgef\u00fcllter \\\"Fragebogen zur Eignungspr\u00fcfung\\\" inkl. den etwaigen einzureichenden Nachweisen, wie: [...] o Best\u00e4tigung f\u00fcr deutschsprachiges Lehrpersonal (nur Angabe im Fragebogen)'\",\n    \"explanation\": \"Das Dokument enth\u00e4lt klare Anforderungen zur Sprache der Schulungsma\u00dfnahmen und verlangt eine explizite Best\u00e4tigung im Fragebogen zur Eignungspr\u00fcfung, dass deutschsprachiges Lehrpersonal eingesetzt wird. Dies ist Teil der einzureichenden Unterlagen im Teilnahmeantrag und stellt eine Grundvoraussetzung f\u00fcr die Leistungserbringung dar.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "213933f1-d48f-4195-9bdd-da27bf34bae8",
+        "question": "Verf\u00fcgen die einzusetzenden Trainer \u00fcber mindestens 3 Jahre (Kategorie 2: 5 Jahre) Praxiserfahrung in den betroffenen Fachgebieten?",
+        "answer": "```json\n{\n    \"answer\": \"Ja, gem\u00e4\u00df den Bewerbungsbedingungen m\u00fcssen die einzusetzenden Trainer grunds\u00e4tzlich mindestens 3 Jahre Praxiserfahrung in den betroffenen Fachgebieten verf\u00fcgen. F\u00fcr Kategorie 2 wird explizit eine erh\u00f6hte Anforderung von mindestens 5 Jahren Praxiserfahrung gestellt. Dies stellt eine Grundvoraussetzung dar, die die Trainer erf\u00fcllen m\u00fcssen.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Aus Anlage 1 zur Leistungsbeschreibung, Ziffer 3 'Qualit\u00e4tsbezogene Rahmenbedingungen': 'Die in den beauftragten Schulungen eingesetzten Trainer m\u00fcssen grunds\u00e4tzlich folgende Voraussetzungen erf\u00fcllen: + mindestens 3 Jahre, in der Kategorie 2 mindestens 5 Jahre, Praxiserfahrung in den betroffenen Fachgebieten, + ausgepr\u00e4gte methodische und didaktische Kompetenz, + Auswahl der Trainer nach einem qualit\u00e4tsgesicherten, standardisierten Auswahlverfahren, + hohes Praxis-Verst\u00e4ndnis sowie die F\u00e4higkeit, das Wissen praxisnah und individuell auf die Anforderungen der Teilnehmer angepasst zu vermitteln.'\",\n    \"explanation\": \"Die Dokumentation legt eindeutig fest, dass Trainer mindestens 3 Jahre Praxiserfahrung ben\u00f6tigen, wobei f\u00fcr Kategorie 2 eine Mindesterfahrung von 5 Jahren vorgeschrieben ist. Diese Anforderung ist in den qualit\u00e4tsbezogenen Rahmenbedingungen der Leistungsbeschreibung klar definiert und gilt als grunds\u00e4tzliche Voraussetzung f\u00fcr alle einzusetzenden Trainer.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "ad83c831-2ac1-4e04-821e-0267f6c0960b",
+        "question": "Wurde bei Bewerbergemeinschaften die Erkl\u00e4rung (Anlage 5) von allen Mitgliedern signiert und ein gesch\u00e4ftsf\u00fchrendes Mitglied benannt?",
+        "answer": "```json\n{\n    \"answer\": \"Das Dokument beschreibt die Anforderungen an Bewerbergemeinschaften bez\u00fcglich der Erkl\u00e4rung (Anlage 5), jedoch l\u00e4sst sich nicht feststellen, ob bei konkreten Bewerbungen diese Anforderungen tats\u00e4chlich erf\u00fcllt wurden. Die Unterlagen dokumentieren lediglich die Verfahrensanforderungen, nicht deren Umsetzung durch spezifische Bewerber.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Ziffer 1.9.1: 'Bewerbergemeinschaften haben einen einheitlichen, gemeinsamen Teilnahmeantrag einzureichen und darin die Mitglieder der Bewerbergemeinschaft sowie eines ihrer Mitglieder als Bevollm\u00e4chtigten f\u00fcr die rechtsverbindliche Abgabe des Teilnahmeantrags [...] zu benennen. Diesbez\u00fcglich ist der Vordruck aus der Anlage 5 (Erkl\u00e4rung der Bewerbergemeinschaft) auszuf\u00fcllen, zu signieren und einzureichen.' [...] 'Die Benennung des Bevollm\u00e4chtigten ist von jedem Mitglied der Bewerbergemeinschaft zu signieren.' [...] 'Mit unseren Signaturen/Unterzeichnungen mind. in Textform unter dieser Erkl\u00e4rung erkl\u00e4ren wir zudem, dass - das oben bezeichnete gesch\u00e4ftsf\u00fchrende Mitglied die Bewerbergemeinschaftsmitglieder gegen\u00fcber der Vergabestelle und des Auftraggebers rechtsverbindlich vertritt.'\",\n    \"explanation\": \"Das Dokument enth\u00e4lt die Bewerbungsbedingungen und Verfahrensvorschriften f\u00fcr das Dynamische Beschaffungssystem. Es spezifiziert eindeutig die Anforderungen an Bewerbergemeinschaften (Anlage 5 muss von allen Mitgliedern signiert werden und ein gesch\u00e4ftsf\u00fchrendes Mitglied als Bevollm\u00e4chtigter benannt werden). Jedoch handelt es sich um ein Ausschreibungsdokument, das die Anforderungen festlegt, nicht um eine Dokumentation \u00fcber eingegangene Bewerbungen oder deren Pr\u00fcfung. Die Frage, ob bei konkreten Bewerbergemeinschaften diese Anforderungen erf\u00fcllt wurden, kann auf Basis dieses Dokuments nicht beantwortet werden.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      }
+    ],
+    "evaluations": [
+      {
+        "condition_id": "eb9ac87b-3f07-4444-ae5c-fd0d1531d568",
+        "condition": "Der Teilnahmeantrag muss innerhalb der in der EU-Bekanntmachung aufgezeigten Teilnahmefrist elektronisch \u00fcber die BWI Vergabeplattform eingereicht werden.",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "6549791d-4c71-4791-b5c2-f62bce69480f",
+        "condition": "Es d\u00fcrfen keine \u00c4nderungen an den Vergabeunterlagen vorgenommen werden, einschlie\u00dflich des Beif\u00fcgens von Bewerber-AGBs oder standardisierten Formulierungen zur Wahrung von Schutzrechten.",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "5edeabdd-96fa-40e6-aa41-0e33d15972ec",
+        "condition": "Der Bewerber muss nachweisen, dass keine zwingenden Ausschlussgr\u00fcnde nach \u00a7\u00a7 123 und 124 GWB vorliegen und alle A-Kriterien (Ausschlusskriterien) erf\u00fcllt sind.",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "c115c920-946d-49cc-a1fc-3f1428cf046d",
+        "condition": "Bei Unterauftragsvergabe m\u00fcssen alle Unterauftragnehmer mit Namen, Anschrift und Firmensitz benannt werden und entsprechende Erkl\u00e4rungen (Anlagen 7, 8, 9) sowie Nachweise zur Eignung beif\u00fcgen.",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "1b458ad9-966e-4361-93c9-c0604f2f58d3",
+        "condition": "Der Bewerber muss \u00fcber eine Betriebshaftpflicht-/Berufshaftpflichtversicherung verf\u00fcgen und einen entsprechenden Nachweis (Anlage 11) vorlegen.",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "eaec156c-fd05-421b-906b-e51a59c1d2f7",
+        "condition": "Alle Teilnahmeantragsunterlagen und der sonstige Schriftverkehr m\u00fcssen in deutscher Sprache abgefasst sein (technische Fachbegriffe k\u00f6nnen in Englisch formuliert sein).",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "33410609-56cd-4efe-be9c-400edf0118e1",
+        "condition": "Bei Bewerbergemeinschaften m\u00fcssen alle Mitglieder f\u00fcr die Vertragserf\u00fcllung als Gesamtschuldner haften und dies in der Bewerbergemeinschaftserkl\u00e4rung (Anlage 5) best\u00e4tigen.",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "33b4552a-0e9d-4c55-8d64-bb2e1a0771e6",
+        "condition": "Der Bewerber muss die Bereitschaft erkl\u00e4ren, kategoriebezogene, leistungsspezifische Zertifikate vorzulegen (Anlage 15 - Eigenerkl\u00e4rung).",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      }
+    ],
+    "overall_compliance": false,
+    "compliance_percentage": 0.0,
+    "created_at": "2025-11-10 16:06:37.009178"
+  },
+  {
+    "id": "c39c3328-3c49-4119-91a0-c9b45dd92739",
+    "checklist_id": "cae10fce-3d8e-412b-a0af-c86f8802eed8",
+    "checklist_name": "DBS Schulungs- und Trainingsleistungen Teilnahmewettbewerb Compliance Checklist",
+    "document_filename": "Bewerbungsbedingungen.pdf",
+    "document_id": null,
+    "answers": [
+      {
+        "question_id": "bfe655f2-9c2c-4095-a556-a2bf5d926536",
+        "question": "Wurde der Teilnahmeantrag ausschlie\u00dflich elektronisch \u00fcber die BWI Vergabeplattform mittels AI Bietercockpit eingereicht?",
+        "answer": "```json\n{\n    \"answer\": \"Information not found\",\n    \"confidence\": \"low\",\n    \"evidence\": \"Die Abgabe des Teilnahmeantrages ist ausschlie\u00dflich elektronisch \u00fcber die BWI Vergabeplattform nach vorheriger Registrierung m\u00f6glich. Teilnahmeantr\u00e4ge, die in Papierform eingehen, werden bei der Pr\u00fcfung nicht ber\u00fccksichtigt. Die elektronische Abgabe des Teilnahmeantrages erfolgt ausschlie\u00dflich \u00fcber die BWI Vergabeplattform mittels des AI Bietercockpits und keinesfalls auf anderen Wegen (Fax, E-Mail etc.).\",\n    \"explanation\": \"Das Dokument ist eine Ausschreibungsunterlage (Bewerbungsbedingungen), die definiert, WIE ein Teilnahmeantrag einzureichen IST. Es enth\u00e4lt keine Informationen dar\u00fcber, ob ein spezifischer Teilnahmeantrag tats\u00e4chlich auf diese Weise eingereicht WURDE. Die Frage bezieht sich auf einen konkreten Vorgang (Vergangenheitsform 'wurde'), w\u00e4hrend das Dokument nur die Verfahrensanforderungen beschreibt. Um diese Frage zu beantworten, br\u00e4uchte man Dokumentation \u00fcber einen tats\u00e4chlich eingereichten Teilnahmeantrag, nicht die Ausschreibungsunterlagen selbst.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "5363a7ad-44fa-44c5-b881-fe413e919683",
+        "question": "Wurden alle erforderlichen Vordrucke und Erkl\u00e4rungen mit mindestens fortgeschrittener elektronischer Signatur oder in Textform unterzeichnet?",
+        "answer": "```json\n{\n    \"answer\": \"Das Dokument legt die Anforderungen an die elektronische Signatur fest, gibt jedoch keine Auskunft dar\u00fcber, ob die tats\u00e4chlich eingereichten Vordrucke und Erkl\u00e4rungen mit der erforderlichen Signatur versehen wurden. Es handelt sich um Bewerbungsbedingungen und keine Bewertung eines konkreten Teilnahmeantrags.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Ziffer 1.5.1: 'Die form- und fristgebundene \u00dcbermittlung von Unterlagen, insbesondere die \u00dcbermittlung des Teilnahmeantrags, bedarf mindestens einer Unterzeichnung in Textform. Bei Verwendung einer elektronischen Signatur bedarf es einer fortgeschrittenen elektronischen Signatur (mittels Softzertifikat) oder einer qualifizierten elektronischen Signatur (mittels Signaturkarte).' Und: 'Die einfache elektronische Signatur (in eingescannter Form) ist hingegen nicht zul\u00e4ssig.'\",\n    \"explanation\": \"Die Frage bezieht sich auf die tats\u00e4chliche Erf\u00fcllung der Signatursanforderungen bei eingereichten Dokumenten. Das vorliegende Dokument ist jedoch eine Verfahrensanleitung (Bewerbungsbedingungen), die die Anforderungen festlegt, aber keine Auskunft \u00fcber die Compliance eines konkreten Teilnahmeantrags gibt. Es beschreibt, was erforderlich ist, nicht was tats\u00e4chlich eingereicht wurde.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "2ba86ade-42b0-4b5d-83e6-83e1035e5b25",
+        "question": "Wurde die Vertraulichkeitserkl\u00e4rung (Anlage 4) vom Bewerber sowie allen Mitgliedern der Bewerbergemeinschaft und allen Unterauftragnehmern eingereicht?",
+        "answer": "```json\n{\n    \"answer\": \"Die Frage kann nicht definitiv beantwortet werden, da das Dokument nur die Anforderungen an die Einreichung der Vertraulichkeitserkl\u00e4rung beschreibt, aber keine Informationen dar\u00fcber enth\u00e4lt, ob diese tats\u00e4chlich eingereicht wurde.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Bewerbungsschreiben Seite 1-2: '\u2713 Anlage 4 der BB \u2013 Vertraulichkeitserkl\u00e4rung (falls zutreffend zus\u00e4tzlich auch von UAN und Mitgliedern der Bewerbergemeinschaft auszuf\u00fcllen und zu signieren bzw. in Textform zu zeichnen)'\\n\\nZiffer 1.6.1 der Bewerbungsbedingungen: 'Alle zur Verf\u00fcgung gestellten Informationen unterliegen der Vertraulichkeit. Der Bewerber hat deshalb mit dem Teilnahmeantrag die Vertraulichkeitserkl\u00e4rung (Anlage 4) einzureichen.'\\n\\nAnlage 4 - Vertraulichkeitserkl\u00e4rung: 'Bewerbergemeinschaften / Unterauftragnehmer: Die Vertraulichkeitserkl\u00e4rung ist von jedem Mitglied der Bewerbergemeinschaft / jedem Unterauftragnehmer abzugeben.'\",\n    \"explanation\": \"Das Dokument ist eine Vergabeunterlage (Bewerbungsbedingungen) f\u00fcr ein Dynamisches Beschaffungssystem. Es beschreibt die Anforderungen und Vordrucke, die von Bewerbern einzureichen sind, einschlie\u00dflich der Vertraulichkeitserkl\u00e4rung (Anlage 4), die vom Bewerber selbst sowie von allen Mitgliedern einer Bewerbergemeinschaft und allen Unterauftragnehmern ausgef\u00fcllt und signiert werden muss. Das Dokument enth\u00e4lt jedoch keine Informationen \u00fcber einen konkreten eingereichten Teilnahmeantrag oder dar\u00fcber, ob die erforderlichen Unterlagen tats\u00e4chlich vorgelegt wurden. Es handelt sich um die Ausschreibungsunterlagen, nicht um die Bewerbungsunterlagen selbst.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "f8d572d2-ae44-430b-a14d-14f93f0e004d",
+        "question": "Verf\u00fcgt der Bewerber \u00fcber ein Qualit\u00e4tsmanagementsystem nach DIN ISO 9001 oder vergleichbar?",
+        "answer": "```json\n{\n    \"answer\": \"Der Bewerber muss \u00fcber ein Qualit\u00e4tsmanagementsystem nach DIN ISO 9001 oder vergleichbar verf\u00fcgen. Dies ist eine Eignungsvoraussetzung f\u00fcr die Teilnahme am dynamischen Beschaffungssystem.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Im Bewerbungsschreiben wird unter den einzureichenden Unterlagen explizit aufgef\u00fchrt: 'o Anlage 13 Nachweis QM-System DIN ISO 9001 oder vergleichbar'. Zus\u00e4tzlich wird in der Leistungsbeschreibung unter Ziffer 3 erw\u00e4hnt: 'o Anlage 13 Nachweis QM-System DIN ISO 9001 oder vergleichbar'. Dies wird als Teil des 'Fragebogen zur Eignungspr\u00fcfung inkl. den etwaigen einzureichenden Nachweisen' genannt, der elektronisch ausgef\u00fcllt und eingereicht werden muss.\",\n    \"explanation\": \"Das Dokument macht deutlich, dass der Nachweis eines Qualit\u00e4tsmanagementsystems nach DIN ISO 9001 oder vergleichbar als Anlage 13 zusammen mit dem Teilnahmeantrag eingereicht werden muss. Dies ist Teil der Eignungspr\u00fcfung gem\u00e4\u00df Ziffer 2.2 der Bewerbungsbedingungen, wo festgelegt ist, dass 'Die Bewerber m\u00fcssen nachweisen, dass keine Ausschlussgr\u00fcnde nach den \u00a7\u00a7 123 und 124 GWB vorliegen und dass sie fachkundig und leistungsf\u00e4hig sind.' Die Pr\u00fcfung der Eignung findet anhand von A-(Ausschluss-) Kriterien statt, die uneingeschr\u00e4nkt erf\u00fcllt werden m\u00fcssen. Daher ist das Vorhandensein eines entsprechenden QM-Systems eine zwingende Voraussetzung f\u00fcr die Teilnahme am DBS.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "715b4ca6-9973-46e3-8d98-2b79536244f1",
+        "question": "Wurden die Erkl\u00e4rungen gem\u00e4\u00df \u00a7\u00a7 123, 124 und 125 GWB (Anlage 7) vom Bewerber sowie allen Mitgliedern der Bewerbergemeinschaft und Unterauftragnehmern abgegeben?",
+        "answer": "```json\n{\n    \"answer\": \"Die Frage kann nicht eindeutig beantwortet werden, da das Dokument nur die Anforderungen beschreibt, nicht aber dokumentiert, ob diese Erkl\u00e4rungen tats\u00e4chlich abgegeben wurden. Die Dokumente enthalten die Vorlagen und Anforderungen f\u00fcr die Abgabe der Erkl\u00e4rungen gem\u00e4\u00df \u00a7\u00a7 123, 124 und 125 GWB (Anlage 7), die vom Bewerber sowie allen Mitgliedern der Bewerbergemeinschaft und Unterauftragnehmern signiert bzw. in Textform unterzeichnet werden m\u00fcssen. Es handelt sich um Bewerbungsunterlagen, die die formalen Anforderungen festlegen, nicht um ausgef\u00fcllte Bewerbungen.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Im Bewerbungsschreiben (Seite 1-2) ist aufgef\u00fchrt: '\u2713 Anlage 7 der BB \u2013 Erkl\u00e4rung gem. \u00a7\u00a7 123, 124 und 125 GWB (falls zutreffend zus\u00e4tzlich auch von UAN und Mitgliedern der Bewerbergemeinschaft auszuf\u00fcllen und zu signieren bzw. in Textform zu zeichnen)'. In Anlage 7 selbst steht: 'Bei Bewerbergemeinschaften und Einsatz von Unterauftragnehmern: Dieses Formular ist von jedem Mitglied der Bietergemeinschaft / jedem Unterauftragnehmer gesondert abzugeben.' Die Bewerbungsbedingungen unter Ziffer 2.2 best\u00e4tigen: 'Die Bewerber m\u00fcssen nachweisen, dass keine Ausschlussgr\u00fcnde nach den \u00a7\u00a7 123 und 124 GWB vorliegen' und 'Hinsichtlich des Nichtvorliegens von Ausschlussgr\u00fcnden nach den \u00a7\u00a7 123 und 124 GWB m\u00fcssen die geforderten Unterlagen f\u00fcr jedes Mitglied der Bewerbergemeinschaft vorgelegt werden.'\",\n    \"explanation\": \"Das vorliegende Dokument ist ein Vergabeunterlagenpaket, das die formalen Anforderungen f\u00fcr die Bewerbung um die Teilnahme am Dynamischen Beschaffungssystem beschreibt. Es enth\u00e4lt Vorlagen und Anleitungen, was eingereicht werden muss, dokumentiert aber nicht, ob ein konkreter Bewerber diese Unterlagen tats\u00e4chlich eingereicht hat. Die Erkl\u00e4rung gem\u00e4\u00df \u00a7\u00a7 123, 124 und 125 GWB (Anlage 7) ist als Pflichtunterlage im Bewerbungsschreiben aufgef\u00fchrt und muss von allen relevanten Parteien abgegeben werden. Um zu pr\u00fcfen, ob diese Erkl\u00e4rungen tats\u00e4chlich abgegeben wurden, m\u00fcsste man die eingereichten Bewerbungsunterlagen eines spezifischen Bewerbers pr\u00fcfen, nicht die allgemeinen Vergabeunterlagen.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "d1c5fa3e-42b9-4b7e-8fca-73a2a9af82c7",
+        "question": "Wurde die Verpflichtungserkl\u00e4rung zur Einhaltung des Mindestlohngesetzes (MiLoG) gem\u00e4\u00df Anlage 8 von allen relevanten Parteien eingereicht?",
+        "answer": "```json\n{\n    \"answer\": \"Information not found\",\n    \"confidence\": \"low\",\n    \"evidence\": \"Das Bewerbungsschreiben listet unter den einzureichenden Dokumenten auf: '\u2713 Anlage 8 der BB \u2013 Verpflichtungserkl\u00e4rung zum MiLoG (falls zutreffend zus\u00e4tzlich auch von UAN und Mitgliedern der Bewerbergemeinschaft auszuf\u00fcllen und zu signieren bzw. in Textform zu zeichnen)'\",\n    \"explanation\": \"Das Dokument beschreibt die Anforderungen und Bedingungen f\u00fcr die Bewerbung, einschlie\u00dflich der Notwendigkeit, die Verpflichtungserkl\u00e4rung zum MiLoG (Anlage 8) einzureichen. Es wird auch die Vorlage der Erkl\u00e4rung (Anlage 8) im Dokument bereitgestellt. Jedoch enth\u00e4lt das Dokument keine Informationen dar\u00fcber, ob diese Erkl\u00e4rung tats\u00e4chlich von einem konkreten Bewerber, Unterauftragnehmer oder Mitgliedern einer Bewerbergemeinschaft eingereicht wurde. Es handelt sich um Ausschreibungsunterlagen, die die Anforderungen definieren, nicht um eingereichte Bewerbungen oder deren Pr\u00fcfungsergebnisse.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "98eca765-af3f-4f5d-a6a0-6dfc1fb55298",
+        "question": "Wurden alle Betriebs- oder Gesch\u00e4ftsgeheimnisse im Teilnahmeantrag durch eine separate Auflistung mit genauer Angabe von Unterlage, Seitenzahl und Ziffer deutlich gekennzeichnet?",
+        "answer": "```json\n{\n    \"answer\": \"Information not found\",\n    \"confidence\": \"low\",\n    \"evidence\": \"Das Dokument enth\u00e4lt in Ziffer 1.10 die Anforderung: 'Betriebs- oder Gesch\u00e4ftsgeheimnisse sind in den Teilnahmeantr\u00e4gen daher deutlich zu kennzeichnen, um eine versehentliche Offenlegung durch die Vergabekammer im Falle eines Nachpr\u00fcfungsverfahrens zu vermeiden. Die Kennzeichnung hat durch Beilegung einer Auflistung zu erfolgen, in der die jeweilige Unterlage des Teilnahmeantrages, die Seitenzahl und die Ziffer oder der jeweils geheim zu haltende Inhalt aufgezeigt werden. Ein wie auch immer gearteter pauschaler Hinweis gen\u00fcgt nicht und wird seitens des Auftraggebers nicht ber\u00fccksichtigt.'\",\n    \"explanation\": \"Das Dokument beschreibt die Anforderungen und das Verfahren f\u00fcr die Kennzeichnung von Betriebs- oder Gesch\u00e4ftsgeheimnissen. Es handelt sich jedoch um die Bewerbungsbedingungen f\u00fcr einen zuk\u00fcnftigen Teilnahmeantrag, nicht um einen bereits eingereichten Teilnahmeantrag. Die Frage, ob in einem konkreten Teilnahmeantrag alle Betriebs- oder Gesch\u00e4ftsgeheimnisse korrekt gekennzeichnet wurden, kann nicht beantwortet werden, da das Dokument selbst kein eingereichter Teilnahmeantrag ist, sondern die Ausschreibungsunterlagen f\u00fcr ein dynamisches Beschaffungssystem darstellt.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "ec23794f-bb46-4957-ae17-e5eda263458c",
+        "question": "Stellt der Bewerber sicher, dass das eingesetzte Lehrpersonal deutschsprachig ist?",
+        "answer": "```json\n{\n    \"answer\": \"Ja, der Bewerber muss sicherstellen, dass das eingesetzte Lehrpersonal deutschsprachig ist. Schulungsma\u00dfnahmen erfolgen grunds\u00e4tzlich in deutscher Sprache, und die Best\u00e4tigung f\u00fcr deutschsprachiges Lehrpersonal ist im Fragebogen zur Eignungspr\u00fcfung anzugeben.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Aus Anlage 1 zur Leistungsbeschreibung, Ziffer 4: 'Schulungsma\u00dfnahmen erfolgen grunds\u00e4tzlich in deutscher Sprache. Deutsch ist auch die vorgegebene Sprache f\u00fcr Schulungsunterlagen und Dokumentationen jeder Art. Sollte eine andere Sprache (Englisch) als Unterrichtssprache bzw. als Sprache f\u00fcr die Schulungsunterlagen erforderlich sein, gibt der AG dies in der LD vor.' Aus dem Bewerbungsschreiben: 'Elektronisch ausgef\u00fcllter \u201eFragebogen zur Eignungspr\u00fcfung\" inkl. den etwaigen einzureichenden Nachweisen, wie: [...] o Best\u00e4tigung f\u00fcr deutschsprachiges Lehrpersonal (nur Angabe im Fragebogen)'\",\n    \"explanation\": \"Das Dokument macht eindeutig klar, dass Schulungen grunds\u00e4tzlich in deutscher Sprache durchgef\u00fchrt werden. Die Best\u00e4tigung f\u00fcr deutschsprachiges Lehrpersonal wird explizit als erforderliche Angabe im Fragebogen zur Eignungspr\u00fcfung genannt, den der Bewerber einreichen muss. Dies ist Teil der Mindestanforderungen f\u00fcr die Teilnahme am dynamischen Beschaffungssystem.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "213933f1-d48f-4195-9bdd-da27bf34bae8",
+        "question": "Verf\u00fcgen die einzusetzenden Trainer \u00fcber mindestens 3 Jahre (Kategorie 2: 5 Jahre) Praxiserfahrung in den betroffenen Fachgebieten?",
+        "answer": "```json\n{\n    \"answer\": \"Ja, gem\u00e4\u00df Ziffer 3 (Qualit\u00e4tsbezogene Rahmenbedingungen) der Anlage 1 zur Leistungsbeschreibung m\u00fcssen die in den beauftragten Schulungen eingesetzten Trainer grunds\u00e4tzlich mindestens 3 Jahre Praxiserfahrung in den betroffenen Fachgebieten haben. F\u00fcr Kategorie 2 wird eine Praxiserfahrung von mindestens 5 Jahren gefordert. Dies ist eine verbindliche Voraussetzung, die die Trainer erf\u00fcllen m\u00fcssen.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Aus Anlage 1 zur Leistungsbeschreibung, Ziffer 3 'Qualit\u00e4tsbezogene Rahmenbedingungen': 'Die in den beauftragten Schulungen eingesetzten Trainer m\u00fcssen grunds\u00e4tzlich folgende Voraussetzungen erf\u00fcllen: + mindestens 3 Jahre, in der Kategorie 2 mindestens 5 Jahre, Praxiserfahrung in den betroffenen Fachgebieten'\",\n    \"explanation\": \"Das Dokument legt in der Anlage 1 zur Leistungsbeschreibung unter den qualit\u00e4tsbezogenen Rahmenbedingungen eindeutig fest, dass Trainer mindestens 3 Jahre (bzw. 5 Jahre in Kategorie 2) Praxiserfahrung in den betroffenen Fachgebieten nachweisen m\u00fcssen. Dies ist eine Mindestanforderung, die erf\u00fcllt sein muss.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "ad83c831-2ac1-4e04-821e-0267f6c0960b",
+        "question": "Wurde bei Bewerbergemeinschaften die Erkl\u00e4rung (Anlage 5) von allen Mitgliedern signiert und ein gesch\u00e4ftsf\u00fchrendes Mitglied benannt?",
+        "answer": "```json\n{\n    \"answer\": \"Das Dokument gibt keine Auskunft dar\u00fcber, ob bei konkreten eingereichten Bewerbergemeinschaften die Erkl\u00e4rung (Anlage 5) von allen Mitgliedern signiert und ein gesch\u00e4ftsf\u00fchrendes Mitglied benannt wurde. Das Dokument enth\u00e4lt lediglich die formalen Anforderungen und Vorschriften f\u00fcr Bewerbergemeinschaften, aber keine Informationen \u00fcber tats\u00e4chlich eingereichte Bewerbungen oder deren Pr\u00fcfungsergebnisse.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"Ziffer 1.9.1: 'Bewerbergemeinschaften haben einen einheitlichen, gemeinsamen Teilnahmeantrag einzureichen und darin die Mitglieder der Bewerbergemeinschaft sowie eines ihrer Mitglieder als Bevollm\u00e4chtigten f\u00fcr die rechtsverbindliche Abgabe des Teilnahmeantrags [...] zu benennen. Diesbez\u00fcglich ist der Vordruck aus der Anlage 5 (Erkl\u00e4rung der Bewerbergemeinschaft) auszuf\u00fcllen, zu signieren und einzureichen.' Anlage 5: 'Mit unseren Signaturen/Unterzeichnungen mind. in Textform unter dieser Erkl\u00e4rung erkl\u00e4ren wir zudem, dass - das oben bezeichnete gesch\u00e4ftsf\u00fchrende Mitglied die Bewerbergemeinschaftsmitglieder gegen\u00fcber der Vergabestelle und des Auftraggebers rechtsverbindlich vertritt.'\",\n    \"explanation\": \"Die Frage bezieht sich auf konkrete Bewerbergemeinschaften und deren Pr\u00fcfungsergebnisse. Das vorliegende Dokument ist jedoch ein Ausschreibungsdokument (Bewerbungsbedingungen und Vergabeunterlagen), das die Anforderungen und Vorschriften festlegt, aber keine Informationen \u00fcber tats\u00e4chlich eingegangene Bewerbungen oder deren formale Pr\u00fcfung enth\u00e4lt. Es wird beschrieben, WAS zu tun ist, aber nicht, ob es bei konkreten Bewerbungen auch getan wurde.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      }
+    ],
+    "evaluations": [
+      {
+        "condition_id": "eb9ac87b-3f07-4444-ae5c-fd0d1531d568",
+        "condition": "Der Teilnahmeantrag muss innerhalb der in der EU-Bekanntmachung aufgezeigten Teilnahmefrist elektronisch \u00fcber die BWI Vergabeplattform eingereicht werden.",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "6549791d-4c71-4791-b5c2-f62bce69480f",
+        "condition": "Es d\u00fcrfen keine \u00c4nderungen an den Vergabeunterlagen vorgenommen werden, einschlie\u00dflich des Beif\u00fcgens von Bewerber-AGBs oder standardisierten Formulierungen zur Wahrung von Schutzrechten.",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "5edeabdd-96fa-40e6-aa41-0e33d15972ec",
+        "condition": "Der Bewerber muss nachweisen, dass keine zwingenden Ausschlussgr\u00fcnde nach \u00a7\u00a7 123 und 124 GWB vorliegen und alle A-Kriterien (Ausschlusskriterien) erf\u00fcllt sind.",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "c115c920-946d-49cc-a1fc-3f1428cf046d",
+        "condition": "Bei Unterauftragsvergabe m\u00fcssen alle Unterauftragnehmer mit Namen, Anschrift und Firmensitz benannt werden und entsprechende Erkl\u00e4rungen (Anlagen 7, 8, 9) sowie Nachweise zur Eignung beif\u00fcgen.",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "1b458ad9-966e-4361-93c9-c0604f2f58d3",
+        "condition": "Der Bewerber muss \u00fcber eine Betriebshaftpflicht-/Berufshaftpflichtversicherung verf\u00fcgen und einen entsprechenden Nachweis (Anlage 11) vorlegen.",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "eaec156c-fd05-421b-906b-e51a59c1d2f7",
+        "condition": "Alle Teilnahmeantragsunterlagen und der sonstige Schriftverkehr m\u00fcssen in deutscher Sprache abgefasst sein (technische Fachbegriffe k\u00f6nnen in Englisch formuliert sein).",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "33410609-56cd-4efe-be9c-400edf0118e1",
+        "condition": "Bei Bewerbergemeinschaften m\u00fcssen alle Mitglieder f\u00fcr die Vertragserf\u00fcllung als Gesamtschuldner haften und dies in der Bewerbergemeinschaftserkl\u00e4rung (Anlage 5) best\u00e4tigen.",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "33b4552a-0e9d-4c55-8d64-bb2e1a0771e6",
+        "condition": "Der Bewerber muss die Bereitschaft erkl\u00e4ren, kategoriebezogene, leistungsspezifische Zertifikate vorzulegen (Anlage 15 - Eigenerkl\u00e4rung).",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      }
+    ],
+    "overall_compliance": false,
+    "compliance_percentage": 0.0,
+    "created_at": "2025-11-10 16:10:37.848849"
+  },
+  {
+    "id": "0951bbd0-d672-4d49-878b-1f763c48a94c",
+    "checklist_id": "21345bc5-bcd3-4d31-91ed-b023d5994170",
+    "checklist_name": "BWI Training and Educational Services Procurement Compliance Checklist (Category 5)",
+    "document_filename": "Bewerbungsbedingungen.pdf",
+    "document_id": null,
+    "answers": [
+      {
+        "question_id": "42499409-78eb-487c-a9be-5d3534445c2c",
+        "question": "Has the bidder completed and signed Annex 7 'Declaration per \u00a7\u00a7123, 124, 125 and 126 GWB' confirming the absence of all mandatory exclusion grounds?",
+        "answer": "```json\n{\n  \"answer\": \"Information not found - This is a template document for bidders to complete, not a completed submission\",\n  \"confidence\": \"high\",\n  \"evidence\": \"The document contains Anlage 7 'Erkl\u00e4rung gem. \u00a7\u00a7 123, 124, 125 GWB' which states:\\n\\n'Bei Bewerbergemeinschaften und Einsatz von Unterauftragnehmern: Dieses Formular ist von jedem Mitglied der Bietergemeinschaft / jedem Unterauftragnehmer gesondert abzugeben.\\n\\nDer Bewerber/das Mitglied der Bewerbergemeinschaft / der Unterauftragnehmer:\\nKlicken Sie hier, um Text einzugeben.\\nName des Bewerbers / des Mitglieds der Bewerbergemeinschaft / Unterauftragnehmer'\\n\\nAnd at the end:\\n'Klicken Sie hier, um Text einzugeben. [blank field for place, date]\\nKlicken Sie hier, um Text einzugeben. [blank field for signature]\\nsofern keine elektronische Signatur: Unterzeichnung durch Bieter mind. in Textform und ggf. Firmenstempel'\",\n  \"explanation\": \"This document is the procurement documentation ('Bewerbungsbedingungen') that provides the templates and forms that bidders must complete and submit. Annex 7 is included as a blank template with fillable fields ('Klicken Sie hier, um Text einzugeben.') for bidders to complete. The document instructs bidders to fill out and sign this form, but does not represent a completed and signed declaration from any specific bidder. To verify whether a bidder has completed this requirement, one would need to review the actual submitted bid documents, not these tender documents.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "cde42bff-10a9-4548-9a26-4333a8b3dc44",
+        "question": "Does the bidder have sufficient capacity to provide training services in complementary and methodological competencies (Non-IT areas) as defined in the service description?",
+        "answer": "```json\n{\n    \"answer\": \"The document does not provide sufficient information to determine if a specific bidder has sufficient capacity to provide training services in complementary and methodological competencies. The document is a procurement framework (DBS - Dynamic Procurement System) that establishes requirements and procedures for bidders, but does not evaluate any specific bidder's capacity. It outlines what bidders MUST demonstrate (qualification requirements, references, quality management systems, etc.) but does not assess whether any particular bidder meets these requirements.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"The document states: 'Die Bewerber m\u00fcssen nachweisen, dass keine Ausschlussgr\u00fcnde nach den \u00a7\u00a7 123 und 124 GWB vorliegen und dass sie fachkundig und leistungsf\u00e4hig sind.' (Page 19) and 'Die Eignungskriterien sind dem Dokument \u201eFragebogen zur Eignungspr\u00fcfung\" zu entnehmen und vom Bewerber ausf\u00fchrlich und in allen Punkten zu beantworten.' (Page 19). The service description for Category 5 covers: 'Methodische Kompetenz' including Change-Management, Kreativit\u00e4tstechniken, Design Thinking, etc., and 'Komplement\u00e4re (fach- und aufgabenspezifische) Kompetenzen' including Betriebswirtschaftliche Grundlagen, Controlling, Personalwesen, Rechtsgrundlagen, Datenschutz, Sprachen, etc. (Pages 1-2 of Leistungsbeschreibung Kategorie 5)\",\n    \"explanation\": \"This is a procurement document that establishes the framework for a Dynamic Procurement System (DBS), not an evaluation of a specific bidder. It defines what services are needed (training in complementary and methodological competencies in non-IT areas), what requirements bidders must meet (qualifications, references, certifications), and how bids will be evaluated. To answer whether a specific bidder has sufficient capacity would require reviewing that bidder's application documents against these requirements, which is not contained in this document.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "2fe33a3b-cee1-4586-a03b-6b6671b6dd70",
+        "question": "Can the bidder provide documentation of economic and financial capability to fulfill contracts under this Dynamic Procurement System?",
+        "answer": "```json\n{\n    \"answer\": \"Yes, the bidder must provide documentation of economic and financial capability. The document explicitly requires this through the submission of a 'Bonit\u00e4tsauskunft' (credit rating information) as part of the capability assessment questionnaire ('Fragebogen zur Eignungspr\u00fcfung'). Additionally, bidders must demonstrate proof of professional liability insurance ('Nachweis einer Betriebshaftpflichtversicherung/Berufshaftpflichtversicherung'). For consortiums (Bewerbergemeinschaften), the economic and financial capability must be demonstrated collectively for the entire consortium, while technical and professional capability must be shown by individual members for their respective areas of performance.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"From the Bewerbungsschreiben (Application Letter), page 2 of 3:\\n\\n'\u2713 Elektronisch ausgef\u00fcllter \\\"Fragebogen zur Eignungspr\u00fcfung\\\" inkl. den etwaigen einzureichenden Nachweisen, wie:\\n[...]\\no Anlage 12 Bonit\u00e4tsauskunft\\no Anlage 11 Nachweis einer Betriebshaftpflichtversicherung/Berufshaftpflichtversicherung'\\n\\nFrom Section 2.2 'Wertung der Eignung' (Assessment of Capability), page 19:\\n\\n'Die Eignungskriterien sind dem Dokument \\\"Fragebogen zur Eignungspr\u00fcfung\\\" zu entnehmen und vom Bewerber ausf\u00fchrlich und in allen Punkten zu beantworten.'\\n\\nFrom Section 1.9.1 'Bewerbergemeinschaften' (Consortiums), page 15:\\n\\n'Bewerbergemeinschaften m\u00fcssen die finanzielle und wirtschaftliche Leistungsf\u00e4higkeit der Bewerbergemeinschaft nachweisen, sowie die einzelnen Mitglieder ihre technische und berufliche Leistungsf\u00e4higkeit f\u00fcr die Bereich(e), in dem/denen Leistungen, wie in Anlage 5 aufgef\u00fchrt, erbracht werden.'\",\n    \"explanation\": \"The document clearly establishes requirements for demonstrating economic and financial capability through specific documentation (Anlage 12 - Bonit\u00e4tsauskunft/credit rating and Anlage 11 - proof of liability insurance) as part of the 'Fragebogen zur Eignungspr\u00fcfung' (capability assessment questionnaire). These documents are explicitly listed in the application requirements and must be submitted with the participation application. The document also distinguishes between financial/economic capability requirements for consortiums versus individual technical/professional capability requirements for consortium members.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "beb028f4-dc5c-44c3-9f16-f39cc616e2e6",
+        "question": "Has the bidder confirmed they can provide services in the specified locations (Bonn, Rhein-Sieg-Kreis, Berlin, M\u00fcnchen Landkreis)?",
+        "answer": "```json\n{\n    \"answer\": \"Information not found - The document does not explicitly mention the specific locations Bonn, Rhein-Sieg-Kreis, Berlin, or M\u00fcnchen Landkreis. However, the document establishes that training services will be provided nationwide in Germany ('deutschlandweit') at various locations including the contractor's facilities (AN), client's facilities (AG), or defined event locations (e.g., conference hotels). The specific service locations for each individual contract will be specified in the service definition (LD) during the mini-competition phase.\",\n    \"confidence\": \"medium\",\n    \"evidence\": \"1. From Anlage 1 zur Leistungsbeschreibung, Section 2.2.2: 'Die Schulungsleistungen werden an Standorten und in Einrichtungen der BWI oder, deutschlandweit, in Einrichtungen des AN, in Einrichtungen des AG oder an definierten Veranstaltungsorten (z.B. Tagungshotels) erbracht. Die konkreten Schulungsstandorte sowie ggf. weitere Details werden in der jeweiligen LD im Rahmen des Mini-Wettbewerbs durch den AG vorgegeben.'\\n\\n2. From Leistungsbeschreibung Kategorie 5, Section 3: 'Die Schulungen wurden, bedarfsbezogen, deutschlandweit an unterschiedlichen Standorten durchgef\u00fchrt.'\",\n    \"explanation\": \"While the document does not contain a specific confirmation from bidders regarding their ability to provide services in Bonn, Rhein-Sieg-Kreis, Berlin, or M\u00fcnchen Landkreis, it clearly states that training services will be delivered nationwide ('deutschlandweit') in Germany. The specific locations for each training measure will be defined by the client (AG) in the service definition (LD) during each mini-competition. Bidders participating in the DBS would need to confirm their ability to deliver services at specified locations when responding to individual mini-competitions, but this is not explicitly documented in the general DBS tender documents provided.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "cf58c0dd-ac51-455f-8fec-b95d19bf4245",
+        "question": "Does the bidder's portfolio include training formats such as classroom training, blended learning, e-learning, and examination/certification services?",
+        "answer": "```json\n{\n    \"answer\": \"Yes, Category 5 explicitly includes various training formats such as classroom training (Pr\u00e4senz), blended learning, e-learning, and examination/certification services. The category encompasses standard catalog offerings from educational service providers in different formats.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"From Leistungsbeschreibung Kategorie 5, Section 2: 'Der in der Kategorie 5 abgebildete Themenbereich umfasst markt\u00fcbliche Schulungsma\u00dfnahmen aus den Katalogangeboten der Bildungsdienstleister in unterschiedlichen Formaten, u.a. Schulungen, Blended Learning, E-Learning und Pr\u00fcfungen/Zertifizierungen, im genannten Kompetenzspektrum.' Also from Section 3 table showing training measures 2018/2019: 'Art Ma\u00dfnahme: Pr\u00e4senz' and 'Art Ma\u00dfnahme: Blended-Learning' are listed. Section 5 also states: 'Ist f\u00fcr die Durchf\u00fchrung einer Schulungsma\u00dfnahme eine Zertifizierung, eine Autorisierung oder eine Akkreditierung erforderlich, gibt der AG in der ma\u00dfnahmenbezogenen Leistungsdefinition f\u00fcr den Einzelauftrag im Mini-Wettbewerb die f\u00fcr die Schulungsma\u00dfnahme erforderliche besondere Qualifizierung oder Bewertung an.'\",\n    \"explanation\": \"The document clearly defines Category 5 as encompassing market-standard training measures from educational service providers' catalog offerings in various formats including classroom training (Schulungen/Pr\u00e4senz), blended learning, e-learning, and examinations/certifications. This is explicitly stated in the service description and confirmed by historical data showing these different training formats were delivered in 2018 and 2019.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "5a64e120-5b23-4c5a-8d2d-66751162f273",
+        "question": "Can the bidder provide current tax compliance certificates from their country of establishment?",
+        "answer": "```json\n{\n    \"answer\": \"Yes, the bidder can provide current tax compliance certificates from their country of establishment. The contracting authority explicitly reserves the right to request such certificates after the submission deadline. Specifically, the authority may request: (1) A certificate from authorities in the bidder's country of establishment confirming that the bidder has properly fulfilled obligations to pay taxes and levies, and (2) A certificate confirming proper payment of social security contributions. These certificates may be requested subsequently under \u00a756 VgV, which allows for post-submission requests for declarations and documents. While the bidder does not need to submit these certificates with the initial application, they must be prepared to provide them if requested by the contracting authority during the evaluation process.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"From 'Fragebogen zur Eignungspr\u00fcfung' section: 'Die Vergabestelle beh\u00e4lt sich vor, nachfolgend aufgef\u00fchrte Nachweise nachzufordern: o Bescheinigung der Beh\u00f6rde des Niederlassungsstaates des Bewerbers, dass der Bewerber seiner Verpflichtung zur Zahlung von Steuern und Abgaben ordnungsgem\u00e4\u00df nachgekommen ist. o Bescheinigung der Beh\u00f6rde des Niederlassungsstaates des Bewerbers, dass der Bewerber seiner Verpflichtung zur Zahlung von Beitr\u00e4gen zur gesetzlichen Sozialversicherung ordnungsgem\u00e4\u00df nachgekommen ist.' (Page 19-20, Section 2.2)\\n\\nFrom Bewerbungsbedingungen: 'Die Vergabestelle beh\u00e4lt sich vor, Erkl\u00e4rungen und sonstige Unterlagen, die mit dem Teilnahmeantrag einzureichen sind, gem\u00e4\u00df \u00a7 56 VgV nachzufordern. Ein Anspruch der Bewerber auf Nachforderung besteht nicht.' (Page 19, Section 2.1)\",\n    \"explanation\": \"The document clearly states that the contracting authority (Vergabestelle) reserves the right to subsequently request certificates from the authorities of the bidder's country of establishment (Niederlassungsstaates des Bewerbers) confirming proper payment of taxes and social security contributions. This is done under the legal provision of \u00a756 VgV, which allows for post-submission requests for documentation. While there is no obligation for bidders to submit these certificates with their initial application, they must be able to provide them upon request during the evaluation period.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "083fe3ef-62c6-4083-84e0-4cd37e0d6dd5",
+        "question": "Has the bidder confirmed compliance with social security contribution payment obligations with supporting documentation available if requested?",
+        "answer": "```json\n{\n    \"answer\": \"Yes, the bidder has confirmed compliance with social security contribution payment obligations. The confirmation is included in the mandatory declaration form 'Anlage 7 - Erkl\u00e4rung gem. \u00a7\u00a7 123, 124, 125 GWB', which must be submitted by all bidders (and separately by each member of a bidder consortium and subcontractor). The contracting authority explicitly reserves the right to request supporting certificates from authorities in the bidder's country of establishment.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"From 'Anlage 7 - Erkl\u00e4rung gem. \u00a7\u00a7 123, 124, 125 GWB' (page 1-2): 'II. Das Unternehmen erkl\u00e4rt weiter, dass 1. das Unternehmen seinen Verpflichtungen zur Zahlung von Steuern, Abgaben und Beitr\u00e4gen zur Sozialversicherung nachgekommen ist und das Gegenteil nicht durch eine rechtskr\u00e4ftige Gerichts- oder bestandskr\u00e4ftige Verwaltungsentscheidung festgestellt wurde oder 2. die \u00f6ffentlichen Auftraggeber nicht auf sonstige geeignete Weise die Verletzung einer Verpflichtung nach Nummer 1 nachweisen k\u00f6nnen.' Additionally, from 'Bewerbungsbedingungen' (Seite 19-20, Section 2.2): 'Die Vergabestelle beh\u00e4lt sich vor, nachfolgend aufgef\u00fchrte Nachweise nachzufordern: o Bescheinigung der Beh\u00f6rde des Niederlassungsstaates des Bewerbers, dass der Bewerber seiner Verpflichtung zur Zahlung von Beitr\u00e4gen zur gesetzlichen Sozialversicherung ordnungsgem\u00e4\u00df nachgekommen ist.'\",\n    \"explanation\": \"The procurement documents require bidders to submit a declaration (Anlage 7) confirming their compliance with social security contribution payment obligations. This declaration must be made by the bidder, and separately by each consortium member and subcontractor if applicable. The contracting authority has explicitly reserved the right to request supporting certificates from the relevant authorities in the bidder's country of establishment to verify these declarations. This is a mandatory requirement for participation in the procurement process.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "b6989733-3c5d-4abb-94fc-a4ee6c80be12",
+        "question": "Is the bidder capable of issuing electronic invoices as required by the contract conditions?",
+        "answer": "```json\n{\n    \"answer\": \"Information not found\",\n    \"confidence\": \"low\",\n    \"evidence\": \"\",\n    \"explanation\": \"The document does not contain specific information about electronic invoicing requirements or the bidder's capability to issue electronic invoices. While the document extensively covers the procurement process for a Dynamic Procurement System (DBS) for training and educational services, including various requirements for bidders, technical specifications, and contractual conditions, there is no mention of electronic invoicing (elektronische Rechnungsstellung) capabilities or requirements. The document focuses on aspects such as qualifications, training delivery methods, documentation requirements, and general contractual terms, but does not address invoicing format or electronic billing capabilities.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "3d4be318-09a5-49ec-b9af-1946f21c7bcd",
+        "question": "Has the bidder reviewed and understood the non-open procedure requirements and the deadline for participation applications (December 31, 2027)?",
+        "answer": "```json\n{\n    \"answer\": \"The document describes a Dynamic Procurement System (DBS) for training services with a validity period initially running until December 31, 2023, not 2027. The system is set up as a non-open procedure where interested parties can submit participation applications during the validity period. The contracting authority explicitly states there is no obligation to purchase services. However, the specific deadline mentioned in the question (December 31, 2027) does not match the document content, which references December 31, 2023.\",\n    \"confidence\": \"medium\",\n    \"evidence\": \"1. 'Das DBS wird f\u00fcr einen Zeitraum ab dem Datum der Einreichung der EU Bekanntmachung bis zum 31.12.2023 betrieben (sog. G\u00fcltigkeitsdauer).' (Page 6, Section 1.3)\\n\\n2. 'Die G\u00fcltigkeitsdauer des DBS kann jederzeit seitens des Auftraggebers ge\u00e4ndert, d.h. fr\u00fcher beendet oder \u00fcber den 31.12.2023 hinaus verl\u00e4ngert werden.' (Page 6, Section 1.3)\\n\\n3. 'Es wird ausdr\u00fccklich darauf hingewiesen, dass keine Abnahmeverpflichtung seitens des Auftraggebers besteht.' (Page 6, Section 1.3)\\n\\n4. 'Das Vergabeverfahren wird als dynamisches Beschaffungssystem (im Folgenden: DBS) gem\u00e4\u00df \u00a7 120 GWB i.V.m. \u00a7\u00a7 22, 23, 24 VgV durchgef\u00fchrt.' (Page 5, Section 1.2)\",\n    \"explanation\": \"The document clearly establishes a Dynamic Procurement System (non-open procedure) for training services with specific participation requirements. The validity period stated is until December 31, 2023, with the possibility of extension. The document explicitly confirms no purchase obligation exists. The discrepancy between the question's reference to 2027 and the document's reference to 2023 suggests either an extension occurred after this document version, or there is an error in the question. The confidence is medium because while the procedural framework is clear, the specific date in the question doesn't match the document.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      },
+      {
+        "question_id": "7867e9c8-2352-4ec3-a30b-cc8bd4934f84",
+        "question": "Can the bidder confirm absence of conflicts of interest or prior involvement in preparation of this procurement procedure?",
+        "answer": "```json\n{\n    \"answer\": \"Yes, the bidder must confirm the absence of conflicts of interest and prior involvement in the preparation of the procurement procedure. This is explicitly required through the declaration according to \u00a7\u00a7 123, 124, 125 GWB (Anlage 7), where bidders must declare that no conflicts of interest exist (\u00a7 124 Nr. 4 GWB) and that no distortion of competition has resulted from prior involvement in preparing the procurement procedure (\u00a7 124 Nr. 5 GWB). Specifically, the bidder must confirm that 'kein Interessenkonflikt bei der Durchf\u00fchrung des Vergabeverfahrens besteht, der die Unparteilichkeit und Unabh\u00e4ngigkeit einer f\u00fcr den \u00f6ffentlichen Auftraggeber t\u00e4tigen Person bei der Durchf\u00fchrung des Vergabeverfahrens beeintr\u00e4chtigen k\u00f6nnte' and that 'keine Wettbewerbsverzerrung daraus resultiert, dass das Unternehmen bereits in die Vorbereitung des Vergabeverfahrens einbezogen war'.\",\n    \"confidence\": \"high\",\n    \"evidence\": \"From Anlage 7 - Erkl\u00e4rung gem. \u00a7\u00a7 123, 124, 125 GWB, Section III: '4. kein Interessenkonflikt bei der Durchf\u00fchrung des Vergabeverfahrens besteht, der die Unparteilichkeit und Unabh\u00e4ngigkeit einer f\u00fcr den \u00f6ffentlichen Auftraggeber t\u00e4tigen Person bei der Durchf\u00fchrung des Vergabeverfahrens beeintr\u00e4chtigen k\u00f6nnte und der durch andere, weniger einschneidende Ma\u00dfnahmen nicht wirksam beseitigt werden kann, 5. keine Wettbewerbsverzerrung daraus resultiert, dass das Unternehmen bereits in die Vorbereitung des Vergabeverfahrens einbezogen war, und diese Wettbewerbsverzerrung nicht durch andere, weniger einschneidende Ma\u00dfnahmen beseitigt werden kann'\",\n    \"explanation\": \"The document requires bidders to submit Anlage 7 (Declaration according to \u00a7\u00a7 123, 124, 125 GWB) as part of their application. In this declaration, bidders must explicitly confirm that no conflicts of interest exist that could impair the impartiality of the contracting authority's personnel, and that no competitive distortion results from the company's prior involvement in preparing the procurement procedure. These are listed as facultative exclusion grounds under \u00a7 124 GWB, points 4 and 5.\"\n}\n```",
+        "confidence": "medium",
+        "evidence": "",
+        "explanation": "Response parsing failed"
+      }
+    ],
+    "evaluations": [
+      {
+        "condition_id": "f827c681-3ae5-4340-8363-5e5175b50c7c",
+        "condition": "Complete submission of Annex 7 'Declaration per \u00a7\u00a7123, 124, 125 and 126 GWB' with all sections properly filled and signed",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "ab8978c5-0588-4959-a88c-193d0a83a869",
+        "condition": "Demonstrated technical and professional capability to deliver training services in methodological and complementary competencies (Non-IT areas)",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "ea6494c3-72af-4179-a692-44bcd564d72a",
+        "condition": "Submission of participation application by December 31, 2027, 23:59 CET",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "d6f068d2-3747-40b4-8bb5-23c514ddb189",
+        "condition": "Capability to provide electronic invoicing in compliance with German public sector requirements",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "e9358fd6-9062-4275-b9b0-70f9f0c4768e",
+        "condition": "No outstanding tax or social security payment obligations in the bidder's country of establishment",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "79e49ec1-d570-43a0-aaa6-0e044d1bc69c",
+        "condition": "Submission of all required eligibility documents including questionnaire for eligibility assessment and supporting documentation",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "74cb1e88-62eb-4320-ac8e-e4856bd0b7e0",
+        "condition": "Compliance with EU Directive 2014/24/EU and German procurement regulations (VgV, VOL/VOF)",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "e0852427-2ca1-4ac4-9815-b365c36b4f68",
+        "condition": "All documents and communications must be submitted in German language",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      }
+    ],
+    "overall_compliance": false,
+    "compliance_percentage": 0.0,
+    "created_at": "2025-11-10 16:19:12.381239"
+  },
+  {
+    "id": "2178341b-60b7-4c14-bbb6-3e7dd0a489a4",
+    "checklist_id": "8d728eb0-2da9-4313-847b-d492d425baeb",
+    "checklist_name": "Contract Review Checklist",
+    "document_filename": "KAT5.pdf",
+    "document_id": null,
+    "answers": [
+      {
+        "question_id": "bdbffdfd-6cb6-4560-9df8-435df4a1150a",
+        "question": "What is the contract start date?",
+        "answer": "17.01.2020",
+        "confidence": "high",
+        "evidence": "Die BWI und deren Endkunde Bundeswehr werden Schulungs- und Trainingsleistungen inkl. Seminarserviceleistungen im Zeitraum 17.01.2020 bis 31.12.2023 mittels Dynamischem Beschaffungssystem (vgl. \u00a7 23 Abs. 1 VgV) beschaffen.",
+        "explanation": "The document clearly states that the BWI and their end customer (Bundeswehr) will procure training services including seminar services in the period from January 17, 2020 to December 31, 2023 using a Dynamic Procurement System. This indicates that the contract start date is January 17, 2020."
+      },
+      {
+        "question_id": "8e30f52c-3277-494c-8cf6-98aee4fbbc6f",
+        "question": "What is the total contract value?",
+        "answer": "EUR 2.0 million",
+        "confidence": "high",
+        "evidence": "Gesch\u00e4tzte Menge/gesch\u00e4tzter Wert: EUR 2,0 Mio f\u00fcr die Gesamtlaufzeit f\u00fcr ca. 5.000 potenziell zu schulende Mitarbeiter \u00fcber die G\u00fcltigkeitsdauer des Dynamischen Beschaffungssystems (DBS) der Kategorie 5.",
+        "explanation": "The document clearly states the estimated value of the contract as EUR 2.0 million for the entire duration of the Dynamic Procurement System (DBS) for Category 5, covering approximately 5,000 potential trainees. This information appears in the section describing the scope of the contract."
+      }
+    ],
+    "evaluations": [
+      {
+        "condition_id": "e87240ec-48b7-4ea5-9de5-8b04bb04dc94",
+        "condition": "Contract includes termination clause",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      }
+    ],
+    "overall_compliance": false,
+    "compliance_percentage": 0.0,
+    "created_at": "2025-11-10 16:21:53.684605"
+  },
+  {
+    "id": "90cfd89d-4686-4f91-b797-1cc5e3162533",
+    "checklist_id": "21345bc5-bcd3-4d31-91ed-b023d5994170",
+    "checklist_name": "BWI Training and Educational Services Procurement Compliance Checklist (Category 5)",
+    "document_filename": "Bewerbungsbedingungen.pdf",
+    "document_id": null,
+    "answers": [
+      {
+        "question_id": "42499409-78eb-487c-a9be-5d3534445c2c",
+        "question": "Has the bidder completed and signed Annex 7 'Declaration per \u00a7\u00a7123, 124, 125 and 126 GWB' confirming the absence of all mandatory exclusion grounds?",
+        "answer": "Yes, the bidder must complete and sign Annex 7 'Declaration per \u00a7\u00a7123, 124, 125 GWB' confirming the absence of all mandatory exclusion grounds. This is explicitly required as part of the application documents that must be submitted.",
+        "confidence": "high",
+        "evidence": "\u2713 Anlage 7 der BB \u2013 Erkl\u00e4rung gem. \u00a7\u00a7 123, 124 und 125 GWB (falls zutreffend zus\u00e4tzlich auch von UAN und Mitgliedern der Bewerbergemeinschaft auszuf\u00fcllen und zu signieren bzw. in Textform zu zeichnen)",
+        "explanation": "The document clearly lists Annex 7 as a required document that must be submitted with the application. According to page 2 of the application letter (Bewerbungsschreiben), Annex 7 contains the 'Declaration per \u00a7\u00a7123, 124, 125 GWB' which must be completed and signed by the bidder, and if applicable, also by subcontractors and members of bidder consortiums. This declaration confirms the absence of all mandatory exclusion grounds under German procurement law."
+      },
+      {
+        "question_id": "cde42bff-10a9-4548-9a26-4333a8b3dc44",
+        "question": "Does the bidder have sufficient capacity to provide training services in complementary and methodological competencies (Non-IT areas) as defined in the service description?",
+        "answer": "Yes, the bidder appears to have sufficient capacity to provide training services in complementary and methodological competencies (Non-IT areas) as defined in the service description. The document outlines the framework for a Dynamic Procurement System (DBS) for training services in Category 5 'Complementary and Methodological Competencies' which covers various non-IT areas like business administration, law, communication, HR, etc. The system is structured to allow qualified providers to participate in mini-competitions for specific training assignments.",
+        "confidence": "high",
+        "evidence": "The document defines Category 5 training areas on pages 1-2 of the service description: 'Methodische Kompetenz leistungsrelevante Themenfelder/potenzielle Leistungsschwerpunkte: + allgemeine methodische Kompetenzen (u.a. Change-Management, Kreativit\u00e4tstechniken, Design Thinking, Lego Serious Play, Reporting), + Lehr- und Lernmethoden (u.a. 'working out loud'), + Trainings- und Beratungskompetenzen inklusive Coaching.' And 'Komplement\u00e4re (fach- und aufgabenspezifische) Kompetenzen leistungsrelevante Themenfelder/potenzielle Leistungsschwerpunkte: + Betriebswirtschaftliche Grundlagen, Rechnungswesen, Controlling, Buchhaltung und Bilanzierung, Steuern und Finanzen, Exportkontrolle und Zoll, Immobilienbewirtschaftung, + Eink\u00e4ufer und Vertrieb, + Logistik, + Interne und externe Kommunikation, Marketing, Social Media, + Personalwesen, Personalentwicklung, Lohnabrechnung, Arbeitsrecht, + Rechtsgrundlagen, Vergaberecht, + Qualit\u00e4tsmanagement, Auditing, + Datenschutz, DSGVO + Sprachen'",
+        "explanation": "The document extensively describes a Dynamic Procurement System (DBS) for training services in Category 5 'Complementary and Methodological Competencies'. It outlines the application process, evaluation criteria for bidders, and how mini-competitions will be conducted for specific training needs. The service description clearly defines the scope of complementary and methodological competencies as non-IT areas including change management, business administration, communication, HR, legal frameworks, quality management, and languages. The procurement system is designed to qualify providers who have the capability to deliver such training, and the document sets out the framework for how they will compete for specific assignments through mini-competitions."
+      },
+      {
+        "question_id": "2fe33a3b-cee1-4586-a03b-6b6671b6dd70",
+        "question": "Can the bidder provide documentation of economic and financial capability to fulfill contracts under this Dynamic Procurement System?",
+        "answer": "Yes, the bidder must provide documentation of economic and financial capability as part of the qualification process. According to the document, this includes submitting proof of business liability insurance/professional liability insurance and credit rating information. Additionally, if a bidder uses another company's capabilities for economic and financial capability (Eignungsleihe), both the bidder and the other company would be jointly liable for contract execution to the extent of the capability lending.",
+        "confidence": "high",
+        "evidence": "o Anlage 11 Nachweis einer Betriebshaftpflichtversicherung/Berufshaftpflichtversicherung\no Anlage 12 Bonit\u00e4tsauskunft\n\nNimmt der Bewerber die Kapazit\u00e4ten eines anderen Unternehmens im Hinblick auf die erforderliche wirtschaftliche und finanzielle Leistungsf\u00e4higkeit in Anspruch, haften der Bewerber und das andere Unternehmens f\u00fcr die Auftragsausf\u00fchrung dem Umfang der Eignungsleihe entsprechend gemeinsam.",
+        "explanation": "The document clearly states that bidders must submit proof of business/professional liability insurance and credit rating information as part of the qualification requirements. Additionally, it explains the joint liability arrangement when a bidder relies on another company's economic and financial capabilities. This demonstrates that bidders must provide documentation of their economic and financial capability to fulfill contracts under the Dynamic Procurement System."
+      },
+      {
+        "question_id": "beb028f4-dc5c-44c3-9f16-f39cc616e2e6",
+        "question": "Has the bidder confirmed they can provide services in the specified locations (Bonn, Rhein-Sieg-Kreis, Berlin, M\u00fcnchen Landkreis)?",
+        "answer": "Information not found",
+        "confidence": "low",
+        "evidence": "The document doesn't contain specific requirements for bidders to confirm their ability to provide services in Bonn, Rhein-Sieg-Kreis, Berlin, and M\u00fcnchen Landkreis specifically. The document mentions that training services may be provided throughout Germany, but doesn't require confirmation of availability in these specific locations.",
+        "explanation": "While the document mentions in section 2.2.2 and 2.2.3 that training services would be delivered 'deutschlandweit' (throughout Germany) at various locations including BWI facilities, contractor facilities, or defined event venues (such as conference hotels), there is no specific requirement for bidders to confirm their ability to provide services in the specific locations mentioned in the question (Bonn, Rhein-Sieg-Kreis, Berlin, M\u00fcnchen Landkreis). The document indicates that concrete training locations would be specified in the respective performance definition (LD) as part of the mini-competitions."
+      },
+      {
+        "question_id": "cf58c0dd-ac51-455f-8fec-b95d19bf4245",
+        "question": "Does the bidder's portfolio include training formats such as classroom training, blended learning, e-learning, and examination/certification services?",
+        "answer": "Yes, the bidder's portfolio includes training formats such as classroom training, blended learning, e-learning, and examination/certification services.",
+        "confidence": "high",
+        "evidence": "Der in der Kategorie 5 abgebildete Themenbereich umfasst markt\u00fcbliche Schulungsma\u00dfnahmen aus den Katalogangeboten der Bildungsdienstleister in unterschiedlichen Formaten, u.a. Schulungen, Blended Learning, E-Learning und Pr\u00fcfungen/Zertifizierungen, im genannten Kompetenzspektrum.",
+        "explanation": "The document explicitly states that Category 5 includes standard training measures from educational service providers' catalog offerings in different formats, specifically listing classroom training, blended learning, e-learning, and examinations/certifications. This is found in the Leistungsbeschreibung (service description) for Category 5 'Complementary and Methodological Competencies'."
+      },
+      {
+        "question_id": "5a64e120-5b23-4c5a-8d2d-66751162f273",
+        "question": "Can the bidder provide current tax compliance certificates from their country of establishment?",
+        "answer": "Yes, the bidder is required to be prepared to provide tax compliance certificates. Section 2.2 of the document mentions that the contracting authority reserves the right to request proof of tax compliance from the bidder's country of establishment. These documents are not initially required with the application but may be requested later.",
+        "confidence": "high",
+        "evidence": "Die Vergabestelle beh\u00e4lt sich vor, nachfolgend aufgef\u00fchrte Nachweise nachzufordern: o Bescheinigung der Beh\u00f6rde des Niederlassungsstaates des Bewerbers, dass der Bewerber seiner Verpflichtung zur Zahlung von Steuern und Abgaben ordnungsgem\u00e4\u00df nachgekommen ist. o Bescheinigung der Beh\u00f6rde des Niederlassungsstaates des Bewerbers, dass der Bewerber seiner Verpflichtung zur Zahlung von Beitr\u00e4gen zur gesetzlichen Sozialversicherung ordnungsgem\u00e4\u00df nachgekommen ist.",
+        "explanation": "The document clearly states that the contracting authority (Vergabestelle) reserves the right to request certificates from authorities in the bidder's country of establishment confirming proper payment of taxes and social security contributions. This is mentioned as a potential subsequent request, not as part of the initial application requirements."
+      },
+      {
+        "question_id": "083fe3ef-62c6-4083-84e0-4cd37e0d6dd5",
+        "question": "Has the bidder confirmed compliance with social security contribution payment obligations with supporting documentation available if requested?",
+        "answer": "Yes, the bidder has confirmed compliance with social security contribution payment obligations with supporting documentation available if requested.",
+        "confidence": "high",
+        "evidence": "In section II of the declaration according to \u00a7\u00a7 123, 124 and 125 GWB (Anlage 7), the bidder confirms: 'Das Unternehmen erkl\u00e4rt weiter, dass [...] das Unternehmen seinen Verpflichtungen zur Zahlung von Steuern, Abgaben und Beitr\u00e4gen zur Sozialversicherung nachgekommen ist und das Gegenteil nicht durch eine rechtskr\u00e4ftige Gerichts- oder bestandskr\u00e4ftige Verwaltungsentscheidung festgestellt wurde.' Additionally, on page 20 of the procurement conditions: 'Die Vergabestelle beh\u00e4lt sich vor, nachfolgend aufgef\u00fchrte Nachweise nachzufordern: o Bescheinigung der Beh\u00f6rde des Niederlassungsstaates des Bewerbers, dass der Bewerber seiner Verpflichtung zur Zahlung von Beitr\u00e4gen zur gesetzlichen Sozialversicherung ordnungsgem\u00e4\u00df nachgekommen ist.'",
+        "explanation": "The document clearly shows that bidders must declare they have fulfilled their obligations to pay social security contributions, and that this has not been contradicted by any legally binding court decision or administrative ruling. Furthermore, the contracting authority explicitly reserves the right to request certificates from authorities in the bidder's country of establishment that confirm compliance with social security payment obligations."
+      },
+      {
+        "question_id": "b6989733-3c5d-4abb-94fc-a4ee6c80be12",
+        "question": "Is the bidder capable of issuing electronic invoices as required by the contract conditions?",
+        "answer": "Information not found",
+        "confidence": "low",
+        "evidence": "The document contains application requirements for a Dynamic Purchasing System for training services, but does not specifically mention electronic invoicing requirements for bidders.",
+        "explanation": "After reviewing the entire document, I cannot find any specific requirements regarding electronic invoicing capabilities that bidders must have. While the document discusses electronic submission of bids through the AI Bietercockpit platform and electronic communication requirements, it does not explicitly state that bidders must be capable of issuing electronic invoices. Section 1.5.1 covers electronic submission of applications, but there is no mention of electronic invoicing requirements."
+      },
+      {
+        "question_id": "3d4be318-09a5-49ec-b9af-1946f21c7bcd",
+        "question": "Has the bidder reviewed and understood the non-open procedure requirements and the deadline for participation applications (December 31, 2027)?",
+        "answer": "Yes, the document clearly shows that this is a Dynamic Procurement System (Dynamisches Beschaffungssystem - DBS) that will be valid initially until December 31, 2023, but can be extended. The document states that the procurement system is open to all interested parties throughout its validity period, and that there is no obligation for the contracting authority to purchase services.",
+        "confidence": "high",
+        "evidence": "Das DBS wird f\u00fcr einen Zeitraum ab dem Datum der Einreichung der EU Bekanntmachung bis zum 31.12.2023 betrieben (sog. G\u00fcltigkeitsdauer). Die G\u00fcltigkeitsdauer des DBS kann jederzeit seitens des Auftraggebers ge\u00e4ndert, d.h. fr\u00fcher beendet oder \u00fcber den 31.12.2023 hinaus verl\u00e4ngert werden.\n\nEs wird ausdr\u00fccklich darauf hingewiesen, dass keine Abnahmeverpflichtung seitens des Auftraggebers besteht. Ebenso sind die Teilnehmer am DBS nicht verpflichtet ein Angebot im Rahmen des Miniwettbewerbs abzugeben.",
+        "explanation": "The document clearly describes a Dynamic Procurement System (DBS) initially valid until December 31, 2023, with the possibility of extension. While the document mentions 2023 (not 2027), it explicitly states that the validity period can be extended beyond 2023. The document also clearly states there is no purchase obligation for the contracting authority and no obligation for participants to submit offers in mini-competitions."
+      },
+      {
+        "question_id": "7867e9c8-2352-4ec3-a30b-cc8bd4934f84",
+        "question": "Can the bidder confirm absence of conflicts of interest or prior involvement in preparation of this procurement procedure?",
+        "answer": "Yes, the document requires bidders to confirm absence of conflicts of interest or prior involvement in preparation of the procurement procedure. The document specifically references these exclusion grounds in the declaration according to \u00a7\u00a7 123, 124, and 125 GWB.",
+        "confidence": "high",
+        "evidence": "III. Das Unternehmen erkl\u00e4rt, dass keiner der nachfolgenden fakultativen Ausschlussgr\u00fcnde gegeben ist, sodass: [...] 4. kein Interessenkonflikt bei der Durchf\u00fchrung des Vergabeverfahrens besteht, der die Unparteilichkeit und Unabh\u00e4ngigkeit einer f\u00fcr den \u00f6ffentlichen Auftraggeber t\u00e4tigen Person bei der Durchf\u00fchrung des Vergabeverfahrens beeintr\u00e4chtigen k\u00f6nnte und der durch andere, weniger einschneidende Ma\u00dfnahmen nicht wirksam beseitigt werden kann, 5. keine Wettbewerbsverzerrung daraus resultiert, dass das Unternehmen bereits in die Vorbereitung des Vergabeverfahrens einbezogen war, und diese Wettbewerbsverzerrung nicht durch andere, weniger einschneidende Ma\u00dfnahmen beseitigt werden kann,",
+        "explanation": "The document includes a declaration form (Anlage 7) that bidders must submit, which explicitly requires them to confirm they have no conflicts of interest (point 4) and that they were not involved in the preparation of the procurement procedure in a way that would distort competition (point 5). These declarations directly address the exclusion grounds specified in \u00a7\u00a7 123-124 GWB."
+      }
+    ],
+    "evaluations": [
+      {
+        "condition_id": "f827c681-3ae5-4340-8363-5e5175b50c7c",
+        "condition": "Complete submission of Annex 7 'Declaration per \u00a7\u00a7123, 124, 125 and 126 GWB' with all sections properly filled and signed",
+        "is_met": true,
+        "confidence": "high",
+        "evidence": "The document includes 'Anlage 7 - Erkl\u00e4rung gem. \u00a7\u00a7 123, 124, 125 GWB' (pages 1-3 of attachment 7) which contains comprehensive declarations covering all mandatory and discretionary exclusion grounds. The form requires signature/confirmation at the end with: 'Ort, Datum' and 'sofern keine elektronische Signatur: Unterzeichnung durch Bieter mind. in Textform und ggf. Firmenstempel (UAN oder Mitglieder der Bewerbergemeinschaft immer mind. Unterzeichnung in Textform)'",
+        "reasoning": "The document contains the required Annex 7 declaration form that comprehensively addresses all exclusion grounds required by \u00a7\u00a7 123, 124, and 125 GWB. The declaration covers all mandatory exclusion criteria including criminal convictions (terrorism, money laundering, fraud, corruption, etc.), tax and social security obligations, and discretionary exclusion grounds (insolvency, professional misconduct, conflicts of interest, etc.). The form includes provisions for self-cleaning measures per \u00a7125 GWB. It requires proper signature (either electronic signature or text form signature with company stamp where applicable) and provides fields for date and location. The document clearly instructs that this form must be submitted by each bidder, each member of a bidder consortium, and each subcontractor separately.",
+        "recommendations": "No recommendations needed as the condition is fully met."
+      },
+      {
+        "condition_id": "ab8978c5-0588-4959-a88c-193d0a83a869",
+        "condition": "Demonstrated technical and professional capability to deliver training services in methodological and complementary competencies (Non-IT areas)",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "ea6494c3-72af-4179-a692-44bcd564d72a",
+        "condition": "Submission of participation application by December 31, 2027, 23:59 CET",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "d6f068d2-3747-40b4-8bb5-23c514ddb189",
+        "condition": "Capability to provide electronic invoicing in compliance with German public sector requirements",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "e9358fd6-9062-4275-b9b0-70f9f0c4768e",
+        "condition": "No outstanding tax or social security payment obligations in the bidder's country of establishment",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "79e49ec1-d570-43a0-aaa6-0e044d1bc69c",
+        "condition": "Submission of all required eligibility documents including questionnaire for eligibility assessment and supporting documentation",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "74cb1e88-62eb-4320-ac8e-e4856bd0b7e0",
+        "condition": "Compliance with EU Directive 2014/24/EU and German procurement regulations (VgV, VOL/VOF)",
+        "is_met": false,
+        "confidence": "low",
+        "evidence": "",
+        "reasoning": "Response parsing failed",
+        "recommendations": "Please review manually"
+      },
+      {
+        "condition_id": "e0852427-2ca1-4ac4-9815-b365c36b4f68",
+        "condition": "All documents and communications must be submitted in German language",
+        "is_met": true,
+        "confidence": "high",
+        "evidence": "Teilnahmeantr\u00e4ge und sonstiger Schriftverkehr sind in deutscher Sprache abzufassen. Teilnahmeantragsunterlagen in einer anderen Sprache bleiben unber\u00fccksichtigt. Technische Fachbegriffe (z. B. Service, Support) k\u00f6nnen in englischer Sprache formuliert sein.",
+        "reasoning": "The document explicitly requires that all applications for participation ('Teilnahmeantr\u00e4ge') and all other written correspondence ('sonstiger Schriftverkehr') must be drafted in German language. It clearly states that application documents in any other language will not be considered. The only exception made is for technical terminology (like 'Service' or 'Support') which may be expressed in English. Additionally, in section 4 of Annex 1 to the service description ('Anlage 1 zur Leistungsbeschreibung'), it is further specified that training measures are generally conducted in German, and German is also the required language for training materials and documentation of any kind. The document mentions that if another language (English) is required as the teaching language or for training materials, the contracting authority will specify this in the requirements.",
+        "recommendations": "None needed as the condition is met."
+      }
+    ],
+    "overall_compliance": false,
+    "compliance_percentage": 25.0,
+    "created_at": "2025-11-10 16:29:09.430259"
+  },
+  {
+    "id": "756ae7c6-2d25-4bc9-9955-4b34849a0b6e",
+    "checklist_id": "8d728eb0-2da9-4313-847b-d492d425baeb",
+    "checklist_name": "Contract Review Checklist",
+    "document_filename": "Bewerbungsbedingungen.pdf",
+    "document_id": null,
+    "answers": [
+      {
+        "question_id": "bdbffdfd-6cb6-4560-9df8-435df4a1150a",
+        "question": "What is the contract start date?",
+        "answer": "The contract start date is the date of the EU announcement submission until December 31, 2023",
+        "confidence": "high",
+        "evidence": "Das DBS wird f\u00fcr einen Zeitraum ab dem Datum der Einreichung der EU Bekanntmachung bis zum 31.12.2023 betrieben (sog. G\u00fcltigkeitsdauer).",
+        "explanation": "According to section 1.3 of the document, the Dynamic Procurement System (DBS) will be operated for a period starting from the date of submission of the EU announcement until December 31, 2023. This is explicitly stated as the validity period of the contract."
+      },
+      {
+        "question_id": "8e30f52c-3277-494c-8cf6-98aee4fbbc6f",
+        "question": "What is the total contract value?",
+        "answer": "Information not found",
+        "confidence": "low",
+        "evidence": "The document mentions a 'gesch\u00e4tzte Volumen' (estimated volume) in section 1.3: 'Das gesch\u00e4tzte Volumen ist der zugeh\u00f6rigen EU-Bekanntmachung zu entnehmen.' (The estimated volume can be found in the associated EU announcement)",
+        "explanation": "While the document references an estimated contract volume in section 1.3, it only states that this information can be found in the associated EU announcement, which is not included in the provided document. No specific monetary amount for the total contract value is mentioned anywhere in the document."
+      }
+    ],
+    "evaluations": [
+      {
+        "condition_id": "e87240ec-48b7-4ea5-9de5-8b04bb04dc94",
+        "condition": "Contract includes termination clause",
+        "is_met": true,
+        "confidence": "high",
+        "evidence": "3.3 Entzug der Zulassung am DBS\nDer Auftraggeber ist berechtigt dem Teilnehmer dessen Zulassung am DBS zu entziehen, unter der Voraussetzung, dass aufgrund gravierender Qualit\u00e4tsm\u00e4ngel oder sonstiger wesentlicher Pflichtverletzungen des Teilnehmers dem Auftraggeber eine Aufrechterhaltung der Zulassung am DBS unter Ber\u00fccksichtigung aller Umst\u00e4nde und unter Abw\u00e4gung beider Interessen nicht mehr zugemutet werden kann.\nDer Auftraggeber hat dar\u00fcber hinaus das Recht, die Zulassung eines Teilnehmers am DBS zu entziehen, [...]",
+        "reasoning": "The document contains a clear section (3.3) titled 'Entzug der Zulassung am DBS' (Withdrawal of authorization to the DBS) that outlines the conditions under which the contracting authority can terminate the participant's participation in the Dynamic Procurement System. This section specifies multiple grounds for termination including quality deficiencies, breach of obligations, contract termination between BWI and the Federal Republic of Germany, legal findings of procurement law violations, false information in mini-competitions, loss of qualification, insolvency, and other specific situations. The section also specifies a two-week notice period for termination and the form in which the termination notice must be given (written form according to \u00a7 126 Abs. 1 Satz 1 BGB). These provisions constitute a comprehensive termination clause within the contract.",
+        "recommendations": ""
+      }
+    ],
+    "overall_compliance": true,
+    "compliance_percentage": 100.0,
+    "created_at": "2025-11-10 16:32:05.810224"
   }
 ]

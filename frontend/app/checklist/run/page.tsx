@@ -7,23 +7,35 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Play, Loader2, CheckCircle } from "lucide-react"
 
 interface Template {
-  id: number
-  template_name: string
+  id: string
+  name: string
+  description?: string
+  created_at: string
+}
+
+interface UserDocument {
+  filename: string
+  pdf_uuid: string
+  created_at: string
 }
 
 export default function RunChecklistPage() {
   const [templates, setTemplates] = useState<Template[]>([])
-  const [selectedTemplate, setSelectedTemplate] = useState<number | null>(null)
+  const [selectedTemplate, setSelectedTemplate] = useState<string | null>(null)
+  const [documents, setDocuments] = useState<UserDocument[]>([])
+  const [selectedDocument, setSelectedDocument] = useState<string>("")  
   const [running, setRunning] = useState(false)
   const [result, setResult] = useState<any>(null)
+  const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
     fetchTemplates()
+    fetchDocuments()
   }, [])
 
   const fetchTemplates = async () => {
     try {
-      const response = await fetch("/api/checklist/templates")
+      const response = await fetch("http://localhost:8000/api/checklist/templates")
       if (response.ok) {
         const data = await response.json()
         setTemplates(data)
@@ -33,24 +45,52 @@ export default function RunChecklistPage() {
     }
   }
 
+  const fetchDocuments = async () => {
+    try {
+      const response = await fetch("http://localhost:8000/api/files/list/user")
+      if (!response.ok) {
+        throw new Error("Failed to fetch documents")
+      }
+      const data = await response.json()
+      setDocuments(data.files || [])
+    } catch (error) {
+      console.error("Error fetching documents:", error)
+      setError("Failed to load documents")
+    }
+  }
+
   const handleRun = async () => {
-    if (!selectedTemplate) return
+    if (!selectedTemplate) {
+      setError("Please select a template")
+      return
+    }
+    if (!selectedDocument) {
+      setError("Please select a document")
+      return
+    }
 
     setRunning(true)
+    setError(null)
     setResult(null)
 
     try {
-      const response = await fetch("/api/checklist/run", {
+      const response = await fetch("http://localhost:8000/api/checklist/run", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ template_id: selectedTemplate }),
+        body: JSON.stringify({
+          checklist_id: selectedTemplate,
+          document_filename: selectedDocument,
+        }),
       })
-      if (response.ok) {
-        const data = await response.json()
-        setResult(data)
+      if (!response.ok) {
+        const errorData = await response.json()
+        throw new Error(errorData.detail || "Failed to run checklist")
       }
+      const data = await response.json()
+      setResult(data)
     } catch (error) {
       console.error("[v0] Failed to run checklist:", error)
+      setError(error instanceof Error ? error.message : "Failed to run checklist. Please try again.")
     } finally {
       setRunning(false)
     }
@@ -65,24 +105,44 @@ export default function RunChecklistPage() {
         <h2 className="text-xl font-semibold mb-4">Select Template</h2>
         <div className="space-y-4">
           <Select
-            value={selectedTemplate?.toString()}
-            onValueChange={(value) => setSelectedTemplate(Number.parseInt(value))}
+            value={selectedTemplate || undefined}
+            onValueChange={(value) => setSelectedTemplate(value)}
           >
             <SelectTrigger>
               <SelectValue placeholder="Choose a checklist template..." />
             </SelectTrigger>
             <SelectContent>
               {templates.map((template) => (
-                <SelectItem key={template.id} value={template.id.toString()}>
-                  {template.template_name}
+                <SelectItem key={template.id} value={template.id}>
+                  {template.name}
                 </SelectItem>
               ))}
             </SelectContent>
           </Select>
 
+          <Select
+            value={selectedDocument || undefined}
+            onValueChange={(value) => setSelectedDocument(value)}
+          >
+            <SelectTrigger>
+              <SelectValue placeholder="Choose a document..." />
+            </SelectTrigger>
+            <SelectContent>
+              {documents.map((doc) => (
+                <SelectItem key={doc.pdf_uuid} value={doc.filename}>
+                  {doc.filename}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+
+          {error && (
+            <div className="text-red-500 text-sm">{error}</div>
+          )}
+
           <Button
             onClick={handleRun}
-            disabled={!selectedTemplate || running}
+            disabled={!selectedTemplate || !selectedDocument || running}
             className="w-full bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500"
           >
             {running ? (

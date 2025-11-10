@@ -64,14 +64,19 @@ CheckList_Test/
 ## 📸 Screenshots
 
 ### Main Dashboard
-The main dashboard features a glassmorphism design with gradient text effects and frosted glass cards.
+The main dashboard features a glassmorphism design with gradient text effects and frosted glass cards, displaying document counts and quick access to key features.
 
-![Main Dashboard](images/dashboard.png)
+![Main Dashboard](images/dashboard_doc.png)
 
-### Document Upload Page
-Drag-and-drop interface with real-time file preview and glass-styled upload zones.
+### User Documents Management
+View and manage all uploaded user documents with a modern card-based interface. Features drag-and-drop upload, document preview, and batch operations.
 
-![Document Upload](images/documents.png)
+![User Documents](images/docs_user.png)
+
+### Checklist Documents Management
+Manage checklist template documents with real-time status updates and version control.
+
+![Checklist Documents](images/doc_checklists.png)
 
 ### Checklist Questions Management
 Create and manage custom questions for document analysis with support for different question types and contexts.
@@ -91,7 +96,7 @@ View extracted information and compliance evaluation results with detailed insig
 
 **Note**: To validate the system, upload your test documents and verify that the results correctly show extracted answers for the pre-configured German questions and true/false evaluations for the date condition.
 
-![Analysis Results](images/result.png)
+![Analysis Results](images/result_example.png)
 
 ## 📋 Test Requirements
 
@@ -221,16 +226,46 @@ Before you begin, ensure you have the following installed:
    LOCAL_STORAGE_PATH=./data
    ```
 
-4. **Install dependencies and run**
+4. **Install dependencies and start the backend server**
+   
+   The backend uses **uv** (a fast Python package manager) to manage dependencies. Run the following command to automatically create a virtual environment, install all dependencies, and start the FastAPI server:
+   
    ```bash
-   # uv will automatically create a virtual environment and install dependencies
-   uv run uvicorn src.main:app --reload --port 8000
+   # Start backend with auto-reload (recommended for development)
+   TOKENIZERS_PARALLELISM=false uv run uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
+   ```
+   
+   **What this command does:**
+   - `TOKENIZERS_PARALLELISM=false`: Disables tokenizer parallelism to avoid warnings
+   - `uv run`: Uses uv to run the command in an isolated environment
+   - `uvicorn src.main:app`: Starts the FastAPI application
+   - `--host 0.0.0.0`: Makes the server accessible from all network interfaces
+   - `--port 8000`: Runs the server on port 8000
+   - `--reload`: Enables auto-reload on code changes (development mode)
+   
+   **Alternative method (without uv):**
+   ```bash
+   # Create virtual environment
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   
+   # Install dependencies
+   pip install -r requirements.txt
+   
+   # Start server
+   uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
    ```
 
    The backend will be available at:
    - API: `http://localhost:8000`
-   - Interactive API docs: `http://localhost:8000/docs`
-   - Alternative docs: `http://localhost:8000/redoc`
+   - Interactive API docs (Swagger): `http://localhost:8000/docs`
+   - Alternative docs (ReDoc): `http://localhost:8000/redoc`
+   
+   **Important Notes:**
+   - The backend **must be running** before starting the frontend
+   - Ensure Weaviate is accessible and properly configured
+   - Check that all API keys in `.env` are valid
+   - The backend will automatically create necessary directories on first run
 
 #### Frontend Setup
 

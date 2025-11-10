@@ -24,7 +24,7 @@ export default function UserDocumentsPage() {
 
   const fetchFiles = async () => {
     try {
-      const response = await fetch("/api/files/list/user")
+      const response = await fetch("http://localhost:8000/api/files/list/user")
       if (response.ok) {
         const data = await response.json()
         setFiles(Array.isArray(data.files) ? data.files : [])

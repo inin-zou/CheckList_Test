@@ -1,7 +1,7 @@
 [project]
 name = "checklist-backend"
 version = "0.1.0"
-description = "CheckList backend API with FastAPI on Modal"
+description = "CheckList backend API with FastAPI"
 requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.109.0",
@@ -9,7 +9,6 @@ dependencies = [
     "pydantic>=2.5.0",
     "pydantic-settings>=2.1.0",
     "python-multipart>=0.0.6",
-    "modal>=0.57.0",
     "weaviate-client>=4.4.0",
     "openai>=1.12.0",
     "anthropic>=0.18.0",

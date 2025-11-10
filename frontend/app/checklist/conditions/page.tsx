@@ -8,19 +8,29 @@ import { Textarea } from "@/components/ui/textarea"
 import { Plus, Edit, Trash2, Save, X } from "lucide-react"
 
 interface Condition {
-  id: number
-  condition_name: string
-  condition_logic: string
+  id: string
+  condition: string
+  condition_type: string
+  context: string
+  parameters: any
+  required: boolean
+  order: number
+  created_at: string
+  updated_at: string
 }
 
 export default function ConditionsPage() {
   const [conditions, setConditions] = useState<Condition[]>([])
   const [loading, setLoading] = useState(true)
-  const [editingId, setEditingId] = useState<number | null>(null)
+  const [editingId, setEditingId] = useState<string | null>(null)
   const [showNewForm, setShowNewForm] = useState(false)
   const [formData, setFormData] = useState({
-    condition_name: "",
-    condition_logic: "",
+    condition: "",
+    condition_type: "custom",
+    context: "",
+    parameters: null,
+    required: true,
+    order: 0,
   })
 
   useEffect(() => {
@@ -49,7 +59,7 @@ export default function ConditionsPage() {
         body: JSON.stringify(formData),
       })
       if (response.ok) {
-        setFormData({ condition_name: "", condition_logic: "" })
+        setFormData({ condition: "", condition_type: "custom", context: "", parameters: null, required: true, order: 0 })
         setShowNewForm(false)
         fetchConditions()
       }
@@ -58,7 +68,7 @@ export default function ConditionsPage() {
     }
   }
 
-  const handleUpdate = async (id: number) => {
+  const handleUpdate = async (id: string) => {
     try {
       const response = await fetch(`/api/checklist/conditions/${id}`, {
         method: "PUT",
@@ -67,7 +77,7 @@ export default function ConditionsPage() {
       })
       if (response.ok) {
         setEditingId(null)
-        setFormData({ condition_name: "", condition_logic: "" })
+        setFormData({ condition: "", condition_type: "custom", context: "", parameters: null, required: true, order: 0 })
         fetchConditions()
       }
     } catch (error) {
@@ -75,7 +85,7 @@ export default function ConditionsPage() {
     }
   }
 
-  const handleDelete = async (id: number) => {
+  const handleDelete = async (id: string) => {
     if (!confirm("Are you sure you want to delete this condition?")) return
 
     try {
@@ -93,8 +103,12 @@ export default function ConditionsPage() {
   const startEdit = (condition: Condition) => {
     setEditingId(condition.id)
     setFormData({
-      condition_name: condition.condition_name,
-      condition_logic: condition.condition_logic,
+      condition: condition.condition,
+      condition_type: condition.condition_type,
+      context: condition.context,
+      parameters: condition.parameters,
+      required: condition.required,
+      order: condition.order,
     })
   }
 
@@ -119,19 +133,19 @@ export default function ConditionsPage() {
           <h3 className="font-semibold mb-4">Create New Condition</h3>
           <div className="space-y-4">
             <div>
-              <label className="text-sm font-medium mb-2 block">Condition Name</label>
+              <label className="text-sm font-medium mb-2 block">Condition</label>
               <Input
-                value={formData.condition_name}
-                onChange={(e) => setFormData({ ...formData, condition_name: e.target.value })}
-                placeholder="Enter condition name..."
+                value={formData.condition}
+                onChange={(e) => setFormData({ ...formData, condition: e.target.value })}
+                placeholder="Enter condition..."
               />
             </div>
             <div>
-              <label className="text-sm font-medium mb-2 block">Condition Logic</label>
+              <label className="text-sm font-medium mb-2 block">Context</label>
               <Textarea
-                value={formData.condition_logic}
-                onChange={(e) => setFormData({ ...formData, condition_logic: e.target.value })}
-                placeholder="Enter evaluation logic..."
+                value={formData.context}
+                onChange={(e) => setFormData({ ...formData, context: e.target.value })}
+                placeholder="Enter context..."
                 rows={4}
               />
             </div>
@@ -144,7 +158,7 @@ export default function ConditionsPage() {
                 variant="outline"
                 onClick={() => {
                   setShowNewForm(false)
-                  setFormData({ condition_name: "", condition_logic: "" })
+                  setFormData({ condition: "", condition_type: "custom", context: "", parameters: null, required: true, order: 0 })
                 }}
               >
                 <X className="mr-2 h-4 w-4" />
@@ -170,12 +184,12 @@ export default function ConditionsPage() {
               {editingId === condition.id ? (
                 <div className="space-y-4">
                   <Input
-                    value={formData.condition_name}
-                    onChange={(e) => setFormData({ ...formData, condition_name: e.target.value })}
+                    value={formData.condition}
+                    onChange={(e) => setFormData({ ...formData, condition: e.target.value })}
                   />
                   <Textarea
-                    value={formData.condition_logic}
-                    onChange={(e) => setFormData({ ...formData, condition_logic: e.target.value })}
+                    value={formData.context}
+                    onChange={(e) => setFormData({ ...formData, context: e.target.value })}
                     rows={4}
                   />
                   <div className="flex gap-2">
@@ -188,7 +202,7 @@ export default function ConditionsPage() {
                       variant="outline"
                       onClick={() => {
                         setEditingId(null)
-                        setFormData({ condition_name: "", condition_logic: "" })
+                        setFormData({ condition: "", condition_type: "custom", context: "", parameters: null, required: true, order: 0 })
                       }}
                     >
                       <X className="mr-2 h-4 w-4" />
@@ -199,9 +213,10 @@ export default function ConditionsPage() {
               ) : (
                 <div className="flex items-start justify-between">
                   <div className="flex-1">
-                    <h3 className="font-semibold mb-2">{condition.condition_name}</h3>
+                    <h3 className="font-semibold mb-2">{condition.condition}</h3>
+                    <p className="text-sm text-muted-foreground mb-2">Type: {condition.condition_type}</p>
                     <pre className="text-sm text-muted-foreground bg-muted/50 p-3 rounded-lg overflow-x-auto">
-                      {condition.condition_logic}
+                      {condition.context}
                     </pre>
                   </div>
                   <div className="flex gap-2 ml-4">

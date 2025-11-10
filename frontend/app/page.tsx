@@ -44,7 +44,7 @@ export default function Dashboard() {
 
   const fetchTemplatesCount = async () => {
     try {
-      const response = await fetch("/api/files/list/checklist")
+      const response = await fetch("http://localhost:8000/api/files/list/checklist")
       if (response.ok) {
         const data = await response.json()
         setTemplatesCount(data.count || 0)
@@ -56,7 +56,7 @@ export default function Dashboard() {
 
   const fetchDocumentsCount = async () => {
     try {
-      const response = await fetch("/api/files/list/user")
+      const response = await fetch("http://localhost:8000/api/files/list/user")
       if (response.ok) {
         const data = await response.json()
         setDocumentsCount(data.count || 0)
