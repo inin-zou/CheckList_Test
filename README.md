@@ -66,11 +66,17 @@ CheckList_Test/
 ### Main Dashboard
 The main dashboard features a glassmorphism design with gradient text effects and frosted glass cards.
 
+![Main Dashboard](images/dashboard.png)
+
 ### Document Upload Page
 Drag-and-drop interface with real-time file preview and glass-styled upload zones.
 
-### Checklist Management
-Create and manage checklists with an intuitive interface featuring smooth animations and glass effects.
+![Document Upload](images/documents.png)
+
+### Analysis Results
+View extracted information and compliance evaluation results with detailed insights.
+
+![Analysis Results](images/result.png)
 
 ## 🚀 Getting Started
 
