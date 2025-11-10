@@ -34,13 +34,24 @@ export async function POST(request: NextRequest, { params }: { params: Promise<{
   const url = `${BACKEND_URL}/api/${path}`;
 
   try {
-    const body = await request.json();
+    const contentType = request.headers.get('content-type') || '';
+    let body;
+    let headers: HeadersInit = {};
+
+    // Handle FormData (file uploads)
+    if (contentType.includes('multipart/form-data')) {
+      body = await request.formData();
+      // Don't set Content-Type header, let fetch set it with boundary
+    } else {
+      // Handle JSON
+      body = JSON.stringify(await request.json());
+      headers['Content-Type'] = 'application/json';
+    }
+
     const response = await fetch(url, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(body),
+      headers,
+      body,
     });
 
     const data = await response.json();
