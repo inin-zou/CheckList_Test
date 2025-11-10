@@ -303,8 +303,8 @@ Create a `.env` file in the `backend/` directory:
 |----------|-------------|----------|----------|
 | `ANTHROPIC_API_KEY` | Your Anthropic API key for Claude | Yes | `sk-ant-...` |
 | `ANTHROPIC_MODEL` | Claude model to use | Yes | `claude-sonnet-4-20250514` |
-| `WEAVIATE_URL` | Weaviate cluster URL | Yes | `https://xxx.weaviate.network` |
-| `WEAVIATE_API_KEY` | Weaviate API key | Yes | `xxx` |
+| `WEAVIATE_URL` | Weaviate cluster URL | Yes | `https://egsvt66qs6tc6wwa1mhmq.c0.europe-west3.gcp.weaviate.cloud` |
+| `WEAVIATE_API_KEY` | Weaviate API key | Yes | `WHRBRGtRc0tUV3JOSlRhTV82RkFFd0lya200OXE5ZUhnTkQyTDV0MDc5Ymo5WStHaXhZSVNqZGZtOUxvPV92MjAw` |
 | `LOCAL_STORAGE_PATH` | Local file storage path | No | `./data` (default) |
 
 ### Frontend Configuration
